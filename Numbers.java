@@ -29,7 +29,7 @@ public class Numbers {
             while ((inputLine = in.readLine()) != null) {
                 System.out.println(inputLine);
             }
-
+            in.close();
 
         } catch (InputMismatchException e) {
             System.out.println("Ошибка. Некорректный ввод.");
