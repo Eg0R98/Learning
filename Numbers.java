@@ -16,14 +16,7 @@ public class Numbers {
             System.out.print("Ввведите число: ");
             int num = scanner.nextInt();
             URL url = new URL("http://numbersapi.com/" + num);
-            HttpURLConnection con = (HttpURLConnection) url.openConnection();
-
-            con.setRequestMethod("GET");
-            con.setRequestProperty("Content-Type", "application/json");
-            con.setConnectTimeout(2000);
-            con.setReadTimeout(2000);
-
-            BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()));
+            BufferedReader in = new BufferedReader(new InputStreamReader(url.openStream()));
             String inputLine;
 
             while ((inputLine = in.readLine()) != null) {
