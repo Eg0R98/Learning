@@ -1,5 +1,10 @@
 package PublicTransportStop;
 
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
+import org.jsoup.select.Elements;
+
 import java.io.BufferedReader;
 import java.io.DataOutputStream;
 import java.io.IOException;
@@ -22,15 +27,22 @@ public class Stop {
             }
 
             if (con.getResponseCode() == HttpURLConnection.HTTP_OK) {
-                StringBuilder builder = new StringBuilder("");
-                try (BufferedReader br = new BufferedReader(new InputStreamReader(con.getInputStream()))) {
-                    String inputLine;
-                    while ((inputLine = br.readLine()) != null) {
-                        builder.append(inputLine);
-                        builder.append("\n");
-                    }
+                Document document = Jsoup.parse(con.getInputStream(), "UTF-8", "https://tosamara.ru/xml_bridge.php/");
+                Elements elements = document.select("a");
+                for (Element e : elements) {
+                    System.out.println(e.text());
                 }
-                System.out.println(builder);
+
+
+//                StringBuilder builder = new StringBuilder("");
+//                try (BufferedReader br = new BufferedReader(new InputStreamReader(con.getInputStream()))) {
+//                    String inputLine;
+//                    while ((inputLine = br.readLine()) != null) {
+//                        builder.append(inputLine);
+//                        builder.append("\n");
+//                    }
+//                }
+//                System.out.println(builder);
             }
             else System.err.println("С соединением проблемы");
 
