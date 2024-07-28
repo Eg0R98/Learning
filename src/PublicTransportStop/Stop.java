@@ -1,5 +1,6 @@
 package PublicTransportStop;
 
+import CRUD.Solution;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -11,6 +12,10 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 public class Stop {
     public static void main(String[] args) {
@@ -22,33 +27,43 @@ public class Stop {
             con.setRequestProperty("Content-Type", "application/x-www-form-urlencoded");
             con.setDoOutput(true);
 
-            try(DataOutputStream dos = new DataOutputStream(con.getOutputStream())) {
+            try (DataOutputStream dos = new DataOutputStream(con.getOutputStream())) {
                 dos.writeBytes(params);
             }
-
             if (con.getResponseCode() == HttpURLConnection.HTTP_OK) {
                 Document document = Jsoup.parse(con.getInputStream(), "UTF-8", "https://tosamara.ru/xml_bridge.php/");
-                Elements elements = document.select("a");
-                for (Element e : elements) {
-                    System.out.println(e.text());
-                }
+                Stop.parse(document);
 
-
-//                StringBuilder builder = new StringBuilder("");
-//                try (BufferedReader br = new BufferedReader(new InputStreamReader(con.getInputStream()))) {
-//                    String inputLine;
-//                    while ((inputLine = br.readLine()) != null) {
-//                        builder.append(inputLine);
-//                        builder.append("\n");
-//                    }
-//                }
-//                System.out.println(builder);
-            }
-            else System.err.println("С соединением проблемы");
+            } else System.err.println("С соединением проблемы");
 
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
 
     }
+
+    public static void parse(Document document) {
+        Element headers = document.select("thead").getFirst();
+        Elements td = headers.select("td");
+        System.out.print(String.format("%s    ", td.get(0).text()));
+        System.out.print(String.format("%s                              ", td.get(1).text()));
+        System.out.print(String.format("%s", td.get(2).text()));
+        System.out.println();
+
+        Elements tr = document.select("tbody").select("tr");
+
+        for (int i = 0; i < tr.size(); i++) {
+            Elements el = tr.get(i).select("td.trans-num, a, div.trans-model, td.trans-position");
+            for (int j = 0; j < el.size() / 2; j++) {
+                System.out.print(String.format("%-14s", el.get(j).ownText()));
+            }
+            System.out.println();
+
+            for (int j = el.size() / 2; j < el.size(); j++) {
+                System.out.print(String.format("              %-45s", el.get(j).ownText()));
+            }
+            System.out.println();
+        }
+    }
+
 }
