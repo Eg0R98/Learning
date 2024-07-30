@@ -1,11 +1,13 @@
 package NumbersProperty;
 
+import java.io.IOException;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Input {
     public static void main(String[] args) {
         try (Scanner scanner = new Scanner(System.in)) {
+            SaveLoad.readFromFile();
             while (true) {
                 System.out.print("Ввведите целое число: ");
                 int num = scanner.nextInt();
@@ -16,8 +18,11 @@ public class Input {
                 System.out.println("Если желаете завершить работу программы, введите exit. В противном случае введите любой символ");
                 if (scanner.next().equals("exit")) break;
             }
+            SaveLoad.writeToFile(Cache.getCacheMap());
         } catch (InputMismatchException e) {
             System.err.println("Ошибка. Некорректный ввод.");
+        } catch (IOException e) {
+            throw new RuntimeException(e);
         }
 
 

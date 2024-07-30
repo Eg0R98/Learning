@@ -22,7 +22,7 @@ public class Request {
                         response.append(inputLine);
                         response.append("\n");
                     }
-                    Cache.add(numFact, response);
+                    Cache.add(numFact, response.toString());
                 }
             } catch (IOException e) {
                 throw new RuntimeException(e);
