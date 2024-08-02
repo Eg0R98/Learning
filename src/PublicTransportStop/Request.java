@@ -14,7 +14,10 @@ public class Request {
         Document document = null;
         try {
             Document cache = Cache.searchAndGet(stopID);
-            if (cache != null) return cache;
+            if (cache != null) {
+                StopWatch.choose(stopID);
+                return cache;
+            }
             URL url = new URL("https://tosamara.ru/xml_bridge.php/");
             String params = String.format("method=getFirstArrivalToStop&KS_ID=%d&COUNT=10&version=main&eng=0", stopID);
             HttpURLConnection con = (HttpURLConnection) url.openConnection();
@@ -27,6 +30,7 @@ public class Request {
             if (con.getResponseCode() == HttpURLConnection.HTTP_OK) {
                 document = Jsoup.parse(con.getInputStream(), "UTF-8", "https://tosamara.ru/xml_bridge.php/");
                 Cache.add(stopID, document);
+                StopWatch.add(stopID);
             } else System.err.println("С соединением проблемы");
 
         } catch (IOException e) {
