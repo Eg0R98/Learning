@@ -1,8 +1,7 @@
 package PublicTransportStop;
 
-import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
-import java.util.InputMismatchException;
+
 import java.util.Scanner;
 
 public class Input {
@@ -43,12 +42,8 @@ public class Input {
         return false;
     }
 
-    public static void headersPrintFromCache() {
-
-    }
-
-    public static void tablePrintFromCache() {
-
+    public static void PrintFromCache(String headersAndTableFromCache) {
+        System.out.println(headersAndTableFromCache);
     }
 
 
