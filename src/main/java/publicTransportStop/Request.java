@@ -1,6 +1,5 @@
-package PublicTransportStop;
+package publicTransportStop;
 
-import PublicTransportStop.Cache;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 
@@ -8,12 +7,9 @@ import java.io.DataOutputStream;
 import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.URL;
-import java.rmi.ConnectException;
 
 public class Request {
-
-
-    public static Document httpRequest(int stopID) throws ConnectException {
+    public static String httpRequest(int stopID) throws ConnectException {
         Document document = null;
         try {
             URL url = new URL("https://tosamara.ru/xml_bridge.php/");
@@ -27,12 +23,11 @@ public class Request {
             }
             if (con.getResponseCode() == HttpURLConnection.HTTP_OK) {
                 document = Jsoup.parse(con.getInputStream(), "UTF-8", "https://tosamara.ru/xml_bridge.php/");
-                if (document == null) throw new ConnectException("Не удалось выполнить запрос");
+                if (document == null) throw new ConnectException("C соединением проблемы");
             }
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-
-        return document;
+        return Parsing.parseHttpResponse(document);
     }
 }
