@@ -1,7 +1,11 @@
 package publicTransportStop;
 
 import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
+
+import java.util.HashMap;
+import java.util.Map;
 
 public class Parsing {
     public static String parseHttpResponse(Document document) {
@@ -29,5 +33,16 @@ public class Parsing {
             builder.append("\n");
         }
         return builder.toString();
+
+    }
+
+    public static Map<String, Integer> parseXmlStopResponse(Document document) {
+        Map<String, Integer> map = new HashMap<>();
+        Elements elements = document.select("stop");
+        for (Element e : elements) {
+            map.put(e.select("title, direction").text(), Integer.parseInt(e.select("KS_ID").text()));
+        }
+        return map;
+
     }
 }

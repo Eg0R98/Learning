@@ -7,6 +7,7 @@ import java.io.DataOutputStream;
 import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.util.Map;
 
 public class Request {
     public static String httpRequest(int stopID) throws ConnectException {
@@ -29,5 +30,18 @@ public class Request {
             throw new RuntimeException(e);
         }
         return Parsing.parseHttpResponse(document);
+    }
+
+    public static Map<String, Integer> xmlStopDocumentRequest() throws ConnectException {
+        Document document = null;
+        try {
+            URL url = new URL("https://tosamara.ru/api/v2/classifiers/stops.xml");
+            document = Jsoup.parse(url.openStream(), "UTF-8", "https://tosamara.ru/api/v2/classifiers/stops.xml");
+            if (document == null) throw new ConnectException("C соединением проблемы");
+
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+        return Parsing.parseXmlStopResponse(document);
     }
 }
