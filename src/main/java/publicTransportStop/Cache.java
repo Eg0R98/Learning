@@ -15,15 +15,13 @@ public class Cache {
     public static String searchAndGet(int stopNumber) {
         if (cacheMap.containsKey(stopNumber)) {
             CacheItem cacheItem = cacheMap.get(stopNumber);
-            boolean updateOrNot = Cache.updateOrNot(stopNumber);
-            if (updateOrNot) return null;
+            if (Cache.updateOrNot(cacheItem)) return null;
             return cacheItem.getDocumentStr();
         }
         return null;
     }
 
-    private static boolean updateOrNot(int stopID) {
-        CacheItem cacheItem = cacheMap.get(stopID);
+    private static boolean updateOrNot(CacheItem cacheItem) {
         long timeDifference = Instant.now().getEpochSecond() - cacheItem.getInstantStart().getEpochSecond();
         return timeDifference > timeUpdate;
     }

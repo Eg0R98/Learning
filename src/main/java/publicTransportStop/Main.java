@@ -1,20 +1,17 @@
 package publicTransportStop;
 
-import java.util.InputMismatchException;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
         try (Scanner scanner = new Scanner(System.in)) {
-            StopRepository.setMap(Request.xmlStopDocumentRequest());
+            StopRepository.setListStop(Request.xmlStopDocumentRequest());
             while (true) {
                 String stopTitle = Input.inputTitle(scanner);
-                List<String> matches = StopRepository.getMatches(stopTitle);
+                Map<Integer, Stop> matches = StopRepository.getMatches(stopTitle);
                 Input.printMatches(matches);
-                String numberOfMatches = Input.chooseNumberOfMatches(scanner);
-                String titleWithDirection = StopRepository.getTitleWithDirection(numberOfMatches, matches);
-                int stopNumber = StopRepository.getStopID(titleWithDirection);
+                int numberOfMatches = Input.chooseNumberOfMatches(scanner);
+                int stopNumber = StopRepository.getStopID(matches.get(numberOfMatches));
                 String responseFromCache = Cache.searchAndGet(stopNumber);
                 if (responseFromCache != null) {
                     Input.printResponse(responseFromCache);
@@ -28,8 +25,10 @@ public class Main {
             }
         } catch (InputMismatchException e) {
             System.err.println("Некорректный ввод");
-        } catch (ConnectException | NotMatchException e) {
-            e.printStackTrace();
+        } catch (NotMatchException e) {
+            System.err.println("Ошибка. Совпадений не найдено");
+        } catch (ConnectException e) {
+            System.err.println("C соединением проблемы");
         }
     }
 }

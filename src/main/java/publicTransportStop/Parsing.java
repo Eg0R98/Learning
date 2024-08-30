@@ -4,8 +4,9 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
 
 public class Parsing {
     public static String parseHttpResponse(Document document) {
@@ -36,13 +37,43 @@ public class Parsing {
 
     }
 
-    public static Map<String, Integer> parseXmlStopResponse(Document document) {
-        Map<String, Integer> map = new HashMap<>();
+    public static List<Stop> parseXmlStopResponse(Document document) {
+        List<Stop> stops = new ArrayList<>();
         Elements elements = document.select("stop");
         for (Element e : elements) {
-            map.put(e.select("title, direction").text(), Integer.parseInt(e.select("KS_ID").text()));
+            stops.add(new Stop(Integer.parseInt(e.select("KS_ID").text()), e.select("title").text(),
+                    e.select("adjacentStreet").text(), e.select("direction").text(),
+                    e.select("busesMunicipal, busesCommercial, busesPrigorod, busesSeason, busesSpecial, busesIntercity").
+                            stream().map(x -> x.text().replace(",", "")).
+                            filter(x -> !x.isEmpty()).map(x -> x.split(" ")).map(x -> String.format("%s, ", x)).collect(Collectors.joining()),
+                    e.select("trams").stream().map(x -> x.text()).filter(x -> !x.isEmpty()).collect(Collectors.joining()),
+                    e.select("trolleybuses").stream().map(x -> x.text()).filter(x -> !x.isEmpty()).collect(Collectors.joining()),
+                    e.select("metros").stream().map(x -> x.text()).filter(x -> !x.isEmpty()).collect(Collectors.joining()),
+                    e.select("electricTrains").stream().map(x -> x.text()).filter(x -> !x.isEmpty()).collect(Collectors.joining()),
+                    e.select("riverTransports").stream().map(x -> x.text()).filter(x -> !x.isEmpty()).collect(Collectors.joining())));
         }
-        return map;
+        return stops;
 
     }
+
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
