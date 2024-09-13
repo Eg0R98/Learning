@@ -1,6 +1,6 @@
 package publicTransportStop;
 
-import java.util.Map;
+import java.util.List;
 import java.util.Scanner;
 
 public class Input {
@@ -26,33 +26,34 @@ public class Input {
         return false;
     }
 
-    public static void printMatches(Map<Integer, Stop> matches) {
-        for (int key : matches.keySet()) {
-            System.out.printf("%s. %s %s %s", key, matches.get(key).getTitle(), matches.get(key).getAdjacentStreet(), matches.get(key).getDirection());
+    public static void printMatches(List<Stop> matches) {
+        for (int i = 0; i < matches.size(); i++) {
+            Stop stop = matches.get(i);
+            System.out.printf(Stop.createFullStopTitle(stop, i + 1));
             System.out.println();
 
-            if (!matches.get(key).getBusNumbers().isEmpty()) {
-                System.out.printf("автобусы: %s", readyBusesForPrint(matches.get(key).getBusNumbers()));
+            if (!stop.getBuses().isEmpty()) {
+                System.out.printf("автобусы: %s", stop.getBuses());
                 System.out.println();
             }
-            if (!matches.get(key).getTrolleybusesNumbers().isEmpty()) {
-                System.out.printf("троллейбусы: %s", matches.get(key).getTrolleybusesNumbers());
+            if (!stop.getTrolleybuses().isEmpty()) {
+                System.out.printf("троллейбусы: %s", stop.getTrolleybuses());
                 System.out.println();
             }
-            if (!matches.get(key).getTramsNumbers().isEmpty()) {
-                System.out.printf("травмваи: %s", matches.get(key).getTramsNumbers());
+            if (!stop.getTrams().isEmpty()) {
+                System.out.printf("травмваи: %s", stop.getTrams());
                 System.out.println();
             }
-            if (!matches.get(key).getElectricTrainsNumbers().isEmpty()) {
-                System.out.printf("электрички: %s", matches.get(key).getElectricTrainsNumbers());
+            if (!stop.getElectricTrains().isEmpty()) {
+                System.out.printf("электрички: %s", stop.getElectricTrains());
                 System.out.println();
             }
-            if (!matches.get(key).getRiverTransportsNumbers().isEmpty()) {
-                System.out.printf("речной транспорт: %s", matches.get(key).getRiverTransportsNumbers());
+            if (!stop.getRiverTransports().isEmpty()) {
+                System.out.printf("речной транспорт: %s", stop.getRiverTransports());
                 System.out.println();
             }
-            if (!matches.get(key).getMetrosNumbers().isEmpty()) {
-                System.out.printf("станции метро: %s", matches.get(key).getMetrosNumbers());
+            if (!stop.getMetros().isEmpty()) {
+                System.out.printf("станции метро: %s", stop.getMetros());
                 System.out.println();
             }
         }
@@ -65,13 +66,4 @@ public class Input {
 
         return numberStop;
     }
-
-    private static String readyBusesForPrint(String buses) {
-        int index = buses.lastIndexOf(", ");
-        StringBuilder builder = new StringBuilder(buses);
-        builder.deleteCharAt(index);
-        return builder.toString();
-    }
-
-
 }

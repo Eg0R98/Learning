@@ -1,0 +1,4458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stops>
+    <stop>
+        <KS_ID>1</KS_ID>
+        <title>пос. Управленческий</title>
+        <adjacentStreet>на ул. Сергея Лазо</adjacentStreet>
+        <direction>в сторону города</direction>
+        <titleEn>Poselok Upravlencheskii</titleEn>
+        <adjacentStreetEn>on Sergeia Lazo street</adjacentStreetEn>
+        <directionEn>towards the city</directionEn>
+        <titleEs>Posélok Upravléncheski</titleEs>
+        <adjacentStreetEs>en la calle Sérgeia Lazó</adjacentStreetEs>
+        <directionEs>hacia la ciudad</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>1, 50, 51, 78, 79</busesMunicipal>
+        <busesCommercial>84</busesCommercial>
+        <busesPrigorod>113, 310, 389, 392, 392а, 406, 447</busesPrigorod>
+        <busesSeason>170, 175к</busesSeason>
+        <busesSpecial>4к</busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses></trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.3464166879575</latitude>
+        <longitude>50.2179890188205</longitude>
+        <angle>2</angle>
+    </stop>
+    <stop>
+        <KS_ID>2</KS_ID>
+        <title>ул. Владимирская / Международный институт рынка</title>
+        <adjacentStreet>на ул. Коммунистической</adjacentStreet>
+        <direction>в сторону Московского шоссе</direction>
+        <titleEn>Ulitsa Vladimirskaia</titleEn>
+        <adjacentStreetEn>on Kommunisticheskaia street</adjacentStreetEn>
+        <directionEn>towards Moskovskoe Shosse</directionEn>
+        <titleEs>Úlitsa Vladímirskaia / Mezhdunarodny institut rynka</titleEs>
+        <adjacentStreetEs>en la calle Kommunistícheskaia</adjacentStreetEs>
+        <directionEs>hacia Moskóvskoe Shossé</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>37</busesMunicipal>
+        <busesCommercial>99</busesCommercial>
+        <busesPrigorod>305д, 395</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>12, 17, 20</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.1967139055145</latitude>
+        <longitude>50.1314605058419</longitude>
+        <angle>17</angle>
+    </stop>
+    <stop>
+        <KS_ID>3</KS_ID>
+        <title>ул. Клиническая</title>
+        <adjacentStreet>на ул. Коммунистической</adjacentStreet>
+        <direction>в сторону Московского шоссе</direction>
+        <titleEn>Ulitsa Klinicheskaia</titleEn>
+        <adjacentStreetEn>on Kommunisticheskaia street</adjacentStreetEn>
+        <directionEn>towards Moskovskoe Shosse</directionEn>
+        <titleEs>Úlitsa Klinícheskaia</titleEs>
+        <adjacentStreetEs>en la calle Kommunistícheskaia</adjacentStreetEs>
+        <directionEs>hacia Moskóvskoe Shossé</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>37</busesMunicipal>
+        <busesCommercial></busesCommercial>
+        <busesPrigorod></busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>12, 17, 20</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.1988403717642</latitude>
+        <longitude>50.1373214610476</longitude>
+        <angle>36</angle>
+    </stop>
+    <stop>
+        <KS_ID>4</KS_ID>
+        <title>Химчистка</title>
+        <adjacentStreet>на ул. Коммунистической</adjacentStreet>
+        <direction>в сторону Московского шоссе</direction>
+        <titleEn>Khimchistka</titleEn>
+        <adjacentStreetEn>on Kommunisticheskaia street</adjacentStreetEn>
+        <directionEn>towards Moskovskoe Shosse</directionEn>
+        <titleEs>Jimchistka</titleEs>
+        <adjacentStreetEs>en la calle Kommunistícheskaia</adjacentStreetEs>
+        <directionEs>hacia Moskóvskoe Shossé</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>37</busesMunicipal>
+        <busesCommercial></busesCommercial>
+        <busesPrigorod></busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>12, 17, 20</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.2018480994182</latitude>
+        <longitude>50.1442548768395</longitude>
+        <angle>36</angle>
+    </stop>
+    <stop>
+        <KS_ID>5</KS_ID>
+        <title>ул. Киевская</title>
+        <adjacentStreet>на Московском шоссе</adjacentStreet>
+        <direction>в сторону пр. Масленникова</direction>
+        <titleEn>Ulitsa Kievskaia</titleEn>
+        <adjacentStreetEn>on Moskovskoe Shosse street</adjacentStreetEn>
+        <directionEn>towards Prospekt Maslennikova</directionEn>
+        <titleEs>Úlitsa Kíevskaia</titleEs>
+        <adjacentStreetEs>en la calle Moskóvskoe Shossé</adjacentStreetEs>
+        <directionEs>hacia Prospekt Máslennikova</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>1, 24, 34, 37, 41, 67</busesMunicipal>
+        <busesCommercial>46, 84</busesCommercial>
+        <busesPrigorod>126с, 126ю, 310, 410а</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>12, 17, 20</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.2031782596052</latitude>
+        <longitude>50.1480964930121</longitude>
+        <angle>5</angle>
+    </stop>
+    <stop>
+        <KS_ID>6</KS_ID>
+        <title>ул. Киевская</title>
+        <adjacentStreet>на Московском шоссе</adjacentStreet>
+        <direction>в сторону центра города</direction>
+        <titleEn>Ulitsa Kievskaia</titleEn>
+        <adjacentStreetEn>on Moskovskoe Shosse street</adjacentStreetEn>
+        <directionEn>towards the city center</directionEn>
+        <titleEs>Úlitsa Kíevskaia</titleEs>
+        <adjacentStreetEs>en la calle Moskóvskoe Shossé</adjacentStreetEs>
+        <directionEs>hacia el centro de la ciudad</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>1, 24, 34, 37, 41, 67</busesMunicipal>
+        <busesCommercial>46, 84</busesCommercial>
+        <busesPrigorod>126с, 126ю, 310, 410а</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>12, 17, 20</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.2035093521434</latitude>
+        <longitude>50.1516596094823</longitude>
+        <angle>185</angle>
+    </stop>
+    <stop>
+        <KS_ID>7</KS_ID>
+        <title>Станция метро "Московская"</title>
+        <adjacentStreet>на Московском шоссе</adjacentStreet>
+        <direction>в сторону центра города</direction>
+        <titleEn>Stantsiia Metro "Moskovskaia"</titleEn>
+        <adjacentStreetEn>on Moskovskoe Shosse street</adjacentStreetEn>
+        <directionEn>towards the city center</directionEn>
+        <titleEs>Stántsia metro "Moskóvskaia"</titleEs>
+        <adjacentStreetEs>en la calle Moskóvskoe Shossé</adjacentStreetEs>
+        <directionEs>hacia el centro de la ciudad</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>1, 37, 67</busesMunicipal>
+        <busesCommercial>46, 84</busesCommercial>
+        <busesPrigorod>126ю, 410а</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>12, 17, 20</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.2040006953045</latitude>
+        <longitude>50.1619363491072</longitude>
+        <angle>181</angle>
+    </stop>
+    <stop>
+        <KS_ID>8</KS_ID>
+        <title>ул. Революционная</title>
+        <adjacentStreet>на Московском шоссе</adjacentStreet>
+        <direction>в сторону ЖД вокзала</direction>
+        <titleEn>Ulitsa Revoliutsionnaia</titleEn>
+        <adjacentStreetEn>on Moskovskoe Shosse street</adjacentStreetEn>
+        <directionEn>towards Zheleznodorozhnyi Vokzal</directionEn>
+        <titleEs>Úlitsa Revoliutsiónnaia</titleEs>
+        <adjacentStreetEs>en la calle Moskóvskoe Shossé</adjacentStreetEs>
+        <directionEs>hacia Zheleznodorozhnyi Vokzal</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>1, 22, 23, 37, 47, 67</busesMunicipal>
+        <busesCommercial>4, 46, 84, 247</busesCommercial>
+        <busesPrigorod>126с, 126ю, 410а</busesPrigorod>
+        <busesSeason>170</busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>4, 12, 15, 17, 19, 20</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.2096046740571</latitude>
+        <longitude>50.1745679774895</longitude>
+        <angle>225</angle>
+    </stop>
+    <stop>
+        <KS_ID>9</KS_ID>
+        <title>Аэрокосмический Университет</title>
+        <adjacentStreet>на Московском шоссе</adjacentStreet>
+        <direction>в сторону ЖД вокзала</direction>
+        <titleEn>Aerokosmicheskii Universitet</titleEn>
+        <adjacentStreetEn>on Moskovskoe Shosse street</adjacentStreetEn>
+        <directionEn>towards Zheleznodorozhnyi Vokzal</directionEn>
+        <titleEs>Aerokosmícheski Universitet</titleEs>
+        <adjacentStreetEs>en la calle Moskóvskoe Shossé</adjacentStreetEs>
+        <directionEs>hacia Zheleznodorozhnyi Vokzal</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>1, 22, 23, 37, 47, 67</busesMunicipal>
+        <busesCommercial>4, 46, 84, 247</busesCommercial>
+        <busesPrigorod>126с, 126ю, 410а</busesPrigorod>
+        <busesSeason>170</busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>4, 12, 15, 17, 19, 20</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.2130326856707</latitude>
+        <longitude>50.1804857418037</longitude>
+        <angle>225</angle>
+    </stop>
+    <stop>
+        <KS_ID>10</KS_ID>
+        <title>Автовокзал "Центральный"</title>
+        <adjacentStreet>на Московском шоссе</adjacentStreet>
+        <direction>в сторону ЖД вокзала</direction>
+        <titleEn>Avtovokzal "Tsentralnyi"</titleEn>
+        <adjacentStreetEn>on Moskovskoe Shosse street</adjacentStreetEn>
+        <directionEn>towards Zheleznodorozhnyi Vokzal</directionEn>
+        <titleEs>Avtovokzal "Tsentralny"</titleEs>
+        <adjacentStreetEs>en la calle Moskóvskoe Shossé</adjacentStreetEs>
+        <directionEs>hacia Zheleznodorozhnyi Vokzal</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>1, 23, 37, 47, 67</busesMunicipal>
+        <busesCommercial>4, 21м, 84</busesCommercial>
+        <busesPrigorod>110, 392, 392а, 410а, 492</busesPrigorod>
+        <busesSeason>144, 156, 170</busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>4, 12, 17, 19, 20</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.2181425119688</latitude>
+        <longitude>50.1875850743757</longitude>
+        <angle>249</angle>
+    </stop>
+    <stop>
+        <KS_ID>11</KS_ID>
+        <title>ул. Потапова</title>
+        <adjacentStreet>на Московском шоссе</adjacentStreet>
+        <direction>в сторону Ипподрома</direction>
+        <titleEn>Ulitsa Potapova</titleEn>
+        <adjacentStreetEn>on Moskovskoe Shosse street</adjacentStreetEn>
+        <directionEn>towards Ippodrom</directionEn>
+        <titleEs>Úlitsa Potápova</titleEs>
+        <adjacentStreetEs>en la calle Moskóvskoe Shossé</adjacentStreetEs>
+        <directionEs>hacia el Ippodrom</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>1, 23, 30, 30*, 37, 47, 67</busesMunicipal>
+        <busesCommercial>4, 21м, 84</busesCommercial>
+        <busesPrigorod>110, 392, 392а, 410а</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>4, 12, 17, 19, 20</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.221496284622</latitude>
+        <longitude>50.1900824710888</longitude>
+        <angle>70</angle>
+    </stop>
+    <stop>
+        <KS_ID>12</KS_ID>
+        <title>Телецентр</title>
+        <adjacentStreet>на Московском шоссе</adjacentStreet>
+        <direction>в сторону ул. Стара-Загоры</direction>
+        <titleEn>Teletsentr</titleEn>
+        <adjacentStreetEn>on Moskovskoe Shosse street</adjacentStreetEn>
+        <directionEn>towards Stara-Zagora street</directionEn>
+        <titleEs>Teletsentr</titleEs>
+        <adjacentStreetEs>en la calle Moskóvskoe Shossé</adjacentStreetEs>
+        <directionEs>hacia la calle Stara-Zagora</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>23, 30, 30*, 37, 47</busesMunicipal>
+        <busesCommercial>21м</busesCommercial>
+        <busesPrigorod>110, 410а, 492</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses></trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.227460239473</latitude>
+        <longitude>50.1940036096221</longitude>
+        <angle>69</angle>
+    </stop>
+    <stop>
+        <KS_ID>13</KS_ID>
+        <title>Телецентр</title>
+        <adjacentStreet>на Московском шоссе</adjacentStreet>
+        <direction>в сторону Ипподрома</direction>
+        <titleEn>Teletsentr</titleEn>
+        <adjacentStreetEn>on Moskovskoe Shosse street</adjacentStreetEn>
+        <directionEn>towards Ippodrom</directionEn>
+        <titleEs>Teletsentr</titleEs>
+        <adjacentStreetEs>en la calle Moskóvskoe Shossé</adjacentStreetEs>
+        <directionEs>hacia el Ippodrom</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>1, 67</busesMunicipal>
+        <busesCommercial>4, 84</busesCommercial>
+        <busesPrigorod>392, 392а</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>4, 12, 17, 19, 20</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.2287725546174</latitude>
+        <longitude>50.1948755502616</longitude>
+        <angle>69</angle>
+    </stop>
+    <stop>
+        <KS_ID>14</KS_ID>
+        <title>11-й микрорайон</title>
+        <adjacentStreet>на Московском шоссе</adjacentStreet>
+        <direction>в сторону Металлурга</direction>
+        <titleEn>Odinnadtsatyi Mikroraion</titleEn>
+        <adjacentStreetEn>on Moskovskoe Shosse street</adjacentStreetEn>
+        <directionEn>towards Metallurg</directionEn>
+        <titleEs>Odínnadtsatyi Mikrorayón</titleEs>
+        <adjacentStreetEs>en la calle Moskóvskoe Shossé</adjacentStreetEs>
+        <directionEs>hacia Metallurg</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>1, 55, 67</busesMunicipal>
+        <busesCommercial>4, 84</busesCommercial>
+        <busesPrigorod>110, 392, 392а, 410а, 492</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>4, 12</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.2399654356163</latitude>
+        <longitude>50.2062508545265</longitude>
+        <angle>54</angle>
+    </stop>
+    <stop>
+        <KS_ID>15</KS_ID>
+        <title>7-й микрорайон</title>
+        <adjacentStreet>на Московском шоссе</adjacentStreet>
+        <direction>в сторону пр. Кирова</direction>
+        <titleEn>Sedmoi Mikroraion</titleEn>
+        <adjacentStreetEn>on Moskovskoe Shosse street</adjacentStreetEn>
+        <directionEn>towards Prospekt Kirova</directionEn>
+        <titleEs>Sedmói Mikroraión</titleEs>
+        <adjacentStreetEs>en la calle Moskóvskoe Shossé</adjacentStreetEs>
+        <directionEs>hacia Prospekt Kírova</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>1, 67</busesMunicipal>
+        <busesCommercial>4, 84, 96</busesCommercial>
+        <busesPrigorod>110, 305д, 392, 392а, 396, 410а, 492</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>4, 12</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.2472060354077</latitude>
+        <longitude>50.2164450045511</longitude>
+        <angle>46</angle>
+    </stop>
+    <stop>
+        <KS_ID>16</KS_ID>
+        <title>7-й микрорайон</title>
+        <adjacentStreet>на Московском шоссе</adjacentStreet>
+        <direction>в сторону центра города</direction>
+        <titleEn>Sedmoi Mikroraion</titleEn>
+        <adjacentStreetEn>on Moskovskoe Shosse street</adjacentStreetEn>
+        <directionEn>towards the city center</directionEn>
+        <titleEs>Sedmói Mikroraión</titleEs>
+        <adjacentStreetEs>en la calle Moskóvskoe Shossé</adjacentStreetEs>
+        <directionEs>hacia el centro de la ciudad</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>1, 67</busesMunicipal>
+        <busesCommercial>4, 84, 96</busesCommercial>
+        <busesPrigorod>110, 305д, 392, 392а, 396, 410а, 492</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>4, 12</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.2469389988563</latitude>
+        <longitude>50.2153639223692</longitude>
+        <angle>226</angle>
+    </stop>
+    <stop>
+        <KS_ID>19</KS_ID>
+        <title>Московское шоссе</title>
+        <adjacentStreet>на пр. Кирова</adjacentStreet>
+        <direction>в сторону Ипподрома</direction>
+        <titleEn>Moskovskoe Shosse</titleEn>
+        <adjacentStreetEn>on Prospekt Kirova street</adjacentStreetEn>
+        <directionEn>towards Ippodrom</directionEn>
+        <titleEs>Moskóvskoie shossé</titleEs>
+        <adjacentStreetEs>en la calle Prospekt Kírova</adjacentStreetEs>
+        <directionEs>hacia el Ippodrom</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>56</busesMunicipal>
+        <busesCommercial>4, 203, 261</busesCommercial>
+        <busesPrigorod></busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>4, 4к, 8, 9, 12, 19</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.2502784097784</latitude>
+        <longitude>50.2236631532479</longitude>
+        <angle>117</angle>
+    </stop>
+    <stop>
+        <KS_ID>20</KS_ID>
+        <title>13-й микрорайон</title>
+        <adjacentStreet>на пр. Кирова</adjacentStreet>
+        <direction>в сторону Ипподрома</direction>
+        <titleEn>Trinadtsatyi Mikroraion</titleEn>
+        <adjacentStreetEn>on Prospekt Kirova street</adjacentStreetEn>
+        <directionEn>towards Ippodrom</directionEn>
+        <titleEs>Trinádtsaty Mikrorayón</titleEs>
+        <adjacentStreetEs>en la calle Prospekt Kírova</adjacentStreetEs>
+        <directionEs>hacia el Ippodrom</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>56</busesMunicipal>
+        <busesCommercial>4, 203, 261</busesCommercial>
+        <busesPrigorod></busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>4, 4к, 8, 9, 12, 19</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.2470470625768</latitude>
+        <longitude>50.2276845191439</longitude>
+        <angle>128</angle>
+    </stop>
+    <stop>
+        <KS_ID>21</KS_ID>
+        <title>ул. Стара-Загора</title>
+        <adjacentStreet>на пр. Кирова</adjacentStreet>
+        <direction>в сторону Юнгородка</direction>
+        <titleEn>Ulitsa Stara-Zagora</titleEn>
+        <adjacentStreetEn>on Prospekt Kirova street</adjacentStreetEn>
+        <directionEn>towards Iungorodok</directionEn>
+        <titleEs>Úlitsa Stara-Zagora</titleEs>
+        <adjacentStreetEs>en la calle Prospekt Kírova</adjacentStreetEs>
+        <directionEs>hacia Iúngorodok</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>6, 29, 41, 47, 51</busesMunicipal>
+        <busesCommercial>4, 203, 213, 226, 261</busesCommercial>
+        <busesPrigorod>310</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>4, 4к, 8, 9, 12, 13, 18, 20</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.2429402697231</latitude>
+        <longitude>50.2325964275475</longitude>
+        <angle>308</angle>
+    </stop>
+    <stop>
+        <KS_ID>22</KS_ID>
+        <title>Шоколадная фабрика</title>
+        <adjacentStreet>на пр. Кирова</adjacentStreet>
+        <direction>в сторону Юнгородка</direction>
+        <titleEn>Shokoladnaia Fabrika</titleEn>
+        <adjacentStreetEn>on Prospekt Kirova street</adjacentStreetEn>
+        <directionEn>towards Iungorodok</directionEn>
+        <titleEs>Shokoládnaia Fábrika</titleEs>
+        <adjacentStreetEs>en la calle Prospekt Kírova</adjacentStreetEs>
+        <directionEs>hacia Iúngorodok</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>6, 29, 41, 47, 51</busesMunicipal>
+        <busesCommercial>4, 203, 213, 226, 261</busesCommercial>
+        <busesPrigorod>310</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>4, 4к, 8, 9, 12, 13, 18, 20</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.2396105239861</latitude>
+        <longitude>50.2368064870059</longitude>
+        <angle>308</angle>
+    </stop>
+    <stop>
+        <KS_ID>23</KS_ID>
+        <title>Кинотеатр "Огонек"</title>
+        <adjacentStreet>на пр. Кирова</adjacentStreet>
+        <direction>в сторону Ипподрома</direction>
+        <titleEn>Kinoteatr "Ogonek"</titleEn>
+        <adjacentStreetEn>on Prospekt Kirova street</adjacentStreetEn>
+        <directionEn>towards Ippodrom</directionEn>
+        <titleEs>Kinoteatr "Ogonek"</titleEs>
+        <adjacentStreetEs>en la calle Prospekt Kírova</adjacentStreetEs>
+        <directionEs>hacia el Ippodrom</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>6, 29, 41, 47, 51</busesMunicipal>
+        <busesCommercial>4, 203, 213, 226, 261</busesCommercial>
+        <busesPrigorod>310</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>4, 4к, 8, 9, 12, 13, 18, 20</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.2367347075038</latitude>
+        <longitude>50.2407546361516</longitude>
+        <angle>129</angle>
+    </stop>
+    <stop>
+        <KS_ID>24</KS_ID>
+        <title>ул. Черемшанская</title>
+        <adjacentStreet>на пр. Кирова</adjacentStreet>
+        <direction>в сторону Ипподрома</direction>
+        <titleEn>Ulitsa Cheremshanskaia</titleEn>
+        <adjacentStreetEn>on Prospekt Kirova street</adjacentStreetEn>
+        <directionEn>towards Ippodrom</directionEn>
+        <titleEs>Úlitsa Cheremshánskaia</titleEs>
+        <adjacentStreetEs>en la calle Prospekt Kírova</adjacentStreetEs>
+        <directionEs>hacia el Ippodrom</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>6, 29, 41, 47, 51</busesMunicipal>
+        <busesCommercial>4, 203, 213, 226, 261</busesCommercial>
+        <busesPrigorod>310</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>4, 4к, 8, 9, 12, 13, 18, 20</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.2340350902025</latitude>
+        <longitude>50.244205943277</longitude>
+        <angle>127</angle>
+    </stop>
+    <stop>
+        <KS_ID>25</KS_ID>
+        <title>ул. Ставропольская</title>
+        <adjacentStreet>на пр. Кирова</adjacentStreet>
+        <direction>в сторону Ипподрома</direction>
+        <titleEn>Ulitsa Stavropolskaia</titleEn>
+        <adjacentStreetEn>on Prospekt Kirova street</adjacentStreetEn>
+        <directionEn>towards Ippodrom</directionEn>
+        <titleEs>Úlitsa Stavropólskaia</titleEs>
+        <adjacentStreetEs>en la calle Prospekt Kírova</adjacentStreetEs>
+        <directionEs>hacia el Ippodrom</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>6, 9, 29, 41, 47, 51</busesMunicipal>
+        <busesCommercial>4, 203, 213, 226, 261</busesCommercial>
+        <busesPrigorod>310</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>4, 4к, 8, 9, 12, 13, 18, 20</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.2295050082401</latitude>
+        <longitude>50.2499836753663</longitude>
+        <angle>128</angle>
+    </stop>
+    <stop>
+        <KS_ID>26</KS_ID>
+        <title>Автостанция "Вольская"</title>
+        <adjacentStreet>на пр. Кирова</adjacentStreet>
+        <direction>в сторону Ипподрома</direction>
+        <titleEn>Avtostantsiia "Volskaia"</titleEn>
+        <adjacentStreetEn>on Prospekt Kirova street</adjacentStreetEn>
+        <directionEn>towards Ippodrom</directionEn>
+        <titleEs>Avtostántsia "Vólskaia"</titleEs>
+        <adjacentStreetEs>en la calle Prospekt Kírova</adjacentStreetEs>
+        <directionEs>hacia el Ippodrom</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>6, 9, 29, 41, 47, 51</busesMunicipal>
+        <busesCommercial>4, 203, 213, 261</busesCommercial>
+        <busesPrigorod>310</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses></trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.2254209266504</latitude>
+        <longitude>50.2552078572295</longitude>
+        <angle>128</angle>
+    </stop>
+    <stop>
+        <KS_ID>27</KS_ID>
+        <title>Площадь им. Кирова</title>
+        <adjacentStreet>на пр. Кирова</adjacentStreet>
+        <direction>в сторону Ипподрома</direction>
+        <titleEn>Ploshchad Imeni Kirova</titleEn>
+        <adjacentStreetEn>on Prospekt Kirova street</adjacentStreetEn>
+        <directionEn>towards Ippodrom</directionEn>
+        <titleEs>Plóshchad Ímeni. Kírova</titleEs>
+        <adjacentStreetEs>en la calle Prospekt Kírova</adjacentStreetEs>
+        <directionEs>hacia el Ippodrom</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>8, 29, 34, 41, 47, 51</busesMunicipal>
+        <busesCommercial>203, 213, 226, 261, 397</busesCommercial>
+        <busesPrigorod>310, 368</busesPrigorod>
+        <busesSeason>126а</busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>8, 12</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.2201371492903</latitude>
+        <longitude>50.2618876900251</longitude>
+        <angle>128</angle>
+    </stop>
+    <stop>
+        <KS_ID>28</KS_ID>
+        <title>Площадь им. Кирова</title>
+        <adjacentStreet>на пр. Кирова</adjacentStreet>
+        <direction>в сторону Ипподрома</direction>
+        <titleEn>Ploshchad Imeni Kirova</titleEn>
+        <adjacentStreetEn>on Prospekt Kirova street</adjacentStreetEn>
+        <directionEn>towards Ippodrom</directionEn>
+        <titleEs>Plóshchad Ímeni. Kírova</titleEs>
+        <adjacentStreetEs>en la calle Prospekt Kírova</adjacentStreetEs>
+        <directionEs>hacia el Ippodrom</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>29, 41, 47, 51</busesMunicipal>
+        <busesCommercial>27к, 203, 213, 247, 261, 397</busesCommercial>
+        <busesPrigorod>103к</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams>8, 10, 25</trams>
+        <trolleybuses>8, 12, 13, 18</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.218453719884</latitude>
+        <longitude>50.264336672071</longitude>
+        <angle>129</angle>
+    </stop>
+    <stop>
+        <KS_ID>29</KS_ID>
+        <title>Станция метро "Кировская"</title>
+        <adjacentStreet>на пр. Кирова</adjacentStreet>
+        <direction>в сторону пл. Кирова</direction>
+        <titleEn>Stantsiia Metro "Kirovskaia"</titleEn>
+        <adjacentStreetEn>on Prospekt Kirova street</adjacentStreetEn>
+        <directionEn>towards Ploshchad Kirova</directionEn>
+        <titleEs>Stántsia metro "Kírovskaia"</titleEs>
+        <adjacentStreetEs>en la calle Prospekt Kírova</adjacentStreetEs>
+        <directionEs>hacia Plóshchad Kírova</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>21, 29, 38, 47, 51</busesMunicipal>
+        <busesCommercial>203, 213, 247, 261, 397</busesCommercial>
+        <busesPrigorod>103к</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams>8, 10, 25</trams>
+        <trolleybuses>8, 12, 13, 18</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.2096106211976</latitude>
+        <longitude>50.2748870449647</longitude>
+        <angle>127</angle>
+    </stop>
+    <stop>
+        <KS_ID>30</KS_ID>
+        <title>Заводское шоссе</title>
+        <adjacentStreet>на пр. Кирова</adjacentStreet>
+        <direction>в сторону пл. Кирова</direction>
+        <titleEn>Zavodskoe Shosse</titleEn>
+        <adjacentStreetEn>on Prospekt Kirova street</adjacentStreetEn>
+        <directionEn>towards Ploshchad Kirova</directionEn>
+        <titleEs>Zavodskoie shossé</titleEs>
+        <adjacentStreetEs>en la calle Prospekt Kírova</adjacentStreetEs>
+        <directionEs>hacia Plóshchad Kírova</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>30*, 55</busesMunicipal>
+        <busesCommercial>207, 247, 261, 397</busesCommercial>
+        <busesPrigorod>103к</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams>8, 25</trams>
+        <trolleybuses>8, 12, 13, 18</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.2067498306907</latitude>
+        <longitude>50.2782956633196</longitude>
+        <angle>125</angle>
+    </stop>
+    <stop>
+        <KS_ID>31</KS_ID>
+        <title>Профтехучилище</title>
+        <adjacentStreet>на пр. Кирова</adjacentStreet>
+        <direction>в сторону Безымянской ТЭЦ</direction>
+        <titleEn>Proftekhuchilishche</titleEn>
+        <adjacentStreetEn>on Prospekt Kirova street</adjacentStreetEn>
+        <directionEn>towards Bezymianskaia TETS</directionEn>
+        <titleEs>Proftejuchílishche</titleEs>
+        <adjacentStreetEs>en la calle Prospekt Kírova</adjacentStreetEs>
+        <directionEs>hacia Bezymiánskaia TETS</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>30*, 55</busesMunicipal>
+        <busesCommercial>207, 247, 261, 397</busesCommercial>
+        <busesPrigorod>103к</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>12, 13, 18</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.2041037452996</latitude>
+        <longitude>50.2806282562157</longitude>
+        <angle>305</angle>
+    </stop>
+    <stop>
+        <KS_ID>32</KS_ID>
+        <title>Проходная ОАО "Моторостроитель"</title>
+        <adjacentStreet>на пр. Кирова</adjacentStreet>
+        <direction>в сторону пл. Кирова</direction>
+        <titleEn>Prohodnaya OAO "Motorostroitel\'"</titleEn>
+        <adjacentStreetEn>on Prospekt Kirova street</adjacentStreetEn>
+        <directionEn>towards Ploshchad Kirova</directionEn>
+        <titleEs>Projodnaia OAO "Motorostroítel"</titleEs>
+        <adjacentStreetEs>en la calle Prospekt Kírova</adjacentStreetEs>
+        <directionEs>hacia Plóshchad Kírova</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>30*, 55</busesMunicipal>
+        <busesCommercial>207, 247, 261, 397</busesCommercial>
+        <busesPrigorod>103к</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>8, 12, 13, 18</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.2022004497633</latitude>
+        <longitude>50.2834214798201</longitude>
+        <angle>125</angle>
+    </stop>
+    <stop>
+        <KS_ID>33</KS_ID>
+        <title>ул. Береговая</title>
+        <adjacentStreet>на пр. Кирова</adjacentStreet>
+        <direction>в сторону пл. Кирова</direction>
+        <titleEn>Ulitsa Beregovaia</titleEn>
+        <adjacentStreetEn>on Prospekt Kirova street</adjacentStreetEn>
+        <directionEn>towards Ploshchad Kirova</directionEn>
+        <titleEs>Úlitsa Beregovaia</titleEs>
+        <adjacentStreetEs>en la calle Prospekt Kírova</adjacentStreetEs>
+        <directionEs>hacia Plóshchad Kírova</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>30*, 55</busesMunicipal>
+        <busesCommercial>207, 247, 261, 397</busesCommercial>
+        <busesPrigorod>103к</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams>8, 25</trams>
+        <trolleybuses>8, 12, 13, 18</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.1990739992734</latitude>
+        <longitude>50.2868814047869</longitude>
+        <angle>126</angle>
+    </stop>
+    <stop>
+        <KS_ID>34</KS_ID>
+        <title>Железнодорожный вокзал</title>
+        <adjacentStreet>на ул. Льва Толстого</adjacentStreet>
+        <direction>в сторону ЖД вокзала</direction>
+        <titleEn>Zheleznodorozhnyi Vokzal</titleEn>
+        <adjacentStreetEn>on Lva Tolstogo street</adjacentStreetEn>
+        <directionEn>towards Zheleznodorozhnyi Vokzal</directionEn>
+        <titleEs>Zheleznodorozhny vokzal</titleEs>
+        <adjacentStreetEs>en la calle Lva Tolstogo</adjacentStreetEs>
+        <directionEs>hacia Zheleznodorozhnyi Vokzal</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>5д, 11, 13, 22, 37, 52, 53, 56</busesMunicipal>
+        <busesCommercial>4, 99, 266</busesCommercial>
+        <busesPrigorod>105, 108, 114, 118, 126с, 126ю, 127, 128, 140, 177, 305д, 395, 410а, 480</busesPrigorod>
+        <busesSeason>168, 172</busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>16</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.1866860186567</latitude>
+        <longitude>50.1189036675928</longitude>
+        <angle>358</angle>
+    </stop>
+    <stop>
+        <KS_ID>35</KS_ID>
+        <title>Завод им. Тарасова</title>
+        <adjacentStreet>на Московском шоссе</adjacentStreet>
+        <direction>в сторону Металлурга</direction>
+        <titleEn>Zavod Imeni Tarasova</titleEn>
+        <adjacentStreetEn>on Moskovskoe Shosse street</adjacentStreetEn>
+        <directionEn>towards Metallurg</directionEn>
+        <titleEs>Zavod Ímeni Tarásova</titleEs>
+        <adjacentStreetEs>en la calle Moskóvskoe Shossé</adjacentStreetEs>
+        <directionEs>hacia Metallurg</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>1, 55, 67</busesMunicipal>
+        <busesCommercial>4, 84</busesCommercial>
+        <busesPrigorod>110, 392, 392а, 410а, 492</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>4, 12</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.2369156135461</latitude>
+        <longitude>50.2024423270282</longitude>
+        <angle>54</angle>
+    </stop>
+    <stop>
+        <KS_ID>36</KS_ID>
+        <title>Площадь им. Кирова</title>
+        <adjacentStreet>на ул. Победы</adjacentStreet>
+        <direction>в сторону ул. XXII Партсъезда</direction>
+        <titleEn>Ploshchad Imeni Kirova</titleEn>
+        <adjacentStreetEn>on Pobedy street</adjacentStreetEn>
+        <directionEn>towards Dvadtsat Vtorogo Partsiezda street</directionEn>
+        <titleEs>Plóshchad Ímeni. Kírova</titleEs>
+        <adjacentStreetEs>en la calle Pobedy</adjacentStreetEs>
+        <directionEs>hacia la calle Dvadtsat Vtorogo Partsiezda</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>6, 21, 27, 30, 34, 38, 41, 75</busesMunicipal>
+        <busesCommercial>89, 217, 226, 247, 253</busesCommercial>
+        <busesPrigorod>124к, 126с, 126ю, 131, 310, 368, 480</busesPrigorod>
+        <busesSeason>146, 147, 157, 182, 185к, 198</busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>20</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.2189283285228</latitude>
+        <longitude>50.2614120060986</longitude>
+        <angle>217</angle>
+    </stop>
+    <stop>
+        <KS_ID>37</KS_ID>
+        <title>ул. Воронежская</title>
+        <adjacentStreet>на ул. Вольской</adjacentStreet>
+        <direction>в сторону Металлурга</direction>
+        <titleEn>Ulitsa Voronezhskaia</titleEn>
+        <adjacentStreetEn>on Volskaia street</adjacentStreetEn>
+        <directionEn>towards Metallurg</directionEn>
+        <titleEs>Úlitsa Vorónezhskaia</titleEs>
+        <adjacentStreetEs>en la calle Vólskaia</adjacentStreetEs>
+        <directionEs>hacia Metallurg</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>6, 9, 21</busesMunicipal>
+        <busesCommercial>99</busesCommercial>
+        <busesPrigorod></busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>7, 9, 15, 20</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.2218813965546</latitude>
+        <longitude>50.2494033536846</longitude>
+        <angle>38</angle>
+    </stop>
+    <stop>
+        <KS_ID>38</KS_ID>
+        <title>ул. Ново-Вокзальная</title>
+        <adjacentStreet>на Московском шоссе</adjacentStreet>
+        <direction>в сторону Металлурга</direction>
+        <titleEn>Ulitsa Novo-Vokzalnaia</titleEn>
+        <adjacentStreetEn>on Moskovskoe Shosse street</adjacentStreetEn>
+        <directionEn>towards Metallurg</directionEn>
+        <titleEs>Úlitsa Novo-Vokzálnaia</titleEs>
+        <adjacentStreetEs>en la calle Moskóvskoe Shossé</adjacentStreetEs>
+        <directionEs>hacia Metallurg</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>1, 67</busesMunicipal>
+        <busesCommercial>4, 84, 96</busesCommercial>
+        <busesPrigorod>110, 305д, 392, 392а, 396, 410а, 492</busesPrigorod>
+        <busesSeason>144, 156</busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>4, 12</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.2435961575904</latitude>
+        <longitude>50.210911061259</longitude>
+        <angle>52</angle>
+    </stop>
+    <stop>
+        <KS_ID>39</KS_ID>
+        <title>Сквер им. Мичурина</title>
+        <adjacentStreet>на ул. Мичурина</adjacentStreet>
+        <direction>в сторону ТЦ "Аквариум"</direction>
+        <titleEn>Skver Imeni Michurina</titleEn>
+        <adjacentStreetEn>on Michurina street</adjacentStreetEn>
+        <directionEn>towards TTS "Akvarium"</directionEn>
+        <titleEs>Skver im. Michúrina</titleEs>
+        <adjacentStreetEs>en la calle Michúrina</adjacentStreetEs>
+        <directionEs>hacia la calle TTS "Akvárium"</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>1, 22, 67</busesMunicipal>
+        <busesCommercial>4, 84</busesCommercial>
+        <busesPrigorod>126с, 126ю, 310, 410а</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>4, 15</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.1992510178455</latitude>
+        <longitude>50.1304290738039</longitude>
+        <angle>38</angle>
+    </stop>
+    <stop>
+        <KS_ID>40</KS_ID>
+        <title>Площадь Памяти</title>
+        <adjacentStreet>на ул. Мичурина</adjacentStreet>
+        <direction>в сторону Московского шоссе</direction>
+        <titleEn>Ploshchad Pamiati</titleEn>
+        <adjacentStreetEn>on Michurina street</adjacentStreetEn>
+        <directionEn>towards Moskovskoe Shosse</directionEn>
+        <titleEs>Plóshchad Pámiati</titleEs>
+        <adjacentStreetEs>en la calle Michúrina</adjacentStreetEs>
+        <directionEs>hacia Moskóvskoe Shossé</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>1, 22, 24, 34, 41, 67</busesMunicipal>
+        <busesCommercial>4, 46, 84</busesCommercial>
+        <busesPrigorod>126с, 126ю, 310, 410а</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>4, 15</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.2019117424644</latitude>
+        <longitude>50.1363865364158</longitude>
+        <angle>38</angle>
+    </stop>
+    <stop>
+        <KS_ID>41</KS_ID>
+        <title>Выставочный центр "Экспо-Волга" / ул. Челюскинцев</title>
+        <adjacentStreet>на ул. Мичурина</adjacentStreet>
+        <direction>в сторону пр. Масленникова</direction>
+        <titleEn>Vystavochnyi Tsentr "Ekspo Volga" / Ulitsa Cheliuskintsev</titleEn>
+        <adjacentStreetEn>on Michurina street</adjacentStreetEn>
+        <directionEn>towards Prospekt Maslennikova</directionEn>
+        <titleEs>Výstavochny tsentr "Ekspo-Volga" / Úlitsa Cheliúskintsev</titleEs>
+        <adjacentStreetEs>en la calle Michúrina</adjacentStreetEs>
+        <directionEs>hacia Prospekt Máslennikova</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>22</busesMunicipal>
+        <busesCommercial>4</busesCommercial>
+        <busesPrigorod></busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>4, 15</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.205963739206</latitude>
+        <longitude>50.1451701772634</longitude>
+        <angle>38</angle>
+    </stop>
+    <stop>
+        <KS_ID>42</KS_ID>
+        <title>Проспект Масленникова</title>
+        <adjacentStreet>на ул. Мичурина</adjacentStreet>
+        <direction>в сторону Московского шоссе</direction>
+        <titleEn>Prospekt Maslennikova</titleEn>
+        <adjacentStreetEn>on Michurina street</adjacentStreetEn>
+        <directionEn>towards Moskovskoe Shosse</directionEn>
+        <titleEs>Prospekt Máslennikova</titleEs>
+        <adjacentStreetEs>en la calle Michúrina</adjacentStreetEs>
+        <directionEs>hacia Moskóvskoe Shossé</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>22</busesMunicipal>
+        <busesCommercial>4</busesCommercial>
+        <busesPrigorod></busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>4, 15</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.2105942776485</latitude>
+        <longitude>50.1552756951719</longitude>
+        <angle>38</angle>
+    </stop>
+    <stop>
+        <KS_ID>43</KS_ID>
+        <title>Клиники Медуниверситета</title>
+        <adjacentStreet>на Московском шоссе</adjacentStreet>
+        <direction>в сторону центра города</direction>
+        <titleEn>Kliniki Meduniversiteta</titleEn>
+        <adjacentStreetEn>on Moskovskoe Shosse street</adjacentStreetEn>
+        <directionEn>towards the city center</directionEn>
+        <titleEs>Klíniki Meduniversiteta</titleEs>
+        <adjacentStreetEs>en la calle Moskóvskoe Shossé</adjacentStreetEs>
+        <directionEs>hacia el centro de la ciudad</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>2, 22, 23, 47</busesMunicipal>
+        <busesCommercial>4, 84, 247</busesCommercial>
+        <busesPrigorod>126с</busesPrigorod>
+        <busesSeason>170</busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>4, 15, 19</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.2050714880857</latitude>
+        <longitude>50.1647194209011</longitude>
+        <angle>216</angle>
+    </stop>
+    <stop>
+        <KS_ID>44</KS_ID>
+        <title>Автостанция "Вольская"</title>
+        <adjacentStreet>на ул. Вольской</adjacentStreet>
+        <direction>в сторону Металлурга</direction>
+        <titleEn>Avtostantsiia "Volskaia"</titleEn>
+        <adjacentStreetEn>on Volskaia street</adjacentStreetEn>
+        <directionEn>towards Metallurg</directionEn>
+        <titleEs>Avtostántsia "Vólskaia"</titleEs>
+        <adjacentStreetEs>en la calle Vólskaia</adjacentStreetEs>
+        <directionEs>hacia Metallurg</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>21, 34</busesMunicipal>
+        <busesCommercial>4, 99</busesCommercial>
+        <busesPrigorod>368</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>7, 15</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.2249624385533</latitude>
+        <longitude>50.2560619217783</longitude>
+        <angle>38</angle>
+    </stop>
+    <stop>
+        <KS_ID>45</KS_ID>
+        <title>ул. Пугачевская</title>
+        <adjacentStreet>на пр. Металлургов</adjacentStreet>
+        <direction>в сторону пл. Мочалова</direction>
+        <titleEn>Ulitsa Pugachevskaia</titleEn>
+        <adjacentStreetEn>on Prospekt Metallurgov street</adjacentStreetEn>
+        <directionEn>towards Ploshchad Mochalova</directionEn>
+        <titleEs>Úlitsa Pugachévskaia</titleEs>
+        <adjacentStreetEs>en la calle Prospekt Metallúrgov</adjacentStreetEs>
+        <directionEs>hacia Plóshchad Mochálova</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>21, 34</busesMunicipal>
+        <busesCommercial>4, 89, 99, 397</busesCommercial>
+        <busesPrigorod>368</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>4, 4к, 7, 15</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.2308468328919</latitude>
+        <longitude>50.2713436753033</longitude>
+        <angle>39</angle>
+    </stop>
+    <stop>
+        <KS_ID>46</KS_ID>
+        <title>Дом Одежды</title>
+        <adjacentStreet>на пр. Металлургов</adjacentStreet>
+        <direction>в сторону пл. Мочалова</direction>
+        <titleEn>Dom Odezhdy</titleEn>
+        <adjacentStreetEn>on Prospekt Metallurgov street</adjacentStreetEn>
+        <directionEn>towards Ploshchad Mochalova</directionEn>
+        <titleEs>Dom Odezhdy</titleEs>
+        <adjacentStreetEs>en la calle Prospekt Metallúrgov</adjacentStreetEs>
+        <directionEs>hacia Plóshchad Mochálova</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>12, 21, 34</busesMunicipal>
+        <busesCommercial>4, 89, 99, 397</busesCommercial>
+        <busesPrigorod>368</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>4, 4к, 7, 15</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.236869440997</latitude>
+        <longitude>50.277953321253</longitude>
+        <angle>251</angle>
+    </stop>
+    <stop>
+        <KS_ID>47</KS_ID>
+        <title>Площадь им. П.П. Мочалова</title>
+        <adjacentStreet>на пр. Металлургов</adjacentStreet>
+        <direction>в сторону пр. Кирова</direction>
+        <titleEn>Ploshchad Imeni Mochalova</titleEn>
+        <adjacentStreetEn>on Prospekt Metallurgov street</adjacentStreetEn>
+        <directionEn>towards Prospekt Kirova</directionEn>
+        <titleEs>Plóshchad Ímeni P.P. Mochálova</titleEs>
+        <adjacentStreetEs>en la calle Prospekt Metallúrgov</adjacentStreetEs>
+        <directionEs>hacia Prospekt Kírova</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>21, 34</busesMunicipal>
+        <busesCommercial>4, 89, 99, 397</busesCommercial>
+        <busesPrigorod></busesPrigorod>
+        <busesSeason>126б</busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>4, 4к, 7, 15</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.232974315504</latitude>
+        <longitude>50.2754525935479</longitude>
+        <angle>249</angle>
+    </stop>
+    <stop>
+        <KS_ID>48</KS_ID>
+        <title>ул. Советская</title>
+        <adjacentStreet>на пр. Металлургов</adjacentStreet>
+        <direction>в сторону пр. Кирова</direction>
+        <titleEn>Ulitsa Sovetskaia</titleEn>
+        <adjacentStreetEn>on Prospekt Metallurgov street</adjacentStreetEn>
+        <directionEn>towards Prospekt Kirova</directionEn>
+        <titleEs>Úlitsa Sovétskaia</titleEs>
+        <adjacentStreetEs>en la calle Prospekt Metallúrgov</adjacentStreetEs>
+        <directionEs>hacia Prospekt Kírova</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>21, 34</busesMunicipal>
+        <busesCommercial>4, 89, 99, 397</busesCommercial>
+        <busesPrigorod>368</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>4, 4к, 7, 15</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.2289721646493</latitude>
+        <longitude>50.2666985820725</longitude>
+        <angle>218</angle>
+    </stop>
+    <stop>
+        <KS_ID>49</KS_ID>
+        <title>ул. Севастопольская</title>
+        <adjacentStreet>на пр. Металлургов</adjacentStreet>
+        <direction>в сторону центра города</direction>
+        <titleEn>Ulitsa Sevastopolskaia</titleEn>
+        <adjacentStreetEn>on Prospekt Metallurgov street</adjacentStreetEn>
+        <directionEn>towards the city center</directionEn>
+        <titleEs>Úlitsa Sevastópolskaia</titleEs>
+        <adjacentStreetEs>en la calle Prospekt Metallúrgov</adjacentStreetEs>
+        <directionEs>hacia el centro de la ciudad</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>21, 34</busesMunicipal>
+        <busesCommercial>4, 89, 99, 397</busesCommercial>
+        <busesPrigorod>368</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>4, 4к, 7, 15</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.2263294036003</latitude>
+        <longitude>50.2609554760049</longitude>
+        <angle>218</angle>
+    </stop>
+    <stop>
+        <KS_ID>50</KS_ID>
+        <title>ул. Буянова</title>
+        <adjacentStreet>на ул. Чкалова</adjacentStreet>
+        <direction>в сторону центра города</direction>
+        <titleEn>Ulitsa Buianova</titleEn>
+        <adjacentStreetEn>on Chkalova street</adjacentStreetEn>
+        <directionEn>towards the city center</directionEn>
+        <titleEs>Úlitsa Buiánova</titleEs>
+        <adjacentStreetEs>en la calle Chkálova</adjacentStreetEs>
+        <directionEs>hacia el centro de la ciudad</directionEs>
+        <cluster></cluster>
+        <busesMunicipal></busesMunicipal>
+        <busesCommercial></busesCommercial>
+        <busesPrigorod></busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>4, 15</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.1986877200905</latitude>
+        <longitude>50.1263959569333</longitude>
+        <angle>128</angle>
+    </stop>
+    <stop>
+        <KS_ID>51</KS_ID>
+        <title>ул. Молодежная</title>
+        <adjacentStreet>на пр. Кирова</adjacentStreet>
+        <direction>в сторону ул. Ново-садовой</direction>
+        <titleEn>Ulitsa Molodezhnaia</titleEn>
+        <adjacentStreetEn>on Prospekt Kirova street</adjacentStreetEn>
+        <directionEn>towards Novo-Sadovaia street</directionEn>
+        <titleEs>Úlitsa Molodézhnaia</titleEs>
+        <adjacentStreetEs>en la calle Prospekt Kírova</adjacentStreetEs>
+        <directionEs>hacia la calle Novo-Sadóvaia</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>6, 21</busesMunicipal>
+        <busesCommercial>203, 226</busesCommercial>
+        <busesPrigorod>392, 392а</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>4к, 8, 9, 19</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.2564258486087</latitude>
+        <longitude>50.2189562663355</longitude>
+        <angle>115</angle>
+    </stop>
+    <stop>
+        <KS_ID>52</KS_ID>
+        <title>ул. Буянова</title>
+        <adjacentStreet>на ул. Льва Толстого</adjacentStreet>
+        <direction>в сторону Волги</direction>
+        <titleEn>Ulitsa Buianova</titleEn>
+        <adjacentStreetEn>on Lva Tolstogo street</adjacentStreetEn>
+        <directionEn>towards Volga</directionEn>
+        <titleEs>Úlitsa Buiánova</titleEs>
+        <adjacentStreetEs>en la calle Lva Tolstogo</adjacentStreetEs>
+        <directionEs>hacia el Volga</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>5д, 11, 13, 37</busesMunicipal>
+        <busesCommercial>48д, 80</busesCommercial>
+        <busesPrigorod>177, 305д, 395</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>6, 6А, 16</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.1873557805087</latitude>
+        <longitude>50.1147662944349</longitude>
+        <angle>159</angle>
+    </stop>
+    <stop>
+        <KS_ID>53</KS_ID>
+        <title>ул. Некрасовская</title>
+        <adjacentStreet>на ул. Куйбышева</adjacentStreet>
+        <direction>в сторону пл. Куйбышева</direction>
+        <titleEn>Ulitsa Nekrasovskaia</titleEn>
+        <adjacentStreetEn>on Kuibysheva street</adjacentStreetEn>
+        <directionEn>towards Ploshchad Kuibysheva</directionEn>
+        <titleEs>Úlitsa Nekrásovskaia</titleEs>
+        <adjacentStreetEs>en la calle Kúibysheva</adjacentStreetEs>
+        <directionEs>hacia Plóshchad Kúibysheva</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>3, 24, 37, 47, 61</busesMunicipal>
+        <busesCommercial>46, 80, 92, 247, 261, 397</busesCommercial>
+        <busesPrigorod>395</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>6А</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.189786628802</latitude>
+        <longitude>50.0905754609492</longitude>
+        <angle>69</angle>
+    </stop>
+    <stop>
+        <KS_ID>54</KS_ID>
+        <title>ул. Куйбышева</title>
+        <adjacentStreet>на ул. Некрасовской</adjacentStreet>
+        <direction>в сторону Волги</direction>
+        <titleEn>Ulitsa Kuibysheva</titleEn>
+        <adjacentStreetEn>on Nekrasovskaia street</adjacentStreetEn>
+        <directionEn>towards Volga</directionEn>
+        <titleEs>Úlitsa Kúybysheva</titleEs>
+        <adjacentStreetEs>en la calle Nekrásovskaia</adjacentStreetEs>
+        <directionEs>hacia el Volga</directionEs>
+        <cluster></cluster>
+        <busesMunicipal></busesMunicipal>
+        <busesCommercial></busesCommercial>
+        <busesPrigorod></busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>6, 6А, 16</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.1901267269026</latitude>
+        <longitude>50.09169165124</longitude>
+        <angle>159</angle>
+    </stop>
+    <stop>
+        <KS_ID>55</KS_ID>
+        <title>Площадь Революции</title>
+        <adjacentStreet>на кольце пл. Революции</adjacentStreet>
+        <direction>в сторону Хлебной площади</direction>
+        <titleEn>Ploshchad Revoliutsii</titleEn>
+        <adjacentStreetEn>at Ploshchad Revoliutsii</adjacentStreetEn>
+        <directionEn>towards Khlebnaia ploshchad</directionEn>
+        <titleEs>Plóshchad Revoliútsii</titleEs>
+        <adjacentStreetEs>en Plóshchad Revoliútsii</adjacentStreetEs>
+        <directionEs>hacia Khlébnaia Ploshchad</directionEs>
+        <cluster></cluster>
+        <busesMunicipal></busesMunicipal>
+        <busesCommercial>261, 397</busesCommercial>
+        <busesPrigorod></busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses></trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.1861928384988</latitude>
+        <longitude>50.087309272216</longitude>
+        <angle>193</angle>
+    </stop>
+    <stop>
+        <KS_ID>56</KS_ID>
+        <title>Площадь Революции</title>
+        <adjacentStreet>на кольце пл. Революции</adjacentStreet>
+        <direction>в сторону ЖД вокзала</direction>
+        <titleEn>Ploshchad Revoliutsii</titleEn>
+        <adjacentStreetEn>at Ploshchad Revoliutsii</adjacentStreetEn>
+        <directionEn>towards Zheleznodorozhnyi Vokzal</directionEn>
+        <titleEs>Plóshchad Revoliútsii</titleEs>
+        <adjacentStreetEs>en Plóshchad Revoliútsii</adjacentStreetEs>
+        <directionEs>hacia Zheleznodorozhnyi Vokzal</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>5д, 11, 86</busesMunicipal>
+        <busesCommercial>46, 48д</busesCommercial>
+        <busesPrigorod>105, 106, 108, 114, 127, 128, 128/72, 140, 177, 305д</busesPrigorod>
+        <busesSeason>168</busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>6, 6А, 16</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.1849518548275</latitude>
+        <longitude>50.0881730923077</longitude>
+        <angle>30</angle>
+    </stop>
+    <stop>
+        <KS_ID>57</KS_ID>
+        <title>Площадь Революции</title>
+        <adjacentStreet>на кольце пл. Революции</adjacentStreet>
+        <direction>в сторону центра города</direction>
+        <titleEn>Ploshchad Revoliutsii</titleEn>
+        <adjacentStreetEn>at Ploshchad Revoliutsii</adjacentStreetEn>
+        <directionEn>towards the city center</directionEn>
+        <titleEs>Plóshchad Revoliútsii</titleEs>
+        <adjacentStreetEs>en Plóshchad Revoliútsii</adjacentStreetEs>
+        <directionEs>hacia el centro de la ciudad</directionEs>
+        <cluster></cluster>
+        <busesMunicipal></busesMunicipal>
+        <busesCommercial></busesCommercial>
+        <busesPrigorod></busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses></trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.186066077533</latitude>
+        <longitude>50.0884117266545</longitude>
+        <angle></angle>
+    </stop>
+    <stop>
+        <KS_ID>58</KS_ID>
+        <title>ул. Некрасовская</title>
+        <adjacentStreet>на ул. Некрасовской</adjacentStreet>
+        <direction>в сторону стадиона Динамо</direction>
+        <titleEn>Ulitsa Nekrasovskaia</titleEn>
+        <adjacentStreetEn>on Nekrasovskaia street</adjacentStreetEn>
+        <directionEn>towards Stadion Dinamo</directionEn>
+        <titleEs>Úlitsa Nekrásovskaia</titleEs>
+        <adjacentStreetEs>en la calle Nekrásovskaia</adjacentStreetEs>
+        <directionEs>hacia el Estadio Dinamo</directionEs>
+        <cluster></cluster>
+        <busesMunicipal></busesMunicipal>
+        <busesCommercial></busesCommercial>
+        <busesPrigorod></busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>6, 16</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.1898700589307</latitude>
+        <longitude>50.0920839748341</longitude>
+        <angle>339</angle>
+    </stop>
+    <stop>
+        <KS_ID>59</KS_ID>
+        <title>ул. Молодогвардейская</title>
+        <adjacentStreet>на ул. Некрасовской</adjacentStreet>
+        <direction>в сторону стадиона Динамо</direction>
+        <titleEn>Ulitsa Molodogvardeiskaia</titleEn>
+        <adjacentStreetEn>on Nekrasovskaia street</adjacentStreetEn>
+        <directionEn>towards Stadion Dinamo</directionEn>
+        <titleEs>Úlitsa Molodogvardéyskaia</titleEs>
+        <adjacentStreetEs>en la calle Nekrásovskaia</adjacentStreetEs>
+        <directionEs>hacia el Estadio Dinamo</directionEs>
+        <cluster></cluster>
+        <busesMunicipal></busesMunicipal>
+        <busesCommercial></busesCommercial>
+        <busesPrigorod></busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>6, 16</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.188656669613</latitude>
+        <longitude>50.0970037595769</longitude>
+        <angle>339</angle>
+    </stop>
+    <stop>
+        <KS_ID>60</KS_ID>
+        <title>ул. Братьев Коростелевых</title>
+        <adjacentStreet>на ул. Ленинградской</adjacentStreet>
+        <direction>в сторону ЖД вокзала</direction>
+        <titleEn>Ulitsa Bratev Korostelevyh</titleEn>
+        <adjacentStreetEn>on Leningradskaia street</adjacentStreetEn>
+        <directionEn>towards Zheleznodorozhnyi Vokzal</directionEn>
+        <titleEs>Úlitsa Brátiev Korostelevyj</titleEs>
+        <adjacentStreetEs>en la calle Leningrádskaia</adjacentStreetEs>
+        <directionEs>hacia Zheleznodorozhnyi Vokzal</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>3</busesMunicipal>
+        <busesCommercial>48д</busesCommercial>
+        <busesPrigorod>127, 177</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>6, 6А, 16</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.183854978839</latitude>
+        <longitude>50.1056797822935</longitude>
+        <angle>338</angle>
+    </stop>
+    <stop>
+        <KS_ID>61</KS_ID>
+        <title>Стадион "Динамо"</title>
+        <adjacentStreet>на ул. Братьев Коростелевых</adjacentStreet>
+        <direction>в сторону ул. Полевой</direction>
+        <titleEn>Stadion "Dinamo"</titleEn>
+        <adjacentStreetEn>on Bratev Korostelevykh street</adjacentStreetEn>
+        <directionEn>towards Polevaia street</directionEn>
+        <titleEs>Stadión "Dinamo"</titleEs>
+        <adjacentStreetEs>en la calle Brátev Korostelévykh</adjacentStreetEs>
+        <directionEs>hacia la calle Polevaia</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>13</busesMunicipal>
+        <busesCommercial>48д</busesCommercial>
+        <busesPrigorod>127, 128, 128/72, 140, 177</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>6, 6А, 16</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.1874225866224</latitude>
+        <longitude>50.1094964320089</longitude>
+        <angle>68</angle>
+    </stop>
+    <stop>
+        <KS_ID>62</KS_ID>
+        <title>Клуб Дзержинского</title>
+        <adjacentStreet>на ул. Пионерской</adjacentStreet>
+        <direction>в сторону Волги</direction>
+        <titleEn>Klub Dzerzhinskogo</titleEn>
+        <adjacentStreetEn>on Pionerskaia street</adjacentStreetEn>
+        <directionEn>towards Volga</directionEn>
+        <titleEs>Klub Dzerzhínskogo</titleEs>
+        <adjacentStreetEs>en la calle Pionérskaia</adjacentStreetEs>
+        <directionEs>hacia el Volga</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>11, 61, 86</busesMunicipal>
+        <busesCommercial>48д, 80, 92, 247</busesCommercial>
+        <busesPrigorod>177, 305д, 395</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>6, 6А, 16</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.18354505809</latitude>
+        <longitude>50.0847668666973</longitude>
+        <angle>159</angle>
+    </stop>
+    <stop>
+        <KS_ID>63</KS_ID>
+        <title>Площадь им. Дзержинского</title>
+        <adjacentStreet>на ул. Алексея Толстого</adjacentStreet>
+        <direction>в сторону пл. Революции</direction>
+        <titleEn>Ploshchad Imeni Dzerzhinskogo</titleEn>
+        <adjacentStreetEn>on Alekseia Tolstogo street</adjacentStreetEn>
+        <directionEn>towards Ploshchad Revolutsii</directionEn>
+        <titleEs>Plóshchad Ímeni Dzerzhínskogo</titleEs>
+        <adjacentStreetEs>en la calle Alekseia Tolstogo</adjacentStreetEs>
+        <directionEs>hacia Plóshchad Revolutsii</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>11, 37, 47, 61, 86</busesMunicipal>
+        <busesCommercial>80, 247</busesCommercial>
+        <busesPrigorod>305д, 395</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>6, 6А, 16</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.1800221410834</latitude>
+        <longitude>50.0790813992284</longitude>
+        <angle>69</angle>
+    </stop>
+    <stop>
+        <KS_ID>64</KS_ID>
+        <title>ул. Крупской</title>
+        <adjacentStreet>на ул. Водников</adjacentStreet>
+        <direction>в сторону 116 километра</direction>
+        <titleEn>Ulitsa Krupskoi</titleEn>
+        <adjacentStreetEn>on Vodnikov street</adjacentStreetEn>
+        <directionEn>towards Sto Shestnadtsatyi Kilometer</directionEn>
+        <titleEs>Úlitsa Krupskoy</titleEs>
+        <adjacentStreetEs>en la calle Vódnikov</adjacentStreetEs>
+        <directionEs>hacia Sto Shestnádtsatyi Kilometren</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>11</busesMunicipal>
+        <busesCommercial></busesCommercial>
+        <busesPrigorod></busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>16</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.1803667005226</latitude>
+        <longitude>50.0765835229387</longitude>
+        <angle>249</angle>
+    </stop>
+    <stop>
+        <KS_ID>65</KS_ID>
+        <title>ул. Кутякова</title>
+        <adjacentStreet>на ул. Водников</adjacentStreet>
+        <direction>в сторону центра города</direction>
+        <titleEn>Ulitsa Kutiakova</titleEn>
+        <adjacentStreetEn>on Vodnikov street</adjacentStreetEn>
+        <directionEn>towards the city center</directionEn>
+        <titleEs>Úlitsa Kutiákova</titleEs>
+        <adjacentStreetEs>en la calle Vódnikov</adjacentStreetEs>
+        <directionEs>hacia el centro de la ciudad</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>86</busesMunicipal>
+        <busesCommercial>80</busesCommercial>
+        <busesPrigorod></busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>6, 6А</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.1773157890118</latitude>
+        <longitude>50.0747296902469</longitude>
+        <angle>63</angle>
+    </stop>
+    <stop>
+        <KS_ID>66</KS_ID>
+        <title>ул. Тракторная</title>
+        <adjacentStreet>на ул. Главной</adjacentStreet>
+        <direction>в сторону города</direction>
+        <titleEn>Ulitsa Traktornaia</titleEn>
+        <adjacentStreetEn>on Glavnaia street</adjacentStreetEn>
+        <directionEn>towards the city</directionEn>
+        <titleEs>Úlitsa Tráktornaia</titleEs>
+        <adjacentStreetEs>en la calle Glávnaia</adjacentStreetEs>
+        <directionEs>hacia la ciudad</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>5д, 17, 32, 36, 86</busesMunicipal>
+        <busesCommercial>48д, 80, 92</busesCommercial>
+        <busesPrigorod>127, 128, 128/72, 140, 177</busesPrigorod>
+        <busesSeason>199</busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>6, 6А</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.168039174997</latitude>
+        <longitude>50.0748085687965</longitude>
+        <angle>70</angle>
+    </stop>
+    <stop>
+        <KS_ID>67</KS_ID>
+        <title>ул. Дарвина</title>
+        <adjacentStreet>на ул. Шоссейной</adjacentStreet>
+        <direction>в сторону города</direction>
+        <titleEn>Ulitsa Darvina</titleEn>
+        <adjacentStreetEn>on Shosseinaia street</adjacentStreetEn>
+        <directionEn>towards the city</directionEn>
+        <titleEs>Úlitsa Dárvina</titleEs>
+        <adjacentStreetEs>en la calle Shosséinaia</adjacentStreetEs>
+        <directionEs>hacia la ciudad</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>32, 36</busesMunicipal>
+        <busesCommercial>48д, 80, 92</busesCommercial>
+        <busesPrigorod>128, 128/72, 140, 177</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>6, 6А</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.1651024329787</latitude>
+        <longitude>50.079145900742</longitude>
+        <angle>186</angle>
+    </stop>
+    <stop>
+        <KS_ID>68</KS_ID>
+        <title>ул. Дарвина</title>
+        <adjacentStreet>на ул. Шоссейной</adjacentStreet>
+        <direction>в сторону 116 километра</direction>
+        <titleEn>Ulitsa Darvina</titleEn>
+        <adjacentStreetEn>on Shosseinaia street</adjacentStreetEn>
+        <directionEn>towards Sto Shestnadtsatyi Kilometer</directionEn>
+        <titleEs>Úlitsa Dárvina</titleEs>
+        <adjacentStreetEs>en la calle Shosséinaia</adjacentStreetEs>
+        <directionEs>hacia Sto Shestnádtsatyi Kilometren</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>32, 36</busesMunicipal>
+        <busesCommercial>48д, 80, 92</busesCommercial>
+        <busesPrigorod>128, 128/72, 140, 177</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>6, 6А</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.1648018158364</latitude>
+        <longitude>50.0794408796497</longitude>
+        <angle>354</angle>
+    </stop>
+    <stop>
+        <KS_ID>69</KS_ID>
+        <title>Ростовский переулок</title>
+        <adjacentStreet>на ул. Шоссейной</adjacentStreet>
+        <direction>в сторону города</direction>
+        <titleEn>Rostovskii Pereulok</titleEn>
+        <adjacentStreetEn>on Shosseinaia street</adjacentStreetEn>
+        <directionEn>towards the city</directionEn>
+        <titleEs>Rostovski pereúlok</titleEs>
+        <adjacentStreetEs>en la calle Shosséinaia</adjacentStreetEs>
+        <directionEs>hacia la ciudad</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>32, 36</busesMunicipal>
+        <busesCommercial>48д, 80, 92</busesCommercial>
+        <busesPrigorod>128, 128/72, 140, 177</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>6, 6А</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.1610028190805</latitude>
+        <longitude>50.0893504184</longitude>
+        <angle>121</angle>
+    </stop>
+    <stop>
+        <KS_ID>70</KS_ID>
+        <title>Ростовский переулок</title>
+        <adjacentStreet>на ул. Шоссейной</adjacentStreet>
+        <direction>в сторону 116 километра</direction>
+        <titleEn>Rostovskii Pereulok</titleEn>
+        <adjacentStreetEn>on Shosseinaia street</adjacentStreetEn>
+        <directionEn>towards Sto Shestnadtsatyi Kilometer</directionEn>
+        <titleEs>Rostovski pereúlok</titleEs>
+        <adjacentStreetEs>en la calle Shosséinaia</adjacentStreetEs>
+        <directionEs>hacia Sto Shestnádtsatyi Kilometren</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>32, 36</busesMunicipal>
+        <busesCommercial>48д, 80, 92</busesCommercial>
+        <busesPrigorod>128, 128/72, 140, 177</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>6, 6А</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.1602607759661</latitude>
+        <longitude>50.0895662999121</longitude>
+        <angle>301</angle>
+    </stop>
+    <stop>
+        <KS_ID>71</KS_ID>
+        <title>Совхоз "Волгарь"</title>
+        <adjacentStreet>на ул. Шоссейной</adjacentStreet>
+        <direction>в сторону города</direction>
+        <titleEn>Sovhoz "Volgar"</titleEn>
+        <adjacentStreetEn>on Shosseinaia street</adjacentStreetEn>
+        <directionEn>towards the city</directionEn>
+        <titleEs>Sovjoz "Volgar"</titleEs>
+        <adjacentStreetEs>en la calle Shosséinaia</adjacentStreetEs>
+        <directionEs>hacia la ciudad</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>32, 36, 86</busesMunicipal>
+        <busesCommercial>48д, 92</busesCommercial>
+        <busesPrigorod>128, 128/72, 140, 177</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>6, 6А</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.1556084854878</latitude>
+        <longitude>50.0918328353594</longitude>
+        <angle>107</angle>
+    </stop>
+    <stop>
+        <KS_ID>72</KS_ID>
+        <title>Казачий переезд</title>
+        <adjacentStreet>на Кряжском шоссе</adjacentStreet>
+        <direction>в сторону города</direction>
+        <titleEn>Kazachii Pereezd</titleEn>
+        <adjacentStreetEn>on Kriazhskoe Shosse street</adjacentStreetEn>
+        <directionEn>towards the city</directionEn>
+        <titleEs>Kazachi pereiezd</titleEs>
+        <adjacentStreetEs>en la calle Kriázhskoe Shossé</adjacentStreetEs>
+        <directionEs>hacia la ciudad</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>32, 36, 86</busesMunicipal>
+        <busesCommercial>48д, 92</busesCommercial>
+        <busesPrigorod>177</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>6, 6А</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.1469437493051</latitude>
+        <longitude>50.0956598801093</longitude>
+        <angle>109</angle>
+    </stop>
+    <stop>
+        <KS_ID>73</KS_ID>
+        <title>Казачий переезд</title>
+        <adjacentStreet>на Кряжском шоссе</adjacentStreet>
+        <direction>в сторону 116 километра</direction>
+        <titleEn>Kazachii Pereezd</titleEn>
+        <adjacentStreetEn>on Kriazhskoe Shosse street</adjacentStreetEn>
+        <directionEn>towards Sto Shestnadtsatyi Kilometer</directionEn>
+        <titleEs>Kazachi pereiezd</titleEs>
+        <adjacentStreetEs>en la calle Kriázhskoe Shossé</adjacentStreetEs>
+        <directionEs>hacia Sto Shestnádtsatyi Kilometren</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>32, 36, 86</busesMunicipal>
+        <busesCommercial>48д, 92</busesCommercial>
+        <busesPrigorod>177</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>6, 6А</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.1466637026433</latitude>
+        <longitude>50.0954577335208</longitude>
+        <angle>290</angle>
+    </stop>
+    <stop>
+        <KS_ID>74</KS_ID>
+        <title>ул 4-я Кряжская</title>
+        <adjacentStreet>на Кряжском шоссе</adjacentStreet>
+        <direction>в сторону города</direction>
+        <titleEn>Ulitsa Chetvertaia Kriazhskaia</titleEn>
+        <adjacentStreetEn>on Kriazhskoe Shosse street</adjacentStreetEn>
+        <directionEn>towards the city</directionEn>
+        <titleEs>Úlitsa Chetvértaia Kriázhskaia</titleEs>
+        <adjacentStreetEs>en la calle Kriázhskoe Shossé</adjacentStreetEs>
+        <directionEs>hacia la ciudad</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>32, 36, 86</busesMunicipal>
+        <busesCommercial>48д, 92</busesCommercial>
+        <busesPrigorod>128, 128/72, 140, 177</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>6, 6А</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.1427958376512</latitude>
+        <longitude>50.0984247253759</longitude>
+        <angle>118</angle>
+    </stop>
+    <stop>
+        <KS_ID>75</KS_ID>
+        <title>ул 1-я Кряжская</title>
+        <adjacentStreet>на Кряжском шоссе</adjacentStreet>
+        <direction>в сторону города</direction>
+        <titleEn>Ulitsa Pervaia Kriazhskaia</titleEn>
+        <adjacentStreetEn>on Kriazhskoe Shosse street</adjacentStreetEn>
+        <directionEn>towards the city</directionEn>
+        <titleEs>Úlitsa Pérvaia Kriázhskaia</titleEs>
+        <adjacentStreetEs>en la calle Kriázhskoe Shossé</adjacentStreetEs>
+        <directionEs>hacia la ciudad</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>32, 36, 86</busesMunicipal>
+        <busesCommercial>48д, 92</busesCommercial>
+        <busesPrigorod>128, 128/72, 140, 177</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>6, 6А</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.1396198030784</latitude>
+        <longitude>50.1013441217984</longitude>
+        <angle>117</angle>
+    </stop>
+    <stop>
+        <KS_ID>76</KS_ID>
+        <title>ул 1-я Кряжская</title>
+        <adjacentStreet>на Кряжском шоссе</adjacentStreet>
+        <direction>в сторону 116 километра</direction>
+        <titleEn>Ulitsa Pervaia Kriazhskaia</titleEn>
+        <adjacentStreetEn>on Kriazhskoe Shosse street</adjacentStreetEn>
+        <directionEn>towards Sto Shestnadtsatyi Kilometer</directionEn>
+        <titleEs>Úlitsa Pérvaia Kriázhskaia</titleEs>
+        <adjacentStreetEs>en la calle Kriázhskoe Shossé</adjacentStreetEs>
+        <directionEs>hacia Sto Shestnádtsatyi Kilometren</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>32, 36, 86</busesMunicipal>
+        <busesCommercial>48д, 92</busesCommercial>
+        <busesPrigorod>128, 128/72, 140, 177</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>6, 6А</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.1397921274192</latitude>
+        <longitude>50.1008408869184</longitude>
+        <angle>297</angle>
+    </stop>
+    <stop>
+        <KS_ID>77</KS_ID>
+        <title>Кряж</title>
+        <adjacentStreet>на Новокуйбышевском шоссе</adjacentStreet>
+        <direction>в сторону города</direction>
+        <titleEn>Kriazh</titleEn>
+        <adjacentStreetEn>on Novokuibyshevskoe Shosse street</adjacentStreetEn>
+        <directionEn>towards the city</directionEn>
+        <titleEs>Kriazh</titleEs>
+        <adjacentStreetEs>en la calle Novokúibyshevskoe Shossé</adjacentStreetEs>
+        <directionEs>hacia la ciudad</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>76</busesMunicipal>
+        <busesCommercial>48д, 92</busesCommercial>
+        <busesPrigorod>114, 128, 128/72, 140, 140а, 177, 392, 492</busesPrigorod>
+        <busesSeason>159</busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>6, 6А</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.1356568357425</latitude>
+        <longitude>50.1033334145878</longitude>
+        <angle>32</angle>
+    </stop>
+    <stop>
+        <KS_ID>78</KS_ID>
+        <title>Ильинская церковь</title>
+        <adjacentStreet>на Новокуйбышевском шоссе</adjacentStreet>
+        <direction>в сторону города</direction>
+        <titleEn>Ilinskaia Tserkov</titleEn>
+        <adjacentStreetEn>on Novokuibyshevskoe Shosse street</adjacentStreetEn>
+        <directionEn>towards the city</directionEn>
+        <titleEs>Ilínskaia tsérkov</titleEs>
+        <adjacentStreetEs>en la calle Novokúibyshevskoe Shossé</adjacentStreetEs>
+        <directionEs>hacia la ciudad</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>26, 66, 76</busesMunicipal>
+        <busesCommercial>48д, 92, 215</busesCommercial>
+        <busesPrigorod>109к, 128, 128/72, 140, 140а, 177, 392, 492</busesPrigorod>
+        <busesSeason>172</busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>6, 6А</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.1321606322443</latitude>
+        <longitude>50.0968294183546</longitude>
+        <angle>42</angle>
+    </stop>
+    <stop>
+        <KS_ID>79</KS_ID>
+        <title>ул. Войкова</title>
+        <adjacentStreet>на Новокуйбышевском шоссе</adjacentStreet>
+        <direction>в сторону ул. Бакинской</direction>
+        <titleEn>Ulitsa Voikova</titleEn>
+        <adjacentStreetEn>on Novokuibyshevskoe Shosse street</adjacentStreetEn>
+        <directionEn>towards Bakinskaia street</directionEn>
+        <titleEs>Úlitsa Vóykova</titleEs>
+        <adjacentStreetEs>en la calle Novokúibyshevskoe Shossé</adjacentStreetEs>
+        <directionEs>hacia la calle Bakínskaia</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>26, 66, 76</busesMunicipal>
+        <busesCommercial>48д, 92, 215</busesCommercial>
+        <busesPrigorod>109к, 177</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>6, 6А</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.1299538499528</latitude>
+        <longitude>50.0930418986541</longitude>
+        <angle>232</angle>
+    </stop>
+    <stop>
+        <KS_ID>80</KS_ID>
+        <title>ул. Войкова</title>
+        <adjacentStreet>на Новокуйбышевском шоссе</adjacentStreet>
+        <direction>в сторону города</direction>
+        <titleEn>Ulitsa Voikova</titleEn>
+        <adjacentStreetEn>on Novokuibyshevskoe Shosse street</adjacentStreetEn>
+        <directionEn>towards the city</directionEn>
+        <titleEs>Úlitsa Vóykova</titleEs>
+        <adjacentStreetEs>en la calle Novokúibyshevskoe Shossé</adjacentStreetEs>
+        <directionEs>hacia la ciudad</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>26, 66, 76</busesMunicipal>
+        <busesCommercial>48д, 92, 215</busesCommercial>
+        <busesPrigorod>109к, 177</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>6, 6А</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.1291370817404</latitude>
+        <longitude>50.0923333624666</longitude>
+        <angle>51</angle>
+    </stop>
+    <stop>
+        <KS_ID>81</KS_ID>
+        <title>Заготзерно</title>
+        <adjacentStreet>на Пугачевском тракте</adjacentStreet>
+        <direction>в сторону города</direction>
+        <titleEn>Zagotzerno</titleEn>
+        <adjacentStreetEn>on Pugachevskii Trakt street</adjacentStreetEn>
+        <directionEn>towards the city</directionEn>
+        <titleEs>Zagotzernó</titleEs>
+        <adjacentStreetEs>en la calle Pugachévskii Trakt</adjacentStreetEs>
+        <directionEs>hacia la ciudad</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>26, 66, 76</busesMunicipal>
+        <busesCommercial>48д, 92, 215</busesCommercial>
+        <busesPrigorod>109к, 128, 128/72, 140, 140а, 177, 392, 492</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>6, 6А</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.1261064302993</latitude>
+        <longitude>50.0899698725815</longitude>
+        <angle>74</angle>
+    </stop>
+    <stop>
+        <KS_ID>82</KS_ID>
+        <title>Гастроном</title>
+        <adjacentStreet>на Пугачевском тракте</adjacentStreet>
+        <direction>в сторону города</direction>
+        <titleEn>Gastronom</titleEn>
+        <adjacentStreetEn>on Pugachevskii Trakt street</adjacentStreetEn>
+        <directionEn>towards the city</directionEn>
+        <titleEs>Gastronom</titleEs>
+        <adjacentStreetEs>en la calle Pugachévskii Trakt</adjacentStreetEs>
+        <directionEs>hacia la ciudad</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>26, 66, 76</busesMunicipal>
+        <busesCommercial>48д, 92, 215</busesCommercial>
+        <busesPrigorod>109к, 128, 128/72, 140, 140а, 177, 392, 492</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>6, 6А</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.1221910027834</latitude>
+        <longitude>50.0879940651953</longitude>
+        <angle>75</angle>
+    </stop>
+    <stop>
+        <KS_ID>83</KS_ID>
+        <title>ул. Зеленая</title>
+        <adjacentStreet>на ул. Бакинской</adjacentStreet>
+        <direction>в сторону ул. Грозненской</direction>
+        <titleEn>Ulitsa Zelenaia</titleEn>
+        <adjacentStreetEn>on Bakinskaia street</adjacentStreetEn>
+        <directionEn>towards Groznenskaia street</directionEn>
+        <titleEs>Úlitsa Zelénaia</titleEs>
+        <adjacentStreetEs>en la calle Bakínskaia</adjacentStreetEs>
+        <directionEs>hacia la calle Gróznenskaia</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>66</busesMunicipal>
+        <busesCommercial>48д, 92, 215</busesCommercial>
+        <busesPrigorod></busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>6, 6А</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.1196035135404</latitude>
+        <longitude>50.0799864929571</longitude>
+        <angle>170</angle>
+    </stop>
+    <stop>
+        <KS_ID>84</KS_ID>
+        <title>Торговый переулок</title>
+        <adjacentStreet>на ул. Бакинской</adjacentStreet>
+        <direction>в сторону ул. Грозненской</direction>
+        <titleEn>Torgovyi Pereulok</titleEn>
+        <adjacentStreetEn>on Bakinskaia street</adjacentStreetEn>
+        <directionEn>towards Groznenskaia street</directionEn>
+        <titleEs>Torgovy pereúlok</titleEs>
+        <adjacentStreetEs>en la calle Bakínskaia</adjacentStreetEs>
+        <directionEs>hacia la calle Gróznenskaia</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>66</busesMunicipal>
+        <busesCommercial>48д, 92, 215</busesCommercial>
+        <busesPrigorod>109к</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>6, 6А</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.1192762039908</latitude>
+        <longitude>50.0737109548112</longitude>
+        <angle>214</angle>
+    </stop>
+    <stop>
+        <KS_ID>85</KS_ID>
+        <title>ул. Калининградская</title>
+        <adjacentStreet>на ул. Калининградской</adjacentStreet>
+        <direction>в сторону Пугачевского тракта</direction>
+        <titleEn>Ulitsa Kaliningradskaia</titleEn>
+        <adjacentStreetEn>on Kaliningradskaia street</adjacentStreetEn>
+        <directionEn>towards Pugachevskii Trakt</directionEn>
+        <titleEs>Úlitsa Kaliningrádskaia</titleEs>
+        <adjacentStreetEs>en la calle Kaliningrádskaia</adjacentStreetEs>
+        <directionEs>hacia Pugachevskii Trakt</directionEs>
+        <cluster></cluster>
+        <busesMunicipal></busesMunicipal>
+        <busesCommercial></busesCommercial>
+        <busesPrigorod></busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses></trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.1169918707447</latitude>
+        <longitude>50.0688478272061</longitude>
+        <angle></angle>
+    </stop>
+    <stop>
+        <KS_ID>86</KS_ID>
+        <title>ул. Грозненская</title>
+        <adjacentStreet>на ул. Бакинской</adjacentStreet>
+        <direction>в сторону ул. Грозненской</direction>
+        <titleEn>Ulitsa Groznenskaia</titleEn>
+        <adjacentStreetEn>on Bakinskaia street</adjacentStreetEn>
+        <directionEn>towards Groznenskaia street</directionEn>
+        <titleEs>Úlitsa Gróznenskaia</titleEs>
+        <adjacentStreetEs>en la calle Bakínskaia</adjacentStreetEs>
+        <directionEs>hacia la calle Gróznenskaia</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>66</busesMunicipal>
+        <busesCommercial>48д</busesCommercial>
+        <busesPrigorod>109к</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>6, 6А</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.115211343226</latitude>
+        <longitude>50.0638604009212</longitude>
+        <angle>217</angle>
+    </stop>
+    <stop>
+        <KS_ID>87</KS_ID>
+        <title>ул. Бакинская</title>
+        <adjacentStreet>на Пугачевском тракте</adjacentStreet>
+        <direction>в сторону ул. Бакинской</direction>
+        <titleEn>Ulitsa Bakinskaia</titleEn>
+        <adjacentStreetEn>on Pugachevskii Trakt street</adjacentStreetEn>
+        <directionEn>towards Bakinskaia street</directionEn>
+        <titleEs>Úlitsa Bakínskaia</titleEs>
+        <adjacentStreetEs>en la calle Pugachévskii Trakt</adjacentStreetEs>
+        <directionEs>hacia la calle Bakínskaia</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>26, 66, 76</busesMunicipal>
+        <busesCommercial>92, 215</busesCommercial>
+        <busesPrigorod>109к</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>6, 6А</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.1179530358252</latitude>
+        <longitude>50.0851970921526</longitude>
+        <angle>343</angle>
+    </stop>
+    <stop>
+        <KS_ID>88</KS_ID>
+        <title>Безымянский рынок</title>
+        <adjacentStreet>на ул. Калинина</adjacentStreet>
+        <direction>в сторону ул. Вольской</direction>
+        <titleEn>Bezymianskii Rynok</titleEn>
+        <adjacentStreetEn>on Kalinina street</adjacentStreetEn>
+        <directionEn>towards Volskaia street</directionEn>
+        <titleEs>Bezymiánski rynok</titleEs>
+        <adjacentStreetEs>en la calle Kalínina</adjacentStreetEs>
+        <directionEs>hacia la calle Vólskaia</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>6, 21, 38</busesMunicipal>
+        <busesCommercial></busesCommercial>
+        <busesPrigorod></busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>7, 9, 20</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.2190832063289</latitude>
+        <longitude>50.2493799090808</longitude>
+        <angle>128</angle>
+    </stop>
+    <stop>
+        <KS_ID>89</KS_ID>
+        <title>Станция метро "Победа"</title>
+        <adjacentStreet>на ул. Победы</adjacentStreet>
+        <direction>в сторону Металлурга</direction>
+        <titleEn>Stantsiia Metro "Pobeda"</titleEn>
+        <adjacentStreetEn>on Pobedy street</adjacentStreetEn>
+        <directionEn>towards Metallurg</directionEn>
+        <titleEs>Stántsia metro "Pobeda"</titleEs>
+        <adjacentStreetEs>en la calle Pobedy</adjacentStreetEs>
+        <directionEs>hacia Metallurg</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>30, 34, 41, 75</busesMunicipal>
+        <busesCommercial>89, 217, 226, 247, 253</busesCommercial>
+        <busesPrigorod>124к, 126с, 126ю, 131, 305д, 310, 368, 474 (74м), 480</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>7, 9</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.2067997055065</latitude>
+        <longitude>50.2357354324355</longitude>
+        <angle>38</angle>
+    </stop>
+    <stop>
+        <KS_ID>90</KS_ID>
+        <title>ул. Средне-Садовая</title>
+        <adjacentStreet>на ул. Победы</adjacentStreet>
+        <direction>в сторону Металлурга</direction>
+        <titleEn>Ulitsa Sredne-Sadovaia</titleEn>
+        <adjacentStreetEn>on Pobedy street</adjacentStreetEn>
+        <directionEn>towards Metallurg</directionEn>
+        <titleEs>Úlitsa Sredne-Sadóvaia</titleEs>
+        <adjacentStreetEs>en la calle Pobedy</adjacentStreetEs>
+        <directionEs>hacia Metallurg</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>30, 34, 41, 55, 75</busesMunicipal>
+        <busesCommercial>89, 217, 226, 247, 253</busesCommercial>
+        <busesPrigorod>124к, 126с, 126ю, 131, 305д, 310, 368, 474 (74м), 480</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>7, 9</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.2086182172792</latitude>
+        <longitude>50.2397204217626</longitude>
+        <angle>39</angle>
+    </stop>
+    <stop>
+        <KS_ID>91</KS_ID>
+        <title>ул. Александра Матросова</title>
+        <adjacentStreet>на ул. Победы</adjacentStreet>
+        <direction>в сторону Металлурга</direction>
+        <titleEn>Ulitsa Aleksandra Matrosova</titleEn>
+        <adjacentStreetEn>on Pobedy street</adjacentStreetEn>
+        <directionEn>towards Metallurg</directionEn>
+        <titleEs>Úlitsa Aleksandra Matrósova</titleEs>
+        <adjacentStreetEs>en la calle Pobedy</adjacentStreetEs>
+        <directionEs>hacia Metallurg</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>30, 34, 41, 55, 75</busesMunicipal>
+        <busesCommercial>89, 217, 226, 247, 253</busesCommercial>
+        <busesPrigorod>124к, 126с, 126ю, 131, 305д, 310, 368, 474 (74м), 480</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>7, 9</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.2107653474897</latitude>
+        <longitude>50.2444211062204</longitude>
+        <angle>39</angle>
+    </stop>
+    <stop>
+        <KS_ID>92</KS_ID>
+        <title>Станция метро "Безымянка"</title>
+        <adjacentStreet>на ул. Победы</adjacentStreet>
+        <direction>в сторону Металлурга</direction>
+        <titleEn>Stantsiia Metro "Bezymianka"</titleEn>
+        <adjacentStreetEn>on Pobedy street</adjacentStreetEn>
+        <directionEn>towards Metallurg</directionEn>
+        <titleEs>Stántsia metro "Bezymianka"</titleEs>
+        <adjacentStreetEs>en la calle Pobedy</adjacentStreetEs>
+        <directionEs>hacia Metallurg</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>30, 34, 41, 75</busesMunicipal>
+        <busesCommercial>89, 217, 226, 247, 253, 272</busesCommercial>
+        <busesPrigorod>124к, 126с, 126ю, 131, 310, 368, 474 (74м), 480</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>7, 9</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.2133483981503</latitude>
+        <longitude>50.2500779154193</longitude>
+        <angle>32</angle>
+    </stop>
+    <stop>
+        <KS_ID>93</KS_ID>
+        <title>Дом Дружбы Народов</title>
+        <adjacentStreet>на ул. Победы</adjacentStreet>
+        <direction>в сторону площади Кирова</direction>
+        <titleEn>Dom Druzhby Narodov</titleEn>
+        <adjacentStreetEn>on Pobedy street</adjacentStreetEn>
+        <directionEn>towards Ploshchad Kirova</directionEn>
+        <titleEs>Dom Druzhby Naródov</titleEs>
+        <adjacentStreetEs>en la calle Pobedy</adjacentStreetEs>
+        <directionEs>hacia Plóshchad Kírova</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>30, 34, 41, 75</busesMunicipal>
+        <busesCommercial>89, 217, 226, 247, 253</busesCommercial>
+        <busesPrigorod>124к, 126с, 126ю, 131, 310, 368, 474 (74м), 480</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses></trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.2152675344549</latitude>
+        <longitude>50.2545771880067</longitude>
+        <angle>37</angle>
+    </stop>
+    <stop>
+        <KS_ID>95</KS_ID>
+        <title>СЗКС</title>
+        <adjacentStreet>на ул. Кабельной</adjacentStreet>
+        <direction>в сторону СЗКС</direction>
+        <titleEn>SZKS</titleEn>
+        <adjacentStreetEn>on Kabelnaia street</adjacentStreetEn>
+        <directionEn>towards SZKS</directionEn>
+        <titleEs>SZKS</titleEs>
+        <adjacentStreetEs>en la calle Kábelnaia</adjacentStreetEs>
+        <directionEs>hacia SZKS</directionEs>
+        <cluster></cluster>
+        <busesMunicipal></busesMunicipal>
+        <busesCommercial>213</busesCommercial>
+        <busesPrigorod></busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>10</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.1928415334582</latitude>
+        <longitude>50.2748490918464</longitude>
+        <angle>306</angle>
+    </stop>
+    <stop>
+        <KS_ID>96</KS_ID>
+        <title>ул. Кабельная</title>
+        <adjacentStreet>на ул. Кабельной</adjacentStreet>
+        <direction>в сторону СЗКС</direction>
+        <titleEn>Ulitsa Kabelnaia</titleEn>
+        <adjacentStreetEn>on Kabelnaia street</adjacentStreetEn>
+        <directionEn>towards SZKS</directionEn>
+        <titleEs>Úlitsa Kábelnaia</titleEs>
+        <adjacentStreetEs>en la calle Kábelnaia</adjacentStreetEs>
+        <directionEs>hacia SZKS</directionEs>
+        <cluster></cluster>
+        <busesMunicipal></busesMunicipal>
+        <busesCommercial>213</busesCommercial>
+        <busesPrigorod></busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>10</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.2018449081018</latitude>
+        <longitude>50.2645028428173</longitude>
+        <angle>306</angle>
+    </stop>
+    <stop>
+        <KS_ID>97</KS_ID>
+        <title>Красное озеро</title>
+        <adjacentStreet>на ул. Кабельной</adjacentStreet>
+        <direction>в сторону СЗКС</direction>
+        <titleEn>Krasnoe Ozero</titleEn>
+        <adjacentStreetEn>on Kabelnaia street</adjacentStreetEn>
+        <directionEn>towards SZKS</directionEn>
+        <titleEs>Krásnoie ózero</titleEs>
+        <adjacentStreetEs>en la calle Kábelnaia</adjacentStreetEs>
+        <directionEs>hacia SZKS</directionEs>
+        <cluster></cluster>
+        <busesMunicipal></busesMunicipal>
+        <busesCommercial>213</busesCommercial>
+        <busesPrigorod></busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>10</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.1964364157229</latitude>
+        <longitude>50.2707214007437</longitude>
+        <angle>306</angle>
+    </stop>
+    <stop>
+        <KS_ID>98</KS_ID>
+        <title>ул. Ново-Вокзальная</title>
+        <adjacentStreet>на ул. Вольской</adjacentStreet>
+        <direction>в сторону ул. XXII Партсъезда</direction>
+        <titleEn>Ulitsa Novo-Vokzalnaia</titleEn>
+        <adjacentStreetEn>on Volskaia street</adjacentStreetEn>
+        <directionEn>towards Dvadtsat Vtorogo Partsiezda street</directionEn>
+        <titleEs>Úlitsa Novo-Vokzálnaia</titleEs>
+        <adjacentStreetEs>en la calle Vólskaia</adjacentStreetEs>
+        <directionEs>hacia la calle Dvadtsat Vtorogo Partsiezda</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>9, 38</busesMunicipal>
+        <busesCommercial>99, 229</busesCommercial>
+        <busesPrigorod></busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>15</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.2190793745854</latitude>
+        <longitude>50.2421888612665</longitude>
+        <angle>219</angle>
+    </stop>
+    <stop>
+        <KS_ID>100</KS_ID>
+        <title>Машиностроительный колледж</title>
+        <adjacentStreet>на ул. Антонова-Овсеенко</adjacentStreet>
+        <direction>в сторону ул. Советской Армии</direction>
+        <titleEn>Mashinostroitelnyi Kolledzh</titleEn>
+        <adjacentStreetEn>on Antonova-Ovseenko street</adjacentStreetEn>
+        <directionEn>towards Sovetskoi Armii street</directionEn>
+        <titleEs>Mashinostroítelny kólledzh</titleEs>
+        <adjacentStreetEs>en la calle Antónova-Ovséenko</adjacentStreetEs>
+        <directionEs>hacia la calle Sovetskoi Armii</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>30, 30*</busesMunicipal>
+        <busesCommercial>99, 213, 229, 247</busesCommercial>
+        <busesPrigorod>126с, 126ю, 131</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>15</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.2128770755046</latitude>
+        <longitude>50.2210809064978</longitude>
+        <angle>184</angle>
+    </stop>
+    <stop>
+        <KS_ID>101</KS_ID>
+        <title>Машиностроительный колледж</title>
+        <adjacentStreet>на ул. Антонова-Овсеенко</adjacentStreet>
+        <direction>в сторону ул. XXII Партсъезда</direction>
+        <titleEn>Mashinostroitelnyi Kolledzh</titleEn>
+        <adjacentStreetEn>on Antonova-Ovseenko street</adjacentStreetEn>
+        <directionEn>towards Dvadtsat Vtorogo Partsiezda street</directionEn>
+        <titleEs>Mashinostroítelny kólledzh</titleEs>
+        <adjacentStreetEs>en la calle Antónova-Ovséenko</adjacentStreetEs>
+        <directionEs>hacia la calle Dvadtsat Vtorogo Partsiezda</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>30, 30*</busesMunicipal>
+        <busesCommercial>99, 213, 229, 247</busesCommercial>
+        <busesPrigorod>126с, 126ю, 131</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>15</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.2125761769546</latitude>
+        <longitude>50.2190342053557</longitude>
+        <angle>4</angle>
+    </stop>
+    <stop>
+        <KS_ID>102</KS_ID>
+        <title>ул. XXII Партсъезда</title>
+        <adjacentStreet>на ул. Вольской</adjacentStreet>
+        <direction>в сторону Автовокзала</direction>
+        <titleEn>Ulitsa Dvadtsat Vtorogo Partsezda</titleEn>
+        <adjacentStreetEn>on Volskaia street</adjacentStreetEn>
+        <directionEn>towards Avtovokzal</directionEn>
+        <titleEs>Úlitsa Dvadtsat Vtorogo Partsiezda</titleEs>
+        <adjacentStreetEs>en la calle Vólskaia</adjacentStreetEs>
+        <directionEs>en el lado de Avtovokzal</directionEs>
+        <cluster></cluster>
+        <busesMunicipal></busesMunicipal>
+        <busesCommercial>99, 229</busesCommercial>
+        <busesPrigorod></busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>15</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.2132856254329</latitude>
+        <longitude>50.2295312314972</longitude>
+        <angle>217</angle>
+    </stop>
+    <stop>
+        <KS_ID>103</KS_ID>
+        <title>ул. Александра Матросова</title>
+        <adjacentStreet>на ул. Вольской</adjacentStreet>
+        <direction>в сторону Металлурга</direction>
+        <titleEn>Ulitsa Aleksandra Matrosova</titleEn>
+        <adjacentStreetEn>on Volskaia street</adjacentStreetEn>
+        <directionEn>towards Metallurg</directionEn>
+        <titleEs>Úlitsa Aleksandra Matrósova</titleEs>
+        <adjacentStreetEs>en la calle Vólskaia</adjacentStreetEs>
+        <directionEs>hacia Metallurg</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>9, 38</busesMunicipal>
+        <busesCommercial>99, 229</busesCommercial>
+        <busesPrigorod></busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>15</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.2163012073481</latitude>
+        <longitude>50.2371608406073</longitude>
+        <angle>39</angle>
+    </stop>
+    <stop>
+        <KS_ID>104</KS_ID>
+        <title>Педагогический университет</title>
+        <adjacentStreet>на ул. Антонова-Овсеенко</adjacentStreet>
+        <direction>в сторону Автовокзала</direction>
+        <titleEn>Pedagogicheskii Universitet</titleEn>
+        <adjacentStreetEn>on Antonova-Ovseenko street</adjacentStreetEn>
+        <directionEn>towards Avtovokzal</directionEn>
+        <titleEs>Pedagogícheski universitet</titleEs>
+        <adjacentStreetEs>en la calle Antónova-Ovséenko</adjacentStreetEs>
+        <directionEs>en el lado de Avtovokzal</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>35</busesMunicipal>
+        <busesCommercial>96, 99, 229, 247</busesCommercial>
+        <busesPrigorod>126с, 126ю, 131, 429</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>15</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.2123608363365</latitude>
+        <longitude>50.2103746882178</longitude>
+        <angle>183</angle>
+    </stop>
+    <stop>
+        <KS_ID>105</KS_ID>
+        <title>ул. Карбышева</title>
+        <adjacentStreet>на ул. Антонова-Овсеенко</adjacentStreet>
+        <direction>в сторону Автовокзала</direction>
+        <titleEn>Ulitsa Karbysheva</titleEn>
+        <adjacentStreetEn>on Antonova-Ovseenko street</adjacentStreetEn>
+        <directionEn>towards Avtovokzal</directionEn>
+        <titleEs>Úlitsa Kárbysheva</titleEs>
+        <adjacentStreetEs>en la calle Antónova-Ovséenko</adjacentStreetEs>
+        <directionEs>en el lado de Avtovokzal</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>35</busesMunicipal>
+        <busesCommercial>96, 99, 229, 247</busesCommercial>
+        <busesPrigorod>126ю, 131, 429</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>15</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.2121840064156</latitude>
+        <longitude>50.2038046062305</longitude>
+        <angle>183</angle>
+    </stop>
+    <stop>
+        <KS_ID>106</KS_ID>
+        <title>ул. Ивана Булкина</title>
+        <adjacentStreet>на ул. Антонова-Овсеенко</adjacentStreet>
+        <direction>в сторону ул. Советской Армии</direction>
+        <titleEn>Ulitsa Ivana Bulkina</titleEn>
+        <adjacentStreetEn>on Antonova-Ovseenko street</adjacentStreetEn>
+        <directionEn>towards Sovetskoi Armii street</directionEn>
+        <titleEs>Úlitsa Ivana Búlkina</titleEs>
+        <adjacentStreetEs>en la calle Antónova-Ovséenko</adjacentStreetEs>
+        <directionEs>hacia la calle Sovetskoi Armii</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>35</busesMunicipal>
+        <busesCommercial>96, 99, 229, 247</busesCommercial>
+        <busesPrigorod>126с, 126ю, 131, 396, 429</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>15</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.2116913005689</latitude>
+        <longitude>50.1930808984018</longitude>
+        <angle>6</angle>
+    </stop>
+    <stop>
+        <KS_ID>107</KS_ID>
+        <title>Дом Печати</title>
+        <adjacentStreet>на ул. Авроры</adjacentStreet>
+        <direction>в сторону 116 километра</direction>
+        <titleEn>Dom Pechati</titleEn>
+        <adjacentStreetEn>on Avrory street</adjacentStreetEn>
+        <directionEn>towards Sto Shestnadtsatyi Kilometer</directionEn>
+        <titleEs>Dom Pechati</titleEs>
+        <adjacentStreetEs>en la calle Avrory</adjacentStreetEs>
+        <directionEs>hacia Sto Shestnádtsatyi Kilometren</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>22, 39, 66</busesMunicipal>
+        <busesCommercial>21м, 46, 215, 229, 247</busesCommercial>
+        <busesPrigorod>110, 126с, 126ю, 129, 140а, 141, 392, 392а, 401, 492</busesPrigorod>
+        <busesSeason>144, 156</busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>15</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.2131737746545</latitude>
+        <longitude>50.1889786672058</longitude>
+        <angle>274</angle>
+    </stop>
+    <stop>
+        <KS_ID>108</KS_ID>
+        <title>Автовокзал "Центральный"</title>
+        <adjacentStreet>на ул. Авроры</adjacentStreet>
+        <direction>в сторону ЖД вокзала</direction>
+        <titleEn>Avtovokzal "Tsentralnyi"</titleEn>
+        <adjacentStreetEn>on Avrory street</adjacentStreetEn>
+        <directionEn>towards Zheleznodorozhnyi Vokzal</directionEn>
+        <titleEs>Avtovokzal "Tsentralny"</titleEs>
+        <adjacentStreetEs>en la calle Avrory</adjacentStreetEs>
+        <directionEs>hacia Zheleznodorozhnyi Vokzal</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>22, 30, 30*, 39, 66</busesMunicipal>
+        <busesCommercial>21м, 46, 215, 229, 247</busesCommercial>
+        <busesPrigorod>126с, 126ю, 129, 140а, 141, 392, 392а, 401, 492</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>15</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.2151564579784</latitude>
+        <longitude>50.1875708155891</longitude>
+        <angle>128</angle>
+    </stop>
+    <stop>
+        <KS_ID>109</KS_ID>
+        <title>ул. Водников</title>
+        <adjacentStreet>на ул. Водников</adjacentStreet>
+        <direction>в сторону центра города</direction>
+        <titleEn>Ulitsa Vodnikov</titleEn>
+        <adjacentStreetEn>on Vodnikov street</adjacentStreetEn>
+        <directionEn>towards the city center</directionEn>
+        <titleEs>Úlitsa Vódnikov</titleEs>
+        <adjacentStreetEs>en la calle Vódnikov</adjacentStreetEs>
+        <directionEs>hacia el centro de la ciudad</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>11</busesMunicipal>
+        <busesCommercial></busesCommercial>
+        <busesPrigorod>305д, 395</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>16</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.1803252918057</latitude>
+        <longitude>50.0768002337979</longitude>
+        <angle>69</angle>
+    </stop>
+    <stop>
+        <KS_ID>110</KS_ID>
+        <title>ул. Крупской</title>
+        <adjacentStreet>на ул. Водников</adjacentStreet>
+        <direction>в сторону центра города</direction>
+        <titleEn>Ulitsa Krupskoi</titleEn>
+        <adjacentStreetEn>on Vodnikov street</adjacentStreetEn>
+        <directionEn>towards the city center</directionEn>
+        <titleEs>Úlitsa Krupskoy</titleEs>
+        <adjacentStreetEs>en la calle Vódnikov</adjacentStreetEs>
+        <directionEs>hacia el centro de la ciudad</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>86</busesMunicipal>
+        <busesCommercial>80</busesCommercial>
+        <busesPrigorod></busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>6, 6А</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.1798603511951</latitude>
+        <longitude>50.0765049607806</longitude>
+        <angle>69</angle>
+    </stop>
+    <stop>
+        <KS_ID>111</KS_ID>
+        <title>ул. Фадеева</title>
+        <adjacentStreet>на ул. Двадцать Второго Партсъезда</adjacentStreet>
+        <direction>в сторону ул. Стара-Загора</direction>
+        <titleEn>Ulitsa Fadeeva</titleEn>
+        <adjacentStreetEn>on Dvadtsat Vtorogo Partsiezda street</adjacentStreetEn>
+        <directionEn>towards Stara-Zagora street</directionEn>
+        <titleEs>Úlitsa Fadéieva</titleEs>
+        <adjacentStreetEs>en la calle Dvádtsat Vtorogo Partsiezda</adjacentStreetEs>
+        <directionEs>hacia la calle Stara-Zagora</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>55</busesMunicipal>
+        <busesCommercial></busesCommercial>
+        <busesPrigorod></busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>17, 19, 20</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.2319498760392</latitude>
+        <longitude>50.2000953486442</longitude>
+        <angle>339</angle>
+    </stop>
+    <stop>
+        <KS_ID>112</KS_ID>
+        <title>Кинотеатр "Шипка"</title>
+        <adjacentStreet>на ул. Стара-Загора</adjacentStreet>
+        <direction>в сторону ул. Ново-Вокзальная</direction>
+        <titleEn>Kinoteatr "Shipka"</titleEn>
+        <adjacentStreetEn>on Stara-Zagora street</adjacentStreetEn>
+        <directionEn>towards Novo-Vokzalnaia street</directionEn>
+        <titleEs>Kinoteatr "Shipka"</titleEs>
+        <adjacentStreetEs>en la calle Stara-Zagora</adjacentStreetEs>
+        <directionEs>hacia la calle Novo-Vokzálnaia</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>23, 37, 38, 47, 56, 70</busesMunicipal>
+        <busesCommercial>96, 213</busesCommercial>
+        <busesPrigorod>396</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>13, 17, 19, 20</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.2299734303371</latitude>
+        <longitude>50.2098123701727</longitude>
+        <angle>38</angle>
+    </stop>
+    <stop>
+        <KS_ID>113</KS_ID>
+        <title>10-й микрорайон</title>
+        <adjacentStreet>на ул. Стара-Загора</adjacentStreet>
+        <direction>в сторону ул. Ново-Вокзальная</direction>
+        <titleEn>Desiatyi Mikroraion</titleEn>
+        <adjacentStreetEn>on Stara-Zagora street</adjacentStreetEn>
+        <directionEn>towards Novo-Vokzalnaia street</directionEn>
+        <titleEs>Desiaty mikrorayón</titleEs>
+        <adjacentStreetEs>en la calle Stara-Zagora</adjacentStreetEs>
+        <directionEs>hacia la calle Novo-Vokzálnaia</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>23, 37, 38, 47, 56, 70</busesMunicipal>
+        <busesCommercial>96, 213</busesCommercial>
+        <busesPrigorod>396</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>13, 17, 19, 20</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.2317276006628</latitude>
+        <longitude>50.2136692155404</longitude>
+        <angle>38</angle>
+    </stop>
+    <stop>
+        <KS_ID>114</KS_ID>
+        <title>ул. Ново-Вокзальная</title>
+        <adjacentStreet>на ул. Стара-Загора</adjacentStreet>
+        <direction>в сторону 15-го микрорайона</direction>
+        <titleEn>Ulitsa Novo-Vokzalnaia</titleEn>
+        <adjacentStreetEn>on Stara-Zagora street</adjacentStreetEn>
+        <directionEn>towards Piatnadtsatyi Mikroraion</directionEn>
+        <titleEs>Úlitsa Novo-Vokzálnaia</titleEs>
+        <adjacentStreetEs>en la calle Stara-Zagora</adjacentStreetEs>
+        <directionEs>Hacia Piatnádtsatyi Mikroraión</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>23, 37, 38, 47, 56, 70</busesMunicipal>
+        <busesCommercial>96, 213</busesCommercial>
+        <busesPrigorod>396</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>13, 17, 19, 20</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.2345369277148</latitude>
+        <longitude>50.2197800933961</longitude>
+        <angle>38</angle>
+    </stop>
+    <stop>
+        <KS_ID>115</KS_ID>
+        <title>ул. Воронежская</title>
+        <adjacentStreet>на ул. Стара-Загора</adjacentStreet>
+        <direction>в сторону пр. Кирова</direction>
+        <titleEn>Ulitsa Voronezhskaia</titleEn>
+        <adjacentStreetEn>on Stara-Zagora street</adjacentStreetEn>
+        <directionEn>towards Prospekt Kirova</directionEn>
+        <titleEs>Úlitsa Vorónezhskaia</titleEs>
+        <adjacentStreetEs>en la calle Stara-Zagora</adjacentStreetEs>
+        <directionEs>hacia Prospekt Kírova</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>23, 37, 47, 56, 70</busesMunicipal>
+        <busesCommercial>213</busesCommercial>
+        <busesPrigorod></busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>13, 17, 19, 20</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.2385662395181</latitude>
+        <longitude>50.2273603042605</longitude>
+        <angle>67</angle>
+    </stop>
+    <stop>
+        <KS_ID>116</KS_ID>
+        <title>Поликлиника №6</title>
+        <adjacentStreet>на ул. Стара-Загора</adjacentStreet>
+        <direction>в сторону пр. Кирова</direction>
+        <titleEn>Poliklinika Nomer Shest</titleEn>
+        <adjacentStreetEn>on Stara-Zagora street</adjacentStreetEn>
+        <directionEn>towards Prospekt Kirova</directionEn>
+        <titleEs>Poliklínika Nómer Shest</titleEs>
+        <adjacentStreetEs>en la calle Stara-Zagora</adjacentStreetEs>
+        <directionEs>hacia Prospekt Kírova</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>23, 37, 47, 56, 70</busesMunicipal>
+        <busesCommercial>213</busesCommercial>
+        <busesPrigorod></busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>13, 17, 19, 20</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.2432685271751</latitude>
+        <longitude>50.2298194988477</longitude>
+        <angle>40</angle>
+    </stop>
+    <stop>
+        <KS_ID>117</KS_ID>
+        <title>пр. Кирова</title>
+        <adjacentStreet>на ул. Стара-Загора</adjacentStreet>
+        <direction>в сторону ул. Ташкентской</direction>
+        <titleEn>Prospekt Kirova</titleEn>
+        <adjacentStreetEn>on Stara-Zagora street</adjacentStreetEn>
+        <directionEn>towards Tashkentskaia street</directionEn>
+        <titleEs>Prospekt Kírova</titleEs>
+        <adjacentStreetEs>en la calle Stara-Zagora</adjacentStreetEs>
+        <directionEs>hacia la calle Tashkéntskaia</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>6, 23, 29, 37, 41, 51, 70</busesMunicipal>
+        <busesCommercial>226</busesCommercial>
+        <busesPrigorod>310</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>17, 18</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.2450829808112</latitude>
+        <longitude>50.2337466083665</longitude>
+        <angle>38</angle>
+    </stop>
+    <stop>
+        <KS_ID>118</KS_ID>
+        <title>Кинотеатр "Самара"</title>
+        <adjacentStreet>на ул. Стара-Загора</adjacentStreet>
+        <direction>в сторону ул. Ташкентской</direction>
+        <titleEn>Kinoteatr "Samara"</titleEn>
+        <adjacentStreetEn>on Stara-Zagora street</adjacentStreetEn>
+        <directionEn>towards Tashkentskaia street</directionEn>
+        <titleEs>Kinoteatr "Samara"</titleEs>
+        <adjacentStreetEs>en la calle Stara-Zagora</adjacentStreetEs>
+        <directionEs>hacia la calle Tashkéntskaia</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>6, 23, 29, 37, 41, 51, 70</busesMunicipal>
+        <busesCommercial>226</busesCommercial>
+        <busesPrigorod>310</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>17, 18</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.2468596794586</latitude>
+        <longitude>50.2390610228846</longitude>
+        <angle>12</angle>
+    </stop>
+    <stop>
+        <KS_ID>119</KS_ID>
+        <title>ТЦ "Колизей"</title>
+        <adjacentStreet>на ул. Стара-Загора</adjacentStreet>
+        <direction>в сторону ул. Ташкентской</direction>
+        <titleEn>TTS "Kolizei"</titleEn>
+        <adjacentStreetEn>on Stara-Zagora street</adjacentStreetEn>
+        <directionEn>towards Tashkentskaia street</directionEn>
+        <titleEs>TTs "Kolizey"</titleEs>
+        <adjacentStreetEs>en la calle Stara-Zagora</adjacentStreetEs>
+        <directionEs>hacia la calle Tashkéntskaia</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>21, 23, 41, 61</busesMunicipal>
+        <busesCommercial>89, 397</busesCommercial>
+        <busesPrigorod></busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>17, 18</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.2478764424265</latitude>
+        <longitude>50.2462697938129</longitude>
+        <angle>23</angle>
+    </stop>
+    <stop>
+        <KS_ID>120</KS_ID>
+        <title>15-й микрорайон</title>
+        <adjacentStreet>на ул. Стара-Загора</adjacentStreet>
+        <direction>в сторону ул. Алма-Атинской</direction>
+        <titleEn>Piatnadtsatyi Mikroraion</titleEn>
+        <adjacentStreetEn>on Stara-Zagora street</adjacentStreetEn>
+        <directionEn>towards Alma-Atinskaya street</directionEn>
+        <titleEs>Piatnádtsatyi Mikrorayón</titleEs>
+        <adjacentStreetEs>en la calle Stara-Zagora</adjacentStreetEs>
+        <directionEs>hacia la calle Alma-Atínskaya</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>23, 59</busesMunicipal>
+        <busesCommercial></busesCommercial>
+        <busesPrigorod></busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>17, 18</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.2508932227519</latitude>
+        <longitude>50.2537142747496</longitude>
+        <angle>38</angle>
+    </stop>
+    <stop>
+        <KS_ID>121</KS_ID>
+        <title>ТЭЦ</title>
+        <adjacentStreet>на ул. Алма-Атинской</adjacentStreet>
+        <direction>в сторону Московского шоссе</direction>
+        <titleEn>TETS</titleEn>
+        <adjacentStreetEn>on Alma-Atinskaia street</adjacentStreetEn>
+        <directionEn>towards Moskovskoe Shosse</directionEn>
+        <titleEs>TETs</titleEs>
+        <adjacentStreetEs>en la calle Almá-Atínskaia</adjacentStreetEs>
+        <directionEs>hacia Moskóvskoe Shossé</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>23</busesMunicipal>
+        <busesCommercial></busesCommercial>
+        <busesPrigorod>368</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>17, 18</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.2519187520553</latitude>
+        <longitude>50.2676180759791</longitude>
+        <angle>108</angle>
+    </stop>
+    <stop>
+        <KS_ID>122</KS_ID>
+        <title>ТЦ "Колизей"</title>
+        <adjacentStreet>на ул. Стара-Загора</adjacentStreet>
+        <direction>в сторону ул. Алма-Атинской</direction>
+        <titleEn>TTS "Kolizei"</titleEn>
+        <adjacentStreetEn>on Stara-Zagora street</adjacentStreetEn>
+        <directionEn>towards Alma-Atinskaya street</directionEn>
+        <titleEs>TTs "Kolizey"</titleEs>
+        <adjacentStreetEs>en la calle Stara-Zagora</adjacentStreetEs>
+        <directionEs>hacia la calle Alma-Atínskaya</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>59</busesMunicipal>
+        <busesCommercial></busesCommercial>
+        <busesPrigorod></busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses></trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.2489048190073</latitude>
+        <longitude>50.2492666839025</longitude>
+        <angle>37</angle>
+    </stop>
+    <stop>
+        <KS_ID>123</KS_ID>
+        <title>ул. Мичурина</title>
+        <adjacentStreet>на пр. Масленникова</adjacentStreet>
+        <direction>в сторону КРЦ "Звезда"</direction>
+        <titleEn>Ulitsa Michurina</titleEn>
+        <adjacentStreetEn>on Prospekt Maslennikova street</adjacentStreetEn>
+        <directionEn>towards KRTS "Zvezda"</directionEn>
+        <titleEs>Úlitsa Michúrina</titleEs>
+        <adjacentStreetEs>en la calle Prospekt Máslennikova</adjacentStreetEs>
+        <directionEs>hacia KRTS "Zvezdá"</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>2, 23, 47</busesMunicipal>
+        <busesCommercial>247</busesCommercial>
+        <busesPrigorod></busesPrigorod>
+        <busesSeason>170</busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses>19</trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.2113213645322</latitude>
+        <longitude>50.1556528964557</longitude>
+        <angle>129</angle>
+    </stop>
+    <stop>
+        <KS_ID>124</KS_ID>
+        <title>ул. Пионерская</title>
+        <adjacentStreet>на ул. Фрунзе</adjacentStreet>
+        <direction>в сторону пл. Куйбышева</direction>
+        <titleEn>Ulitsa Pionerskaia</titleEn>
+        <adjacentStreetEn>on Frunze street</adjacentStreetEn>
+        <directionEn>towards Ploshchad Kuibysheva</directionEn>
+        <titleEs>Úlitsa Pionérskaia</titleEs>
+        <adjacentStreetEs>en la calle Frunze</adjacentStreetEs>
+        <directionEs>hacia Plóshchad Kúibysheva</directionEs>
+        <cluster></cluster>
+        <busesMunicipal></busesMunicipal>
+        <busesCommercial>207, 226</busesCommercial>
+        <busesPrigorod></busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses></trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.1822887468576</latitude>
+        <longitude>50.0881036760037</longitude>
+        <angle>70</angle>
+    </stop>
+    <stop>
+        <KS_ID>125</KS_ID>
+        <title>ул. Ленинградская</title>
+        <adjacentStreet>на ул. Фрунзе</adjacentStreet>
+        <direction>в сторону пл. Куйбышева</direction>
+        <titleEn>Ulitsa Leningradskaia</titleEn>
+        <adjacentStreetEn>on Frunze street</adjacentStreetEn>
+        <directionEn>towards Ploshchad Kuibysheva</directionEn>
+        <titleEs>Úlitsa Leningrádskaia</titleEs>
+        <adjacentStreetEs>en la calle Frunze</adjacentStreetEs>
+        <directionEs>hacia Plóshchad Kúibysheva</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>34</busesMunicipal>
+        <busesCommercial>207, 226</busesCommercial>
+        <busesPrigorod></busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams>1, 3, 5, 15, 16, 20, 20к, 22</trams>
+        <trolleybuses></trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.1880286763865</latitude>
+        <longitude>50.0918622193865</longitude>
+        <angle>69</angle>
+    </stop>
+    <stop>
+        <KS_ID>126</KS_ID>
+        <title>ул. Молодогвардейская</title>
+        <adjacentStreet>на ул. Венцека</adjacentStreet>
+        <direction>в сторону Троицкого рынка</direction>
+        <titleEn>Ulitsa Molodogvardeiskaia</titleEn>
+        <adjacentStreetEn>on Ventseka street</adjacentStreetEn>
+        <directionEn>towards Troitskii Rynok</directionEn>
+        <titleEs>Úlitsa Molodogvardéyskaia</titleEs>
+        <adjacentStreetEs>en la calle Véntseka</adjacentStreetEs>
+        <directionEs>hacia la calle Tróitskii Rynok</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>5д, 11, 53</busesMunicipal>
+        <busesCommercial>48д</busesCommercial>
+        <busesPrigorod>177, 305д</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses></trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.1836960722631</latitude>
+        <longitude>50.0945269760226</longitude>
+        <angle>338</angle>
+    </stop>
+    <stop>
+        <KS_ID>127</KS_ID>
+        <title>ул. Чапаевская</title>
+        <adjacentStreet>на ул. Венцека</adjacentStreet>
+        <direction>в сторону пл. Революции</direction>
+        <titleEn>Ulitsa Chapaevskaia</titleEn>
+        <adjacentStreetEn>on Ventseka street</adjacentStreetEn>
+        <directionEn>towards Ploshchad Revolutsii</directionEn>
+        <titleEs>Úlitsa Chapáievskaia</titleEs>
+        <adjacentStreetEs>en la calle Véntseka</adjacentStreetEs>
+        <directionEs>hacia Plóshchad Revolutsii</directionEs>
+        <cluster></cluster>
+        <busesMunicipal></busesMunicipal>
+        <busesCommercial></busesCommercial>
+        <busesPrigorod></busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses></trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.1844845704716</latitude>
+        <longitude>50.0922687770537</longitude>
+        <angle></angle>
+    </stop>
+    <stop>
+        <KS_ID>128</KS_ID>
+        <title>ул. Галактионовская</title>
+        <adjacentStreet>на ул. Венцека</adjacentStreet>
+        <direction>в сторону пл. Революции</direction>
+        <titleEn>Ulitsa Galaktionovskaia</titleEn>
+        <adjacentStreetEn>on Ventseka street</adjacentStreetEn>
+        <directionEn>towards Ploshchad Revolutsii</directionEn>
+        <titleEs>Úlitsa Galaktiónovskaia</titleEs>
+        <adjacentStreetEs>en la calle Véntseka</adjacentStreetEs>
+        <directionEs>hacia Plóshchad Revolutsii</directionEs>
+        <cluster></cluster>
+        <busesMunicipal></busesMunicipal>
+        <busesCommercial></busesCommercial>
+        <busesPrigorod></busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses></trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.1835720004026</latitude>
+        <longitude>50.0958216373661</longitude>
+        <angle></angle>
+    </stop>
+    <stop>
+        <KS_ID>129</KS_ID>
+        <title>Троицкий рынок</title>
+        <adjacentStreet>на ул. Галактионовской</adjacentStreet>
+        <direction>в сторону пл. Куйбышева</direction>
+        <titleEn>Troitskii Rynok</titleEn>
+        <adjacentStreetEn>on Galaktionovskaia street</adjacentStreetEn>
+        <directionEn>towards Ploshchad Kuibysheva</directionEn>
+        <titleEs>Troitski Rynok</titleEs>
+        <adjacentStreetEs>en la calle Galaktiónovskaia</adjacentStreetEs>
+        <directionEs>hacia Plóshchad Kúibysheva</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>53</busesMunicipal>
+        <busesCommercial></busesCommercial>
+        <busesPrigorod>105, 177, 305д</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses></trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.184356235223</latitude>
+        <longitude>50.0972083935527</longitude>
+        <angle>68</angle>
+    </stop>
+    <stop>
+        <KS_ID>130</KS_ID>
+        <title>ул. Высоцкого</title>
+        <adjacentStreet>на ул. Галактионовской</adjacentStreet>
+        <direction>в сторону пл. Куйбышева</direction>
+        <titleEn>Ulitsa Vysotskogo</titleEn>
+        <adjacentStreetEn>on Galaktionovskaia street</adjacentStreetEn>
+        <directionEn>towards Ploshchad Kuibysheva</directionEn>
+        <titleEs>Úlitsa Vysótskogo</titleEs>
+        <adjacentStreetEs>en la calle Galaktiónovskaia</adjacentStreetEs>
+        <directionEs>hacia Plóshchad Kúibysheva</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>2, 23, 41, 53</busesMunicipal>
+        <busesCommercial></busesCommercial>
+        <busesPrigorod>305д</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses></trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.1865056797977</latitude>
+        <longitude>50.0986955740174</longitude>
+        <angle>69</angle>
+    </stop>
+    <stop>
+        <KS_ID>131</KS_ID>
+        <title>ул. Ленинградская</title>
+        <adjacentStreet>на ул. Галактионовской</adjacentStreet>
+        <direction>в сторону Троицкого рынка</direction>
+        <titleEn>Ulitsa Leningradskaia</titleEn>
+        <adjacentStreetEn>on Galaktionovskaia street</adjacentStreetEn>
+        <directionEn>towards Troitskii Rynok</directionEn>
+        <titleEs>Úlitsa Leningrádskaia</titleEs>
+        <adjacentStreetEs>en la calle Galaktiónovskaia</adjacentStreetEs>
+        <directionEs>hacia la calle Tróitskii Rynok</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>53</busesMunicipal>
+        <busesCommercial></busesCommercial>
+        <busesPrigorod>305д</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses></trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.186410563868</latitude>
+        <longitude>50.0982970108335</longitude>
+        <angle>249</angle>
+    </stop>
+    <stop>
+        <KS_ID>132</KS_ID>
+        <title>ул. Льва Толстого</title>
+        <adjacentStreet>на ул. Галактионовской</adjacentStreet>
+        <direction>в сторону пл. Куйбышева</direction>
+        <titleEn>Ulitsa Lva Tolstogo</titleEn>
+        <adjacentStreetEn>on Galaktionovskaia street</adjacentStreetEn>
+        <directionEn>towards Ploshchad Kuibysheva</directionEn>
+        <titleEs>Úlitsa Lva Tolstogo</titleEs>
+        <adjacentStreetEs>en la calle Galaktiónovskaia</adjacentStreetEs>
+        <directionEs>hacia Plóshchad Kúibysheva</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>3, 53</busesMunicipal>
+        <busesCommercial></busesCommercial>
+        <busesPrigorod>305д</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses></trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.190211578178</latitude>
+        <longitude>50.1011797997566</longitude>
+        <angle>69</angle>
+    </stop>
+    <stop>
+        <KS_ID>133</KS_ID>
+        <title>ул. Галактионовская</title>
+        <adjacentStreet>на ул. Красноармейской</adjacentStreet>
+        <direction>в сторону ЖД вокзала</direction>
+        <titleEn>Ulitsa Galaktionovskaia</titleEn>
+        <adjacentStreetEn>on Krasnoarmeiskaia street</adjacentStreetEn>
+        <directionEn>towards Zheleznodorozhnyi Vokzal</directionEn>
+        <titleEs>Úlitsa Galaktiónovskaia</titleEs>
+        <adjacentStreetEs>en la calle Krasnoarméiskaia</adjacentStreetEs>
+        <directionEs>hacia Zheleznodorozhnyi Vokzal</directionEs>
+        <cluster></cluster>
+        <busesMunicipal></busesMunicipal>
+        <busesCommercial></busesCommercial>
+        <busesPrigorod></busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams>1, 3, 5, 15, 16, 20, 20к, 22, S5</trams>
+        <trolleybuses></trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.192580075683</latitude>
+        <longitude>50.1036083667864</longitude>
+        <angle>339</angle>
+    </stop>
+    <stop>
+        <KS_ID>134</KS_ID>
+        <title>Филармония</title>
+        <adjacentStreet>на ул. Фрунзе</adjacentStreet>
+        <direction>в сторону пл. Куйбышева</direction>
+        <titleEn>Filarmoniia</titleEn>
+        <adjacentStreetEn>on Frunze street</adjacentStreetEn>
+        <directionEn>towards Ploshchad Kuibysheva</directionEn>
+        <titleEs>Filarmonia</titleEs>
+        <adjacentStreetEs>en la calle Frunze</adjacentStreetEs>
+        <directionEs>hacia Plóshchad Kúibysheva</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>34</busesMunicipal>
+        <busesCommercial>207, 226</busesCommercial>
+        <busesPrigorod></busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams>1, 3, 5, 15, 16, 20, 20к, 22</trams>
+        <trolleybuses></trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.1917822728127</latitude>
+        <longitude>50.0943595913865</longitude>
+        <angle>69</angle>
+    </stop>
+    <stop>
+        <KS_ID>135</KS_ID>
+        <title>Филармония</title>
+        <adjacentStreet>на ул. Фрунзе</adjacentStreet>
+        <direction>в сторону Хлебной площади</direction>
+        <titleEn>Filarmoniia</titleEn>
+        <adjacentStreetEn>on Frunze street</adjacentStreetEn>
+        <directionEn>towards Khlebnaia ploshchad</directionEn>
+        <titleEs>Filarmonia</titleEs>
+        <adjacentStreetEs>en la calle Frunze</adjacentStreetEs>
+        <directionEs>hacia Khlébnaia Ploshchad</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>3</busesMunicipal>
+        <busesCommercial>92, 207</busesCommercial>
+        <busesPrigorod></busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams>1, 3, 5, 15, 16, 20, 20к, 22</trams>
+        <trolleybuses></trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.1923988302696</latitude>
+        <longitude>50.0944577835008</longitude>
+        <angle>249</angle>
+    </stop>
+    <stop>
+        <KS_ID>136</KS_ID>
+        <title>ул. Красноармейская</title>
+        <adjacentStreet>на ул. Фрунзе</adjacentStreet>
+        <direction>в сторону пл. Куйбышева</direction>
+        <titleEn>Ulitsa Krasnoarmeiskaia</titleEn>
+        <adjacentStreetEn>on Frunze street</adjacentStreetEn>
+        <directionEn>towards Ploshchad Kuibysheva</directionEn>
+        <titleEs>Úlitsa Krasnoarméyskaia</titleEs>
+        <adjacentStreetEs>en la calle Frunze</adjacentStreetEs>
+        <directionEs>hacia Plóshchad Kúibysheva</directionEs>
+        <cluster></cluster>
+        <busesMunicipal></busesMunicipal>
+        <busesCommercial>92, 207</busesCommercial>
+        <busesPrigorod></busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams>1, 3, 5, 15, 16, 20, 20к, 22</trams>
+        <trolleybuses></trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.1942345574696</latitude>
+        <longitude>50.096006308837</longitude>
+        <angle>69</angle>
+    </stop>
+    <stop>
+        <KS_ID>137</KS_ID>
+        <title>ул. Красноармейская</title>
+        <adjacentStreet>на ул. Галактионовской</adjacentStreet>
+        <direction>в сторону Самарской площади</direction>
+        <titleEn>Ulitsa Krasnoarmeiskaia</titleEn>
+        <adjacentStreetEn>on Galaktionovskaia street</adjacentStreetEn>
+        <directionEn>towards Samarskaia Ploshchad</directionEn>
+        <titleEs>Úlitsa Krasnoarméyskaia</titleEs>
+        <adjacentStreetEs>en la calle Galaktiónovskaia</adjacentStreetEs>
+        <directionEs>hacia Samárskaia Ploshchad</directionEs>
+        <cluster></cluster>
+        <busesMunicipal></busesMunicipal>
+        <busesCommercial></busesCommercial>
+        <busesPrigorod></busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams>S5</trams>
+        <trolleybuses></trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.1936419436338</latitude>
+        <longitude>50.1034842368456</longitude>
+        <angle>68</angle>
+    </stop>
+    <stop>
+        <KS_ID>138</KS_ID>
+        <title>ул. Вилоновская</title>
+        <adjacentStreet>на ул. Галактионовской</adjacentStreet>
+        <direction>в сторону Самарской площади</direction>
+        <titleEn>Ulitsa Vilonovskaia</titleEn>
+        <adjacentStreetEn>on Galaktionovskaia street</adjacentStreetEn>
+        <directionEn>towards Samarskaia Ploshchad</directionEn>
+        <titleEs>Úlitsa Vilónovskaia</titleEs>
+        <adjacentStreetEs>en la calle Galaktiónovskaia</adjacentStreetEs>
+        <directionEs>hacia Samárskaia Ploshchad</directionEs>
+        <cluster></cluster>
+        <busesMunicipal></busesMunicipal>
+        <busesCommercial></busesCommercial>
+        <busesPrigorod></busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams>S5</trams>
+        <trolleybuses></trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.196580339531</latitude>
+        <longitude>50.1055923914746</longitude>
+        <angle>68</angle>
+    </stop>
+    <stop>
+        <KS_ID>139</KS_ID>
+        <title>Самарская площадь</title>
+        <adjacentStreet>на ул. Галактионовской</adjacentStreet>
+        <direction>в сторону ул. Полевой</direction>
+        <titleEn>Samarskaia Ploshchad</titleEn>
+        <adjacentStreetEn>on Galaktionovskaia street</adjacentStreetEn>
+        <directionEn>towards Polevaia street</directionEn>
+        <titleEs>Samárskaia Plóshchad</titleEs>
+        <adjacentStreetEs>en la calle Galaktiónovskaia</adjacentStreetEs>
+        <directionEs>hacia la calle Polevaia</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>2, 23, 41, 47, 50</busesMunicipal>
+        <busesCommercial>46, 397</busesCommercial>
+        <busesPrigorod></busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams>S5</trams>
+        <trolleybuses></trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.2011712795212</latitude>
+        <longitude>50.1117755309725</longitude>
+        <angle>37</angle>
+    </stop>
+    <stop>
+        <KS_ID>140</KS_ID>
+        <title>Дворец Спорта и Цирк</title>
+        <adjacentStreet>на ул. Галактионовской</adjacentStreet>
+        <direction>в сторону ул. Полевой</direction>
+        <titleEn>Dvorets Sporta I Tsirk</titleEn>
+        <adjacentStreetEn>on Galaktionovskaia street</adjacentStreetEn>
+        <directionEn>towards Polevaia street</directionEn>
+        <titleEs>Dvoréts Sporta i Tsirk</titleEs>
+        <adjacentStreetEs>en la calle Galaktiónovskaia</adjacentStreetEs>
+        <directionEs>hacia la calle Polevaia</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>2, 23, 41, 47, 50</busesMunicipal>
+        <busesCommercial></busesCommercial>
+        <busesPrigorod></busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams>S5</trams>
+        <trolleybuses></trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.2027688087215</latitude>
+        <longitude>50.1152977070823</longitude>
+        <angle>37</angle>
+    </stop>
+    <stop>
+        <KS_ID>141</KS_ID>
+        <title>Площадь Сельского Хозяйства</title>
+        <adjacentStreet>на ул. Полевой</adjacentStreet>
+        <direction>в сторону Волги</direction>
+        <titleEn>Ploshchad Selskogo Hoziaistva</titleEn>
+        <adjacentStreetEn>on Polevaia street</adjacentStreetEn>
+        <directionEn>towards Volga</directionEn>
+        <titleEs>Plóshchad Sĺskogo Joziaystva</titleEs>
+        <adjacentStreetEs>en la calle Polevaia</adjacentStreetEs>
+        <directionEs>hacia el Volga</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>23, 24, 41, 47, 50</busesMunicipal>
+        <busesCommercial>92, 397</busesCommercial>
+        <busesPrigorod></busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams></trams>
+        <trolleybuses></trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.2058618948239</latitude>
+        <longitude>50.123012864442</longitude>
+        <angle>128</angle>
+    </stop>
+    <stop>
+        <KS_ID>142</KS_ID>
+        <title>Проспект Ленина</title>
+        <adjacentStreet>на пр. Ленина</adjacentStreet>
+        <direction>в сторону КРЦ "Звезда"</direction>
+        <titleEn>Prospekt Lenina</titleEn>
+        <adjacentStreetEn>on Prospekt Lenina street</adjacentStreetEn>
+        <directionEn>towards KRTS "Zvezda"</directionEn>
+        <titleEs>Prospekt Lénina</titleEs>
+        <adjacentStreetEs>en la calle Prospekt Lénina</adjacentStreetEs>
+        <directionEs>hacia KRTS "Zvezdá"</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>2, 23, 24, 41, 47, 50</busesMunicipal>
+        <busesCommercial>92, 207, 397</busesCommercial>
+        <busesPrigorod></busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams>5, 18, 20к, 20, 22, 23, S5</trams>
+        <trolleybuses></trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.2035236428121</latitude>
+        <longitude>50.1269714302161</longitude>
+        <angle>38</angle>
+    </stop>
+    <stop>
+        <KS_ID>143</KS_ID>
+        <title>ул. Братьев Коростелевых</title>
+        <adjacentStreet>на ул. Красноармейской</adjacentStreet>
+        <direction>в сторону пл. Куйбышева</direction>
+        <titleEn>Ulitsa Bratev Korostelevyh</titleEn>
+        <adjacentStreetEn>on Krasnoarmeiskaia street</adjacentStreetEn>
+        <directionEn>towards Ploshchad Kuibysheva</directionEn>
+        <titleEs>Úlitsa Brátiev Korostelevyj</titleEs>
+        <adjacentStreetEs>en la calle Krasnoarméiskaia</adjacentStreetEs>
+        <directionEs>hacia Plóshchad Kúibysheva</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>11, 34, 53</busesMunicipal>
+        <busesCommercial>80, 226</busesCommercial>
+        <busesPrigorod></busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams>1, 3, 5, 15, 16, 20, 20к, 22, S5</trams>
+        <trolleybuses></trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.1905979739278</latitude>
+        <longitude>50.1126629887712</longitude>
+        <angle>159</angle>
+    </stop>
+    <stop>
+        <KS_ID>144</KS_ID>
+        <title>Ильинская площадь</title>
+        <adjacentStreet>на ул. Красноармейская</adjacentStreet>
+        <direction>в сторону ЖД вокзала</direction>
+        <titleEn>Ilinskaia Ploshchad</titleEn>
+        <adjacentStreetEn>on Krasnoarmeiskaia street</adjacentStreetEn>
+        <directionEn>towards Zheleznodorozhnyi Vokzal</directionEn>
+        <titleEs>Ilínskaia plóshchad</titleEs>
+        <adjacentStreetEs>en la calle Krasnoarméiskaia</adjacentStreetEs>
+        <directionEs>hacia Zheleznodorozhnyi Vokzal</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>53</busesMunicipal>
+        <busesCommercial>80, 226</busesCommercial>
+        <busesPrigorod></busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams>1, 4, 16, S5</trams>
+        <trolleybuses></trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.1898338651995</latitude>
+        <longitude>50.1149493112406</longitude>
+        <angle>339</angle>
+    </stop>
+    <stop>
+        <KS_ID>145</KS_ID>
+        <title>Железнодорожный вокзал</title>
+        <adjacentStreet>на ул. Красноармейской</adjacentStreet>
+        <direction>в сторону пл. Урицкого</direction>
+        <titleEn>Zheleznodorozhnyi Vokzal</titleEn>
+        <adjacentStreetEn>on Krasnoarmeiskaia street</adjacentStreetEn>
+        <directionEn>towards Ploshchad Uritskogo</directionEn>
+        <titleEs>Zheleznodorozhny vokzal</titleEs>
+        <adjacentStreetEs>en la calle Krasnoarméiskaia</adjacentStreetEs>
+        <directionEs>hacia Plóshchad Urítskogo</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>13, 52, 53, 56</busesMunicipal>
+        <busesCommercial>226, 266</busesCommercial>
+        <busesPrigorod>480</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams>1, 4, 16, S5</trams>
+        <trolleybuses></trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.1879127882835</latitude>
+        <longitude>50.1257811696099</longitude>
+        <angle>28</angle>
+    </stop>
+    <stop>
+        <KS_ID>146</KS_ID>
+        <title>Крымская площадь (площадь Урицкого)</title>
+        <adjacentStreet>на ул. Красноармейской</adjacentStreet>
+        <direction>в сторону ул. Пензенской</direction>
+        <titleEn>Krymskaia Ploshchad (Ploshchad Uritskogo)</titleEn>
+        <adjacentStreetEn>on Krasnoarmeiskaia street</adjacentStreetEn>
+        <directionEn>towards Penzenskaia street</directionEn>
+        <titleEs>Krýmskaia plóshchad (plóshchad Urítskogo)</titleEs>
+        <adjacentStreetEs>en la calle Krasnoarméiskaia</adjacentStreetEs>
+        <directionEs>hacia la calle Pénzenskaia</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>13, 52, 53, 56</busesMunicipal>
+        <busesCommercial>226, 266</busesCommercial>
+        <busesPrigorod>480</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams>1, 4, 16, S5</trams>
+        <trolleybuses></trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.1895146004005</latitude>
+        <longitude>50.1310826839049</longitude>
+        <angle>26</angle>
+    </stop>
+    <stop>
+        <KS_ID>147</KS_ID>
+        <title>ул. Пензенская</title>
+        <adjacentStreet>на ул. Урицкого</adjacentStreet>
+        <direction>в сторону ул. Владимирской</direction>
+        <titleEn>Ulitsa Penzenskaia</titleEn>
+        <adjacentStreetEn>on Uritskogo street</adjacentStreetEn>
+        <directionEn>towards Vladimirskaia street</directionEn>
+        <titleEs>Úlitsa Pénzenskaia</titleEs>
+        <adjacentStreetEs>en la calle Urítskogo</adjacentStreetEs>
+        <directionEs>hacia la calle Vladímirskaia</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>13, 53, 56</busesMunicipal>
+        <busesCommercial>226, 266</busesCommercial>
+        <busesPrigorod>131, 480</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams>1, 4, 16, S5</trams>
+        <trolleybuses></trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.1889496294755</latitude>
+        <longitude>50.138146571498</longitude>
+        <angle>340</angle>
+    </stop>
+    <stop>
+        <KS_ID>148</KS_ID>
+        <title>ул. Владимирская</title>
+        <adjacentStreet>на ул. Пензенской</adjacentStreet>
+        <direction>в сторону ул. Киевской</direction>
+        <titleEn>Ulitsa Vladimirskaia</titleEn>
+        <adjacentStreetEn>on Penzenskaia street</adjacentStreetEn>
+        <directionEn>towards Kievskaia street</directionEn>
+        <titleEs>Úlitsa Vladímirskaia</titleEs>
+        <adjacentStreetEs>en la calle Pénzenskaia</adjacentStreetEs>
+        <directionEs>hacia la calle Kíevskaia</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>53, 56</busesMunicipal>
+        <busesCommercial>226, 266</busesCommercial>
+        <busesPrigorod>480</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams>1, 4, 16, S5</trams>
+        <trolleybuses></trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.1912816965627</latitude>
+        <longitude>50.1414597461595</longitude>
+        <angle>37</angle>
+    </stop>
+    <stop>
+        <KS_ID>149</KS_ID>
+        <title>ул. Дачная</title>
+        <adjacentStreet>на ул. Пензенской</adjacentStreet>
+        <direction>в сторону ул. Киевской</direction>
+        <titleEn>Ulitsa Dachnaia</titleEn>
+        <adjacentStreetEn>on Penzenskaia street</adjacentStreetEn>
+        <directionEn>towards Kievskaia street</directionEn>
+        <titleEs>Úlitsa Dáchnaia</titleEs>
+        <adjacentStreetEs>en la calle Pénzenskaia</adjacentStreetEs>
+        <directionEs>hacia la calle Kíevskaia</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>53, 56</busesMunicipal>
+        <busesCommercial>21м, 99, 226, 266</busesCommercial>
+        <busesPrigorod>131, 305д, 395, 480</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams>1, 4, 16, S5</trams>
+        <trolleybuses></trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.1939903243797</latitude>
+        <longitude>50.147935148545</longitude>
+        <angle>36</angle>
+    </stop>
+    <stop>
+        <KS_ID>150</KS_ID>
+        <title>ул. Дзержинского</title>
+        <adjacentStreet>на ул. Аэродромной</adjacentStreet>
+        <direction>в сторону автостанции "Аврора"</direction>
+        <titleEn>Ulitsa Dzerzhinskogo</titleEn>
+        <adjacentStreetEn>on Aerodromnaia street</adjacentStreetEn>
+        <directionEn>towards Avtostantsiia "Avrora"</directionEn>
+        <titleEs>Úlitsa Dzerzhínskogo</titleEs>
+        <adjacentStreetEs>en la calle Aerodrómnaia</adjacentStreetEs>
+        <directionEs>hacia Avtostántsiia "Avrora"</directionEs>
+        <cluster></cluster>
+        <busesMunicipal></busesMunicipal>
+        <busesCommercial>21м, 207, 226, 266</busesCommercial>
+        <busesPrigorod>395</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams>1, 3, 4, 18</trams>
+        <trolleybuses></trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.1909669859195</latitude>
+        <longitude>50.1731902387492</longitude>
+        <angle>3</angle>
+    </stop>
+    <stop>
+        <KS_ID>151</KS_ID>
+        <title>Дом Молодежи</title>
+        <adjacentStreet>на ул. Аэродромной</adjacentStreet>
+        <direction>в сторону автостанции "Аврора"</direction>
+        <titleEn>Dom Molodezhi</titleEn>
+        <adjacentStreetEn>on Aerodromnaia street</adjacentStreetEn>
+        <directionEn>towards Avtostantsiia "Avrora"</directionEn>
+        <titleEs>Dom Molodezhi</titleEs>
+        <adjacentStreetEs>en la calle Aerodrómnaia</adjacentStreetEs>
+        <directionEs>hacia Avtostántsiia "Avrora"</directionEs>
+        <cluster></cluster>
+        <busesMunicipal></busesMunicipal>
+        <busesCommercial>21м, 89, 207, 217, 226, 266</busesCommercial>
+        <busesPrigorod>395</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams>1, 3, 4, 18</trams>
+        <trolleybuses></trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.1911415002036</latitude>
+        <longitude>50.1782371697753</longitude>
+        <angle>3</angle>
+    </stop>
+    <stop>
+        <KS_ID>152</KS_ID>
+        <title>ул. Волгина</title>
+        <adjacentStreet>на ул. Аэродромной</adjacentStreet>
+        <direction>в сторону Дома Молодежи</direction>
+        <titleEn>Ulitsa Volgina</titleEn>
+        <adjacentStreetEn>on Aerodromnaia street</adjacentStreetEn>
+        <directionEn>towards Dom Molodezhi</directionEn>
+        <titleEs>Úlitsa Vólgina</titleEs>
+        <adjacentStreetEs>en la calle Aerodrómnaia</adjacentStreetEs>
+        <directionEs>hacia Dom Molodezhi</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>2, 24, 53, 70</busesMunicipal>
+        <busesCommercial>21м, 89, 96, 207, 217, 226, 266</busesCommercial>
+        <busesPrigorod>310, 395, 396</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams>1, 3, 18, 23</trams>
+        <trolleybuses></trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.1915500673353</latitude>
+        <longitude>50.184542888914</longitude>
+        <angle>184</angle>
+    </stop>
+    <stop>
+        <KS_ID>153</KS_ID>
+        <title>Автостанция "Аврора"</title>
+        <adjacentStreet>на ул. Аэродромной</adjacentStreet>
+        <direction>в сторону ул. Промышленности</direction>
+        <titleEn>Avtostantsiia "Avrora"</titleEn>
+        <adjacentStreetEn>on Aerodromnaia street</adjacentStreetEn>
+        <directionEn>towards Promyshlennosti street</directionEn>
+        <titleEs>Avtostántsia "Avrora"</titleEs>
+        <adjacentStreetEs>en la calle Aerodrómnaia</adjacentStreetEs>
+        <directionEs>hacia la calle Promýshlennosti</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>2, 24, 53, 70</busesMunicipal>
+        <busesCommercial>207, 217, 266</busesCommercial>
+        <busesPrigorod>310, 395</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams>3, 4, 11</trams>
+        <trolleybuses></trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.1914919766903</latitude>
+        <longitude>50.1898438177958</longitude>
+        <angle>3</angle>
+    </stop>
+    <stop>
+        <KS_ID>154</KS_ID>
+        <title>Мебельный комбинат</title>
+        <adjacentStreet>на ул. Партизанской</adjacentStreet>
+        <direction>в сторону ул. Киевской</direction>
+        <titleEn>Mebelnyi Kombinat</titleEn>
+        <adjacentStreetEn>on Partizanskaia street</adjacentStreetEn>
+        <directionEn>towards Kievskaia street</directionEn>
+        <titleEs>Mébelny kombinat</titleEs>
+        <adjacentStreetEs>en la calle Partizánskaia</adjacentStreetEs>
+        <directionEs>hacia la calle Kíevskaia</directionEs>
+        <cluster></cluster>
+        <busesMunicipal></busesMunicipal>
+        <busesCommercial>21м, 96, 207, 226, 266</busesCommercial>
+        <busesPrigorod>395, 396</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams>1, 3, 18, 23</trams>
+        <trolleybuses></trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.1916755386206</latitude>
+        <longitude>50.1689311450237</longitude>
+        <angle>151</angle>
+    </stop>
+    <stop>
+        <KS_ID>155</KS_ID>
+        <title>Техникум легкой промышленности</title>
+        <adjacentStreet>на ул. Партизанской</adjacentStreet>
+        <direction>в сторону ул. Киевской</direction>
+        <titleEn>Tekhnikum Legkoi Promyshlennosti</titleEn>
+        <adjacentStreetEn>on Partizanskaia street</adjacentStreetEn>
+        <directionEn>towards Kievskaia street</directionEn>
+        <titleEs>Téjnikum Legkoy Promýshlennosti</titleEs>
+        <adjacentStreetEs>en la calle Partizánskaia</adjacentStreetEs>
+        <directionEs>hacia la calle Kíevskaia</directionEs>
+        <cluster></cluster>
+        <busesMunicipal></busesMunicipal>
+        <busesCommercial>21м, 96, 207, 226, 266</busesCommercial>
+        <busesPrigorod>395, 396</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams>1, 3, 18, 23</trams>
+        <trolleybuses></trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.1951403956899</latitude>
+        <longitude>50.1613106372841</longitude>
+        <angle>144</angle>
+    </stop>
+    <stop>
+        <KS_ID>156</KS_ID>
+        <title>ул. Тухачевского</title>
+        <adjacentStreet>на ул. Партизанской</adjacentStreet>
+        <direction>в сторону центра города</direction>
+        <titleEn>Ulitsa Tukhachevskogo</titleEn>
+        <adjacentStreetEn>on Partizanskaia street</adjacentStreetEn>
+        <directionEn>towards the city center</directionEn>
+        <titleEs>Úlitsa Tujachévskogo</titleEs>
+        <adjacentStreetEs>en la calle Partizánskaia</adjacentStreetEs>
+        <directionEs>hacia el centro de la ciudad</directionEs>
+        <cluster></cluster>
+        <busesMunicipal></busesMunicipal>
+        <busesCommercial>21м, 96, 207, 226, 266</busesCommercial>
+        <busesPrigorod>395, 396</busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams>1, 3, 18, 23, S5</trams>
+        <trolleybuses></trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.1968728789242</latitude>
+        <longitude>50.1574991855461</longitude>
+        <angle>144</angle>
+    </stop>
+    <stop>
+        <KS_ID>157</KS_ID>
+        <title>ул. Фрунзе</title>
+        <adjacentStreet>на ул. Венцека</adjacentStreet>
+        <direction>в сторону пл. Революции</direction>
+        <titleEn>Ulitsa Frunze</titleEn>
+        <adjacentStreetEn>on Ventseka street</adjacentStreetEn>
+        <directionEn>towards Ploshchad Revolutsii</directionEn>
+        <titleEs>Úlitsa Frunze</titleEs>
+        <adjacentStreetEs>en la calle Véntseka</adjacentStreetEs>
+        <directionEs>hacia Plóshchad Revolutsii</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>3</busesMunicipal>
+        <busesCommercial></busesCommercial>
+        <busesPrigorod></busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams>1, 3, 5, 15, 16, 20, 20к, 22</trams>
+        <trolleybuses></trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.1850005864024</latitude>
+        <longitude>50.0902012520607</longitude>
+        <angle>158</angle>
+    </stop>
+    <stop>
+        <KS_ID>158</KS_ID>
+        <title>ул. Ульяновская</title>
+        <adjacentStreet>на ул. Арцыбушевской</adjacentStreet>
+        <direction>в сторону ул. Полевой</direction>
+        <titleEn>Ulitsa Ulianovskaia</titleEn>
+        <adjacentStreetEn>on Artsybushevskaia street</adjacentStreetEn>
+        <directionEn>towards Polevaia street</directionEn>
+        <titleEs>Úlitsa Uliánovskaia</titleEs>
+        <adjacentStreetEs>en la calle Artsybúshevskaia</adjacentStreetEs>
+        <directionEs>hacia la calle Polevaia</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>34</busesMunicipal>
+        <busesCommercial></busesCommercial>
+        <busesPrigorod></busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams>3, 5, 15, 20, 20к, 22, 23</trams>
+        <trolleybuses></trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.1964742391356</latitude>
+        <longitude>50.1180492137118</longitude>
+        <angle>68</angle>
+    </stop>
+    <stop>
+        <KS_ID>159</KS_ID>
+        <title>ул. Полевая</title>
+        <adjacentStreet>на ул. Арцыбушевской</adjacentStreet>
+        <direction>в сторону ул. Полевой</direction>
+        <titleEn>Ulitsa Polevaia</titleEn>
+        <adjacentStreetEn>on Artsybushevskaia street</adjacentStreetEn>
+        <directionEn>towards Polevaia street</directionEn>
+        <titleEs>Úlitsa Polevaia</titleEs>
+        <adjacentStreetEs>en la calle Artsybúshevskaia</adjacentStreetEs>
+        <directionEs>hacia la calle Polevaia</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>34</busesMunicipal>
+        <busesCommercial></busesCommercial>
+        <busesPrigorod></busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams>3, 5, 15, 20, 20к, 22, 23</trams>
+        <trolleybuses></trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.201102564772</latitude>
+        <longitude>50.1280348531432</longitude>
+        <angle>38</angle>
+    </stop>
+    <stop>
+        <KS_ID>160</KS_ID>
+        <title>Сквер Мичурина</title>
+        <adjacentStreet>на ул. Полевой</adjacentStreet>
+        <direction>в сторону ТЦ "Аквариум"</direction>
+        <titleEn>Skver Michurina</titleEn>
+        <adjacentStreetEn>on Polevaia street</adjacentStreetEn>
+        <directionEn>towards TTS "Akvarium"</directionEn>
+        <titleEs>Skver Michúrina</titleEs>
+        <adjacentStreetEs>en la calle Polevaia</adjacentStreetEs>
+        <directionEs>hacia la calle TTS "Akvárium"</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>24, 34, 41</busesMunicipal>
+        <busesCommercial>46, 207</busesCommercial>
+        <busesPrigorod></busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams>3, 15, 18</trams>
+        <trolleybuses></trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.1998667215867</latitude>
+        <longitude>50.1300735255316</longitude>
+        <angle>308</angle>
+    </stop>
+    <stop>
+        <KS_ID>161</KS_ID>
+        <title>ул. Первомайская</title>
+        <adjacentStreet>на пр. Ленина</adjacentStreet>
+        <direction>в сторону КРЦ "Звезда"</direction>
+        <titleEn>Ulitsa Pervomaiskaia</titleEn>
+        <adjacentStreetEn>on Prospekt Lenina street</adjacentStreetEn>
+        <directionEn>towards KRTS "Zvezda"</directionEn>
+        <titleEs>Úlitsa Pervomáyskaia</titleEs>
+        <adjacentStreetEs>en la calle Prospekt Lénina</adjacentStreetEs>
+        <directionEs>hacia KRTS "Zvezdá"</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>2, 23, 24, 41, 47, 50</busesMunicipal>
+        <busesCommercial>92, 207, 397</busesCommercial>
+        <busesPrigorod></busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams>5, 18, 20к, 20, 22, 23, S5</trams>
+        <trolleybuses></trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.2046048581867</latitude>
+        <longitude>50.1292978236493</longitude>
+        <angle>38</angle>
+    </stop>
+    <stop>
+        <KS_ID>162</KS_ID>
+        <title>Площадь Героев 21-й Армии</title>
+        <adjacentStreet>на пр. Ленина</adjacentStreet>
+        <direction>в сторону КРЦ "Звезда"</direction>
+        <titleEn>Ploshchad Geroev Dvadtsat Pervoi Armii</titleEn>
+        <adjacentStreetEn>on Prospekt Lenina street</adjacentStreetEn>
+        <directionEn>towards KRTS "Zvezda"</directionEn>
+        <titleEs>Plóshchad Geróev Dvádtsat Pervoi Ármii</titleEs>
+        <adjacentStreetEs>en la calle Prospekt Lénina</adjacentStreetEs>
+        <directionEs>hacia KRTS "Zvezdá"</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>2, 23, 47</busesMunicipal>
+        <busesCommercial>92</busesCommercial>
+        <busesPrigorod></busesPrigorod>
+        <busesSeason>170</busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams>5, 18, 20к, 20, 22, 23, S5</trams>
+        <trolleybuses></trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.2070656909578</latitude>
+        <longitude>50.134647481741</longitude>
+        <angle>39</angle>
+    </stop>
+    <stop>
+        <KS_ID>163</KS_ID>
+        <title>ул. Челюскинцев</title>
+        <adjacentStreet>на пр. Ленина</adjacentStreet>
+        <direction>в сторону КРЦ "Звезда"</direction>
+        <titleEn>Ulitsa Cheliuskintsev</titleEn>
+        <adjacentStreetEn>on Prospekt Lenina street</adjacentStreetEn>
+        <directionEn>towards KRTS "Zvezda"</directionEn>
+        <titleEs>Úlitsa Cheliúskintsev</titleEs>
+        <adjacentStreetEs>en la calle Prospekt Lénina</adjacentStreetEs>
+        <directionEs>hacia KRTS "Zvezdá"</directionEs>
+        <cluster></cluster>
+        <busesMunicipal>2</busesMunicipal>
+        <busesCommercial></busesCommercial>
+        <busesPrigorod></busesPrigorod>
+        <busesSeason></busesSeason>
+        <busesSpecial></busesSpecial>
+        <busesIntercity></busesIntercity>
+        <trams>5, 18, 20к, 20, 22, 23, S5</trams>
+        <trolleybuses></trolleybuses>
+        <metros></metros>
+        <electricTrains></electricTrains>
+        <riverTransports></riverTransports>
+        <infotabloExists>нет</infotabloExists>
+        <latitude>53.2099710884029</latitude>
+        <longitude>50.1403827764307</longitude>
+        <angle>41</angle>
+    </stop>
+    <stop>
+        <KS_ID>164</KS_ID>
+        <title>Самарский филиал Третьяковской галереи</title>
+        <adjacentStreet>на ул. Ново-Садов

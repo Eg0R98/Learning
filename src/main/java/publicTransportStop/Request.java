@@ -7,7 +7,6 @@ import java.io.DataOutputStream;
 import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.URL;
-import java.util.List;
 
 public class Request {
     public static String httpRequest(int stopID) throws ConnectException {
@@ -32,16 +31,15 @@ public class Request {
         return Parsing.parseHttpResponse(document);
     }
 
-    public static List<Stop> xmlStopDocumentRequest() throws ConnectException {
+    public static String xmlTimeUpdateStopRequest() {
         Document document = null;
         try {
-            URL url = new URL("https://tosamara.ru/api/v2/classifiers/stopsFullDB.xml");
-            document = Jsoup.parse(url.openStream(), "UTF-8", "https://tosamara.ru/api/v2/classifiers/stopsFullDB.xml");
+            URL url = new URL("https://tosamara.ru/api/v2/classifiers");
+            document = Jsoup.parse(url.openStream(), "UTF-8", "https://tosamara.ru/api/v2/classifiers");
             if (document == null) throw new ConnectException("C соединением проблемы");
-
-        } catch (IOException e) {
-            throw new RuntimeException(e);
+        } catch (IOException | ConnectException e) {
+            System.err.println("С соединением проблемы");
         }
-        return Parsing.parseXmlStopResponse(document);
+        return Parsing.parseTimeUpdateStop(document);
     }
 }

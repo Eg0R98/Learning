@@ -1,17 +1,23 @@
 package publicTransportStop;
 
-import java.util.*;
+import java.util.List;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
         try (Scanner scanner = new Scanner(System.in)) {
-            StopRepository.setListStop(Request.xmlStopDocumentRequest());
+            ActionsWithXmlStopFile.load();
+            String time = Request.xmlTimeUpdateStopRequest();
+            ActionsWithXmlStopFile.add(time);
+            ActionsWithXmlStopFile.updateOrNot();
+            Stops stops = Unmarshalling.umarshallXmlStops();
+
             while (true) {
                 String stopTitle = Input.inputTitle(scanner);
-                Map<Integer, Stop> matches = StopRepository.getMatches(stopTitle);
+                List<Stop> matches = stops.getMatches(stopTitle);
                 Input.printMatches(matches);
                 int numberOfMatches = Input.chooseNumberOfMatches(scanner);
-                int stopNumber = StopRepository.getStopID(matches.get(numberOfMatches));
+                int stopNumber = Stops.getStopID(matches.get(numberOfMatches - 1));
                 String responseFromCache = Cache.searchAndGet(stopNumber);
                 if (responseFromCache != null) {
                     Input.printResponse(responseFromCache);
@@ -23,8 +29,7 @@ public class Main {
                 boolean stop = Input.isStopProgram(scanner);
                 if (stop) break;
             }
-        } catch (InputMismatchException e) {
-            System.err.println("Некорректный ввод");
+            ActionsWithXmlStopFile.save();
         } catch (NotMatchException e) {
             System.err.println("Ошибка. Совпадений не найдено");
         } catch (ConnectException e) {
