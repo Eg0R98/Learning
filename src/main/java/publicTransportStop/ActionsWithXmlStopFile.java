@@ -16,7 +16,7 @@ public class ActionsWithXmlStopFile {
     public static void updateOrNot() {
         if (timeUpdateStopslist.size() == 1) {
             return;
-        } else if (timeUpdateStopslist.get(0) <= (timeUpdateStopslist.get(1)) || !Files.exists(xmlStops)) {
+        } else if ((timeUpdateStopslist.get(1) > timeUpdateStopslist.get(0)) || !Files.exists(xmlStops)) {
             update();
         }
         timeUpdateStopslist.removeFirst();
