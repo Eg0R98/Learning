@@ -1,0 +1,13 @@
+
+š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¤Äú’ùÿÿÿÿJ$56f994f6-b74c-4191-b6e7-fd3b0c8869a3
+—
+java:S1488	"[Immediately return this expression instead of assigning it to the temporary variable "num".(¿ıµîJ$2d36023a-d0dc-4120-a87b-4fd6277c1dc5
+{
+java:S1118":Add a private constructor to hide the implicit public one.(¾ìÆ”üÿÿÿÿJ$bb70fac4-7ab8-4bc4-b586-c6dd3f9dd286
+f	java:S106"+Replace this use of System.out by a logger.(Ëšú©J$d76193f0-6321-4880-9887-a67dba6aadf2
+k	java:S106"+Replace this use of System.out by a logger.(Ê¾àÃüÿÿÿÿJ$e08ea1ae-f2c3-4d8d-95f4-962f5a0d15c0
+L	java:S106"+Replace this use of System.out by a logger.(ªº—üÿÿÿÿÿ8Ñìñ®—2
+f	java:S106"+Replace this use of System.out by a logger.(Æ´ùJ$a86568a8-6e8d-46e0-abaa-37b53527b6e4
+}
+java:S1126"AReplace this if-then-else statement by a single return statement.(ŞàŠJ$62d1f275-3ace-445b-a822-7c3725de21dc
+k	java:S106 "+Replace this use of System.out by a logger.(˜Š¿ÛüÿÿÿÿJ$2b2f36c4-a4f4-4d17-a17b-600e033015f4

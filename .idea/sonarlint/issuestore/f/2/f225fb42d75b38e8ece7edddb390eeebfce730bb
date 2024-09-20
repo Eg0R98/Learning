@@ -1,0 +1,4 @@
+
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¤Äú’ùÿÿÿÿ8ê“•‡—2J$96daa900-57a4-4a79-9ff0-7daa95c64b01
+	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ë“•‡—2J$ff83e6ed-ccd5-4f9d-8518-84bda098f211
+l	java:S106"+Replace this use of System.err by a logger.(ÿÛËo8Ó”•‡—2J$49411221-ce51-4e7b-ad45-c0b30ee2bd45

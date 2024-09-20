@@ -1,5 +1,11 @@
 package publicTransportStop;
 
+import jakarta.xml.bind.JAXBException;
+import publicTransportStop.exceptions.ConnectException;
+import publicTransportStop.exceptions.NotMatchException;
+import publicTransportStop.stop.Stop;
+
+import java.io.IOException;
 import java.util.List;
 import java.util.Scanner;
 
@@ -29,7 +35,7 @@ public class Input {
     public static void printMatches(List<Stop> matches) {
         for (int i = 0; i < matches.size(); i++) {
             Stop stop = matches.get(i);
-            System.out.printf(Stop.createFullStopTitle(stop, i + 1));
+            System.out.printf(stop.createFullStopTitle(i + 1));
             System.out.println();
 
             if (!stop.getBuses().isEmpty()) {
@@ -63,7 +69,12 @@ public class Input {
     public static int chooseNumberOfMatches(Scanner scanner) {
         System.out.print("Выберите соответвующую вашему запросу остановку и направление из списка. Для этого введите их номер: ");
         int numberStop = scanner.nextInt();
-
         return numberStop;
+    }
+
+    public static void printExceptionMessage(Exception e) {
+        if (e instanceof IOException || e instanceof ConnectException) System.err.println("С соединением проблемы");
+        else if (e instanceof JAXBException) System.err.println("Проблемы с анмаршаллингом");
+        else if (e instanceof NotMatchException) System.err.println("Ошибка. Совпадений не найдено");
     }
 }

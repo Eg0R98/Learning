@@ -1,0 +1,19 @@
+
+•	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ä–âÌJ$b3da5143-6269-4cb4-8d80-d85dcdbe9fa2
+Ž	java:S100""NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷”‡ˆüÿÿÿÿJ$1aa90c25-8ea1-4e5a-ad6f-0af17f1e3107
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(ÅŠŒ¶üÿÿÿÿ8íùóü•2J$573047ab-1368-411a-a404-9dd8430575b2
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(ÙžÐúÿÿÿÿÿ8´¼óü•2J$a4211880-1e66-43ba-a5b2-94f87ea79cd0
+‰	java:S100("NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢ÒÍØJ$2632143e-b367-468c-a004-316dcb0b45ba
+w
+java:S1874."4Remove this use of "assertEquals"; it is deprecated.(ðºÅß8µ»Žú•2J$902faecc-d152-4a54-8f9e-b6d96357e217
+‰	java:S1002"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§ÞëóJ$a022eb47-e975-4621-9715-b47117981c1a
+‰	java:S1009"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ÷–äJ$6a96059f-665a-4fc3-93f0-4d6d60fe5bcd
+w
+java:S1874@"4Remove this use of "assertEquals"; it is deprecated.(ðºÅß8¿»Žú•2J$8f200dac-028f-4562-ad7d-8f92e66d60dd
+Ž	java:S100D"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡µÝýÿÿÿÿJ$b865a6a1-09fb-4a67-82c6-f6e39747df73
+Ž	java:S100T"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°±†æúÿÿÿÿJ$9c54f2a5-9429-4eea-8699-ac8c19a1a459
+‰	java:S100]"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(î¨æêJ$42b57f2e-4729-4da8-ad31-cbab17d7eb89
+ˆ	java:S100o"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„úâ+J$4c8c0992-dd32-4db4-94f8-847b8473431f
+‰	java:S100x"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(žíàJ$d49ab514-3447-45b4-a7bf-88f3fb5dab81
+s
+java:S5960$"+Remove this assertion from production code.(ù®¨ßüÿÿÿÿ8–½óü•2J$a8a09b3a-0d35-488d-a277-78fce7ba5945

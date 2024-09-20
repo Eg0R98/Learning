@@ -1,20 +1,23 @@
 package publicTransportStop;
 
+import jakarta.xml.bind.JAXBException;
+import publicTransportStop.cache.Cache;
+import publicTransportStop.exceptions.ConnectException;
+import publicTransportStop.exceptions.NotMatchException;
+import publicTransportStop.stop.Stop;
+import publicTransportStop.stop.Stops;
+
+import java.io.IOException;
 import java.util.List;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
         try (Scanner scanner = new Scanner(System.in)) {
-            ActionsWithXmlStopFile.load();
-            String time = Request.xmlTimeUpdateStopRequest();
-            ActionsWithXmlStopFile.add(time);
-            ActionsWithXmlStopFile.updateOrNot();
-            Stops stops = Unmarshalling.umarshallXmlStops();
-
+            ActionsWithXmlStopFile.loadStops();
             while (true) {
                 String stopTitle = Input.inputTitle(scanner);
-                List<Stop> matches = stops.getMatches(stopTitle);
+                List<Stop> matches = Stops.getMatches(stopTitle);
                 Input.printMatches(matches);
                 int numberOfMatches = Input.chooseNumberOfMatches(scanner);
                 int stopNumber = Stops.getStopID(matches.get(numberOfMatches - 1));
@@ -29,11 +32,8 @@ public class Main {
                 boolean stop = Input.isStopProgram(scanner);
                 if (stop) break;
             }
-            ActionsWithXmlStopFile.save();
-        } catch (NotMatchException e) {
-            System.err.println("Ошибка. Совпадений не найдено");
-        } catch (ConnectException e) {
-            System.err.println("C соединением проблемы");
+        } catch (NotMatchException | ConnectException | JAXBException | IOException e) {
+            Input.printExceptionMessage(e);
         }
     }
 }
