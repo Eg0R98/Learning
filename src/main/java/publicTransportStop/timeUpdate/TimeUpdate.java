@@ -24,18 +24,6 @@ public class TimeUpdate {
             ReadingWritingTimeUpdate.writeToFile(oldTimeUpdate);
             return true;
         }
-
-//        if (oldTimeUpdate == null) {
-//            Double timeUpdate = Classifiers.getNewTimeUpdate();
-//            ReadingWritingTimeUpdate.writeToFile(timeUpdate);
-//            return true;
-//        }
-//        Double newTimeUpdate = Classifiers.getNewTimeUpdate();
-//        if (newTimeUpdate > oldTimeUpdate) {
-//            oldTimeUpdate = newTimeUpdate;
-//            ReadingWritingTimeUpdate.writeToFile(oldTimeUpdate);
-//            return true;
-//        }
         return false;
     }
 
