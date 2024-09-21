@@ -18,17 +18,24 @@ public class TimeUpdate {
     public static boolean updateOrNot() throws IOException, JAXBException {
         initialize();
         Unmarshalling.unmarshallTimeUpdate(urlTimeUpdate);
-        if (oldTimeUpdate == null) {
-            Double timeUpdate = Classifiers.getNewTimeUpdate();
-            ReadingWritingTimeUpdate.writeToFile(timeUpdate);
-            return true;
-        }
         Double newTimeUpdate = Classifiers.getNewTimeUpdate();
-        if (newTimeUpdate > oldTimeUpdate) {
+        if (oldTimeUpdate == null || newTimeUpdate > oldTimeUpdate) {
             oldTimeUpdate = newTimeUpdate;
             ReadingWritingTimeUpdate.writeToFile(oldTimeUpdate);
             return true;
         }
+
+//        if (oldTimeUpdate == null) {
+//            Double timeUpdate = Classifiers.getNewTimeUpdate();
+//            ReadingWritingTimeUpdate.writeToFile(timeUpdate);
+//            return true;
+//        }
+//        Double newTimeUpdate = Classifiers.getNewTimeUpdate();
+//        if (newTimeUpdate > oldTimeUpdate) {
+//            oldTimeUpdate = newTimeUpdate;
+//            ReadingWritingTimeUpdate.writeToFile(oldTimeUpdate);
+//            return true;
+//        }
         return false;
     }
 
