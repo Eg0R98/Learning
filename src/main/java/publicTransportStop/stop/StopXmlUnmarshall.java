@@ -43,7 +43,7 @@ public class StopXmlUnmarshall {
 
     private String riverTransports;
 
-    protected StopXmlUnmarshall(int stopID, String title, String adjacentStreet, String direction, String busesMunicipal,
+    public StopXmlUnmarshall(int stopID, String title, String adjacentStreet, String direction, String busesMunicipal,
                                 String busesCommercial, String busesPrigorod, String busesSeason, String busesSpecial,
                                 String busesIntercity, String trolleybuses, String trams, String metros,
                                 String electricTrains, String riverTransports) {
@@ -79,41 +79,124 @@ public class StopXmlUnmarshall {
         return builder.toString();
     }
 
-
-    protected String getTitle() {
-        return title;
-    }
-
-    protected int getStopID() {
+    public int getStopID() {
         return stopID;
     }
 
-    protected String getAdjacentStreet() {
+    public void setStopID(int stopID) {
+        this.stopID = stopID;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public String getAdjacentStreet() {
         return adjacentStreet;
     }
 
-    protected String getDirection() {
+    public void setAdjacentStreet(String adjacentStreet) {
+        this.adjacentStreet = adjacentStreet;
+    }
+
+    public String getDirection() {
         return direction;
     }
 
-    protected String getTrolleybuses() {
+    public void setDirection(String direction) {
+        this.direction = direction;
+    }
+
+    public String getBusesMunicipal() {
+        return busesMunicipal;
+    }
+
+    public void setBusesMunicipal(String busesMunicipal) {
+        this.busesMunicipal = busesMunicipal;
+    }
+
+    public String getBusesCommercial() {
+        return busesCommercial;
+    }
+
+    public void setBusesCommercial(String busesCommercial) {
+        this.busesCommercial = busesCommercial;
+    }
+
+    public String getBusesPrigorod() {
+        return busesPrigorod;
+    }
+
+    public void setBusesPrigorod(String busesPrigorod) {
+        this.busesPrigorod = busesPrigorod;
+    }
+
+    public String getBusesSeason() {
+        return busesSeason;
+    }
+
+    public void setBusesSeason(String busesSeason) {
+        this.busesSeason = busesSeason;
+    }
+
+    public String getBusesSpecial() {
+        return busesSpecial;
+    }
+
+    public void setBusesSpecial(String busesSpecial) {
+        this.busesSpecial = busesSpecial;
+    }
+
+    public String getBusesIntercity() {
+        return busesIntercity;
+    }
+
+    public void setBusesIntercity(String busesIntercity) {
+        this.busesIntercity = busesIntercity;
+    }
+
+    public String getTrolleybuses() {
         return trolleybuses;
     }
 
-    protected String getTrams() {
+    public void setTrolleybuses(String trolleybuses) {
+        this.trolleybuses = trolleybuses;
+    }
+
+    public String getTrams() {
         return trams;
     }
 
-    protected String getMetros() {
+    public void setTrams(String trams) {
+        this.trams = trams;
+    }
+
+    public String getMetros() {
         return metros;
     }
 
-    protected String getElectricTrains() {
+    public void setMetros(String metros) {
+        this.metros = metros;
+    }
+
+    public String getElectricTrains() {
         return electricTrains;
     }
 
-    protected String getRiverTransports() {
+    public void setElectricTrains(String electricTrains) {
+        this.electricTrains = electricTrains;
+    }
+
+    public String getRiverTransports() {
         return riverTransports;
+    }
+
+    public void setRiverTransports(String riverTransports) {
+        this.riverTransports = riverTransports;
     }
 
     @Override

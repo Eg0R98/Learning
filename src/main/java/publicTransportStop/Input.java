@@ -6,6 +6,7 @@ import publicTransportStop.exceptions.NotMatchException;
 import publicTransportStop.stop.Stop;
 
 import java.io.IOException;
+import java.sql.SQLException;
 import java.util.List;
 import java.util.Scanner;
 
@@ -76,5 +77,7 @@ public class Input {
         if (e instanceof IOException || e instanceof ConnectException) System.err.println("С соединением проблемы");
         else if (e instanceof JAXBException) System.err.println("Проблемы с анмаршаллингом");
         else if (e instanceof NotMatchException) System.err.println("Ошибка. Совпадений не найдено");
+        else if (e instanceof SQLException) System.err.println("Проблемы с базой данных");
+        else if (e instanceof ClassNotFoundException) System.err.println("Не найден нужный класс");
     }
 }
