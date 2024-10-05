@@ -27,13 +27,11 @@ public class TimeUpdateUsingDataBase implements TimeUpdate {
     public boolean updateOrNot() throws IOException, JAXBException, SQLException, ClassNotFoundException {
         Unmarshalling.unmarshallTimeUpdate(urlTimeUpdate);
         CreatorOfTables creator = new CreatorOfMySqlTables();
-        Double newTimeUpdate;
+        Double newTimeUpdate = Classifiers.getNewTimeUpdate();
         if (!creator.isExist("timeupdate", conn)) {
             creator.createTableForTimeUpdate(conn);
-            newTimeUpdate = Classifiers.getNewTimeUpdate();
             TimeUpdateToSql timeUpdateToSql = new TimeUpdateToMySql();
             timeUpdateToSql.insertTimeUpdateToTable(newTimeUpdate);
-            return false;
         } else {
             oldTimeUpdate = con.selectTimeUpdateFromTable();
             newTimeUpdate = Classifiers.getNewTimeUpdate();
@@ -42,9 +40,8 @@ public class TimeUpdateUsingDataBase implements TimeUpdate {
                 con.insertTimeUpdateToTable(oldTimeUpdate);
                 return true;
             }
-            return false;
-
         }
+        return false;
     }
 
 }
