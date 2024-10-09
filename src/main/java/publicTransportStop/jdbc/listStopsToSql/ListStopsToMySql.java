@@ -1,6 +1,5 @@
 package publicTransportStop.jdbc.listStopsToSql;
 
-import publicTransportStop.jdbc.connecton.ConnectingToMySQLDataBase;
 import publicTransportStop.stop.StopXmlUnmarshall;
 
 import java.sql.*;
@@ -8,13 +7,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ListStopsToMySql implements ListStopsToSql {
-    private Connection con = (new ConnectingToMySQLDataBase()).connectToDataBase();
 
-    public ListStopsToMySql() throws SQLException, ClassNotFoundException {
+    public ListStopsToMySql() {
     }
 
     @Override
-    public void updateStopsTable(List<StopXmlUnmarshall> listStops) throws SQLException {
+    public void updateStopsTable(List<StopXmlUnmarshall> listStops, Connection con) throws SQLException {
         String query = "update stops set title = ?, adjacentstreet = ?, direction = ?, busesmunicipal = ?,busescommercial = ?, " +
                 "busesprigorod = ?, busesseason = ?, busesspecial = ?,busesintercity = ?, trams = ?, trolleybuses = ?, " +
                 "metros = ?,electrictrains = ?, rivertransports = ? where ks_id = ?";
@@ -42,7 +40,7 @@ public class ListStopsToMySql implements ListStopsToSql {
     }
 
     @Override
-    public void insertListStopsToTable(List<StopXmlUnmarshall> listStops) throws SQLException {
+    public void insertListStopsToTable(List<StopXmlUnmarshall> listStops, Connection con) throws SQLException {
         String query = "insert into stops(ks_id, title, adjacentstreet, direction, busesmunicipal, busescommercial, busesprigorod, busesseason, busesspecial, busesintercity, trams, trolleybuses, metros, electrictrains, rivertransports) values(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
         try (PreparedStatement ps = con.prepareStatement(query)) {
             for (StopXmlUnmarshall sxu : listStops) {
@@ -68,9 +66,9 @@ public class ListStopsToMySql implements ListStopsToSql {
     }
 
     @Override
-    public List<StopXmlUnmarshall> selectListStopsFromTable() throws SQLException {
+    public List<StopXmlUnmarshall> selectListStopsFromTable(Connection con) throws SQLException {
         List<StopXmlUnmarshall> listStops = new ArrayList();
-        try (Statement stmt = this.con.createStatement()) {
+        try (Statement stmt = con.createStatement()) {
             ResultSet rs = stmt.executeQuery("select * from stops");
             while (rs.next()) {
                 StopXmlUnmarshall sxu = new StopXmlUnmarshall(rs.getInt(1), rs.getString(2), rs.getString(3),

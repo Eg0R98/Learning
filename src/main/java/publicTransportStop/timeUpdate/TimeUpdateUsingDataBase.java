@@ -1,9 +1,8 @@
 package publicTransportStop.timeUpdate;
 
 import jakarta.xml.bind.JAXBException;
+import publicTransportStop.jdbc.connecton.ConnectingToDataBase;
 import publicTransportStop.jdbc.connecton.ConnectingToMySQLDataBase;
-import publicTransportStop.jdbc.creation.CreatorOfMySqlTables;
-import publicTransportStop.jdbc.creation.CreatorOfTables;
 import publicTransportStop.jdbc.timeUpdateToSql.TimeUpdateToMySql;
 import publicTransportStop.jdbc.timeUpdateToSql.TimeUpdateToSql;
 import publicTransportStop.transformation.Unmarshalling;
@@ -15,33 +14,27 @@ import java.sql.Connection;
 import java.sql.SQLException;
 
 public class TimeUpdateUsingDataBase implements TimeUpdate {
-    private Double oldTimeUpdate;
     private URL urlTimeUpdate = new URL("https://tosamara.ru/api/v2/classifiers");
-    private TimeUpdateToSql con = new TimeUpdateToMySql();
-    private Connection conn = (new ConnectingToMySQLDataBase()).connectToDataBase();
+    private TimeUpdateToSql timeUpdateToSql = new TimeUpdateToMySql();
+    private ConnectingToDataBase connecting = new ConnectingToMySQLDataBase();
 
-    public TimeUpdateUsingDataBase() throws SQLException, MalformedURLException, ClassNotFoundException {
+    public TimeUpdateUsingDataBase() throws MalformedURLException {
     }
 
     @Override
     public boolean updateOrNot() throws IOException, JAXBException, SQLException, ClassNotFoundException {
-        Unmarshalling.unmarshallTimeUpdate(urlTimeUpdate);
-        CreatorOfTables creator = new CreatorOfMySqlTables();
-        Double newTimeUpdate = Classifiers.getNewTimeUpdate();
-        if (!creator.isExist("timeupdate", conn)) {
-            creator.createTableForTimeUpdate(conn);
-            TimeUpdateToSql timeUpdateToSql = new TimeUpdateToMySql();
-            timeUpdateToSql.insertTimeUpdateToTable(newTimeUpdate);
-        } else {
-            oldTimeUpdate = con.selectTimeUpdateFromTable();
-            newTimeUpdate = Classifiers.getNewTimeUpdate();
+        try (Connection connection = connecting.connectToDataBase()) {
+            Unmarshalling.unmarshallTimeUpdate(urlTimeUpdate);
+            Double oldTimeUpdate = timeUpdateToSql.selectTimeUpdateFromTable(connection);
+            Double newTimeUpdate = Classifiers.getTimeUpdate();
             if (oldTimeUpdate == null || newTimeUpdate > oldTimeUpdate) {
                 oldTimeUpdate = newTimeUpdate;
-                con.insertTimeUpdateToTable(oldTimeUpdate);
+                timeUpdateToSql.updateTimeUpdateTable(oldTimeUpdate, connection);
                 return true;
             }
         }
         return false;
     }
-
 }
+
+

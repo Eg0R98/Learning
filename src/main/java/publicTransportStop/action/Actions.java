@@ -1,12 +1,10 @@
 package publicTransportStop.action;
 
 import jakarta.xml.bind.JAXBException;
-
-import java.io.IOException;
-import java.sql.SQLException;
+import publicTransportStop.exceptions.ConnectException;
 
 public interface Actions {
-    void update() throws IOException, JAXBException, SQLException, ClassNotFoundException;
+    void update() throws ClassNotFoundException, ConnectException;
 
-    void loadStops() throws SQLException, JAXBException, IOException, ClassNotFoundException;
+    void loadStops() throws ClassNotFoundException, JAXBException, ConnectException;
 }

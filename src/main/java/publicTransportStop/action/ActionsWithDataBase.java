@@ -1,15 +1,20 @@
 package publicTransportStop.action;
 
 import jakarta.xml.bind.JAXBException;
+import publicTransportStop.exceptions.ConnectException;
+import publicTransportStop.jdbc.connecton.ConnectingToDataBase;
 import publicTransportStop.jdbc.connecton.ConnectingToMySQLDataBase;
 import publicTransportStop.jdbc.creation.CreatorOfMySqlTables;
 import publicTransportStop.jdbc.creation.CreatorOfTables;
 import publicTransportStop.jdbc.listStopsToSql.ListStopsToMySql;
 import publicTransportStop.jdbc.listStopsToSql.ListStopsToSql;
+import publicTransportStop.jdbc.timeUpdateToSql.TimeUpdateToMySql;
+import publicTransportStop.jdbc.timeUpdateToSql.TimeUpdateToSql;
 import publicTransportStop.stop.ConvertingStopXmlUnmarshallToStop;
 import publicTransportStop.stop.Stop;
 import publicTransportStop.stop.StopXmlUnmarshall;
 import publicTransportStop.stop.Stops;
+import publicTransportStop.timeUpdate.Classifiers;
 import publicTransportStop.timeUpdate.TimeUpdateUsingDataBase;
 import publicTransportStop.transformation.Unmarshalling;
 
@@ -23,29 +28,49 @@ import java.util.List;
 public class ActionsWithDataBase implements Actions {
     private TimeUpdateUsingDataBase timeUpdateUsingDataBase = new TimeUpdateUsingDataBase();
     private URL urlStops = new URL("https://tosamara.ru/api/v2/classifiers/stopsFullDB.xml");
-    private ListStopsToSql con = new ListStopsToMySql();
-    private Connection conn = (new ConnectingToMySQLDataBase()).connectToDataBase();
     private ListStopsToSql listStopsToSql = new ListStopsToMySql();
+    private TimeUpdateToSql timeUpdateToSql = new TimeUpdateToMySql();
+    private List<StopXmlUnmarshall> listStopsFromURL = Unmarshalling.unmarshallXmlStops(urlStops).getListStopXmlUnmarshall();
+    private ConnectingToDataBase connecting = new ConnectingToMySQLDataBase();
 
-    public ActionsWithDataBase() throws MalformedURLException, SQLException, ClassNotFoundException {
+    public ActionsWithDataBase() throws MalformedURLException, SQLException, ClassNotFoundException, JAXBException {
     }
 
-    public void update() throws JAXBException, SQLException, ClassNotFoundException {
-        List<StopXmlUnmarshall> listStops = Unmarshalling.unmarshallXmlStops(urlStops).getListStopXmlUnmarshall();
-        listStopsToSql.updateStopsTable(listStops);
+    public void update() throws ClassNotFoundException, ConnectException {
+        try (Connection connection = connecting.connectToDataBase()) {
+            listStopsToSql.updateStopsTable(listStopsFromURL, connection);
+        } catch (SQLException e) {
+            throw new ConnectException("Проблемы с базой данных");
+        }
     }
 
-    public void loadStops() throws JAXBException, IOException, SQLException, ClassNotFoundException {
+    public void loadStops() throws JAXBException, ClassNotFoundException, ConnectException {
+        try (Connection connection = connecting.connectToDataBase()) {
+            createTables();
+            if (timeUpdateUsingDataBase.updateOrNot()) update();
+            List<StopXmlUnmarshall> listStopsFromDataBase = listStopsToSql.selectListStopsFromTable(connection);
+            List<Stop> stops = ConvertingStopXmlUnmarshallToStop.convert(listStopsFromDataBase);
+            Stops.setListStops(stops);
+        } catch (SQLException | IOException e) {
+            throw new ConnectException("С соединением проблемы");
+        }
+
+    }
+
+    private void createTables() throws SQLException, ClassNotFoundException, MalformedURLException, JAXBException {
         CreatorOfTables creator = new CreatorOfMySqlTables();
-        List<StopXmlUnmarshall> listStops;
-        if (!creator.isExist("stops", conn)) {
-            creator.createTableForListStops(conn);
-            listStops = Unmarshalling.unmarshallXmlStops(urlStops).getListStopXmlUnmarshall();
-            listStopsToSql.insertListStopsToTable(listStops);
-        } else if (timeUpdateUsingDataBase.updateOrNot()) update();
+        try (Connection connection = connecting.connectToDataBase()) {
+            if (!creator.isExist("stops", connection)) {
+                creator.createTableForListStops(connection);
+                listStopsToSql.insertListStopsToTable(listStopsFromURL, connection);
+            }
+            if (!creator.isExist("timeupdate", connection)) {
+                creator.createTableForTimeUpdate(connection);
+                Unmarshalling.unmarshallTimeUpdate(new URL("https://tosamara.ru/api/v2/classifiers"));
+                Double timeUpdate = Classifiers.getTimeUpdate();
+                timeUpdateToSql.insertTimeUpdateToTable(timeUpdate, connection);
+            }
+        }
 
-        listStops = con.selectListStopsFromTable();
-        List<Stop> stops = ConvertingStopXmlUnmarshallToStop.convert(listStops);
-        Stops.setListStops(stops);
     }
 }

@@ -14,7 +14,7 @@ public class Classifiers {
     @XmlElement(name = "file")
     private static List<File> filesWithTimeUpdate = new ArrayList<>();
 
-    public static Double getNewTimeUpdate() {
+    public static Double getTimeUpdate() {
         Double d = null;
         for (File file : filesWithTimeUpdate) {
             if (file.getName().equals("stopsFullDB.xml")) {
